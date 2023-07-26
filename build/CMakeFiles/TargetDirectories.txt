@@ -1,0 +1,3 @@
+/home/tgiglia/projects/SpectralDetector/build/CMakeFiles/rebuild_cache.dir
+/home/tgiglia/projects/SpectralDetector/build/CMakeFiles/edit_cache.dir
+/home/tgiglia/projects/SpectralDetector/build/CMakeFiles/SpectralDetector.dir
