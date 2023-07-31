@@ -113,6 +113,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     std::string deviceClass;
     std::string eocHost;
     std::string dbgFile = "spectral.dbg";
+    std::string notificationsFile;
     
     //http://192.168.1.71:5000/echo/
     //runRESTTest("192.168.1.71","5000");
@@ -142,6 +143,8 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         ("jammer-thresh", po::value<float>(&jammerThreshold)->default_value(10.0),"threshold for jammer detection")
         ("jammer-bins", po::value<size_t>(&num_jammer_bins)->default_value(10), "number of bins for jammer bandwidth")
         ("jammer-debug", po::value<std::string>(&jammerDbgFile)->default_value("ARG.txt"),"file name of jammer debug file")
+        ("notification-path",po::value<std::string>(&notificationsFile)->default_value("Notifications.txt"),"file name of the notifications file")
+        ("debug-path",po::value<std::string>(&dbgFile)->default_value("spectral.dbg"),"file name of the debug file")
         ("device-class",po::value<std::string>(&deviceClass)->default_value("Jammer"),"device class name")
         ("eoc-host",po::value<std::string>(&eocHost)->default_value("localhost"),"eoc host name")
         ("eoc-port",po::value<int>(&eocPort)->default_value(2001),"eoc host port")
