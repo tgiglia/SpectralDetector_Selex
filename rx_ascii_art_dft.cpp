@@ -48,6 +48,7 @@ void signalHandler(int signal) {
 
 int daemonize(std::string dbgFile) 
 {
+    logDbgWithTime(dbgFile,"Start of daemonize.");
     // Fork the current process
     pid_t pid = fork();
 
@@ -62,10 +63,10 @@ int daemonize(std::string dbgFile)
     if (pid > 0) {
         return 0;
     }
-
+    logDbgWithTime(dbgFile,"daemonize: setting umask");
     // Set the file mode creation mask
     umask(0);
-
+    logDbgWithTime(dbgFile,"daemonize: setting new session for child process.");
     // Create a new session for the child process
     pid_t sid = setsid();
     if (sid < 0) {
@@ -73,22 +74,25 @@ int daemonize(std::string dbgFile)
         logDbgWithTime(dbgFile,"Failed to create a new session.");
         return 1;
     }
-
+    logDbgWithTime(dbgFile,"daemonize: changing working directory.");
     // Change the working directory to a suitable location
     if (chdir("/") < 0) {
         std::cerr << "Failed to change the working directory." << std::endl;
         logDbgWithTime(dbgFile,"Failed to change the working directory");
         return 1;
     }
-
+    
+    // Define signal handlers for SIGTERM (termination signal)
+    logDbgWithTime(dbgFile,"Installing the signal handler...");
+    signal(SIGTERM, signalHandler);
+    logDbgWithTime(dbgFile,"daemonize: closing standard file descriptors.");
+    
     // Close the standard file descriptors
     close(STDIN_FILENO);
     close(STDOUT_FILENO);
     close(STDERR_FILENO);
 
-    // Define signal handlers for SIGTERM (termination signal)
-    signal(SIGTERM, signalHandler);
-
+    
     
     return 0;
     
@@ -155,7 +159,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     }
 
 
-    //daemonize
+
     
     // create a usrp device
     std::cout << std::endl;
@@ -281,9 +285,9 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     
     
     //OK LETS DAEMONIZE
-    logDbgWithTime(dbgFile,"About to daemonize....");
+    /*logDbgWithTime(dbgFile,"About to daemonize....");
     daemonize(dbgFile);
-    logDbgWithTime(dbgFile,"Afterdaemonize....");
+    logDbgWithTime(dbgFile,"Afterdaemonize....");*/
     //------------------------------------------------------------------
     //-- Main loop
     //------------------------------------------------------------------
