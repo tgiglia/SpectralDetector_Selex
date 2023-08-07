@@ -28,14 +28,13 @@ long_line_column=72
 
 [files]
 current_page=0
-FILE_NAME_0=5746;C++;0;EUTF-8;0;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2Frx_ascii_art_dft.cpp;0;4
+FILE_NAME_0=3536;C++;0;EUTF-8;0;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2Frx_ascii_art_dft.cpp;0;4
 FILE_NAME_1=10968;C++;0;EUTF-8;0;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2Fascii_art_dft.hpp;0;4
 FILE_NAME_2=132;C++;0;EUTF-8;2;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FAnalyzeRelativeGain.cpp;0;8
 FILE_NAME_3=238;C++;0;EUTF-8;1;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FAnalyzeRelativeGain.hpp;0;4
 FILE_NAME_4=49;C++;0;EUTF-8;1;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FNotifyInfo.hpp;0;4
 FILE_NAME_5=1046;C++;0;EUTF-8;1;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FNotifyInfo.cpp;0;4
-FILE_NAME_6=314;C++;0;EUTF-8;1;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FLogger.hpp;0;4
-FILE_NAME_7=534;C++;0;EUTF-8;1;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FLogger.cpp;0;4
+FILE_NAME_6=0;C++;0;EUTF-8;0;1;0;%2Fhome%2Ftgiglia%2Fprojects%2FSpectralDetector%2FRESTUtils.cpp;0;8
 
 [VTE]
 last_dir=/home/tgiglia

@@ -9,6 +9,7 @@
 #include "RESTUtils.hpp"
 
 #include "Logger.hpp"
+#include "EOCXmlMaker.hpp"
 #include <uhd/usrp/multi_usrp.hpp>
 #include <uhd/utils/safe_main.hpp>
 #include <uhd/utils/thread.hpp>
@@ -106,6 +107,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     std::string args, ant, subdev, ref;
     size_t num_bins,num_jammer_bins;
     int eocPort;
+    int iDaemonFlg;
     double rate, freq, gain, bw, frame_rate, step;
     float ref_lvl, dyn_rng,jammerThreshold;
     bool show_controls;
@@ -117,7 +119,14 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     
     //http://192.168.1.71:5000/echo/
     //runRESTTest("192.168.1.71","5000");
-    
+    int iKeepGoing = 1;
+    //xmlTest("/home/tgiglia/Desktop/Share/test.xml","/home/tgiglia/Desktop/Share/out.xml");
+    ReadAlarmXMLMaker ra;
+    ra.testAlarmXML();
+    if(iKeepGoing == 1) 
+    {
+        return 0;
+    }
     // setup the program options
     po::options_description desc("Allowed options");
     // clang-format off
@@ -148,6 +157,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         ("device-class",po::value<std::string>(&deviceClass)->default_value("Jammer"),"device class name")
         ("eoc-host",po::value<std::string>(&eocHost)->default_value("localhost"),"eoc host name")
         ("eoc-port",po::value<int>(&eocPort)->default_value(2001),"eoc host port")
+        ("daemon",po::value<int>(&iDaemonFlg)->default_value(1),"daemon flag set to 0 for daemon.")
         
     ;
     // clang-format on
@@ -161,6 +171,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
+    
 
 
     
@@ -286,11 +297,13 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     rx_stream->issue_stream_cmd(uhd::stream_cmd_t::STREAM_MODE_START_CONTINUOUS);
     auto next_refresh = high_resolution_clock::now();
     
+    if(iDaemonFlg == 0) {
+            //OK LETS DAEMONIZE
+            logDbgWithTime(dbgFile,"About to daemonize....");
+            daemonize(dbgFile);
+            logDbgWithTime(dbgFile,"Afterdaemonize....");
+    }
     
-    //OK LETS DAEMONIZE
-    /*logDbgWithTime(dbgFile,"About to daemonize....");
-    daemonize(dbgFile);
-    logDbgWithTime(dbgFile,"Afterdaemonize....");*/
     //------------------------------------------------------------------
     //-- Main loop
     //------------------------------------------------------------------
@@ -365,6 +378,7 @@ void runRESTTest(std::string sHost,std::string sPort)
     std::string sBody = R"({"param1": "value1", "param2": "value2"})";
     
     ru.testRESTPost(sHost,sPort,sBody);
+    
     
 }
 

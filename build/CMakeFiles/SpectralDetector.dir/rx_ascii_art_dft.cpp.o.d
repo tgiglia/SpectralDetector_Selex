@@ -1102,31 +1102,12 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/asio/impl/write_at.hpp \
  /home/tgiglia/projects/SpectralDetector/RESTUtils.hpp \
  /home/tgiglia/projects/SpectralDetector/Logger.hpp \
- /usr/local/include/uhd/usrp/multi_usrp.hpp \
- /usr/local/include/uhd/config.hpp /usr/local/include/uhd/device.hpp \
- /usr/local/include/uhd/property_tree.hpp \
- /usr/local/include/uhd/utils/noncopyable.hpp \
- /usr/include/boost/core/noncopyable.hpp \
- /usr/local/include/uhd/property_tree.ipp \
- /usr/local/include/uhd/exception.hpp /usr/local/include/uhd/stream.hpp \
- /usr/local/include/uhd/types/device_addr.hpp \
- /usr/local/include/uhd/types/dict.hpp /usr/include/c++/10/list \
- /usr/include/c++/10/bits/stl_list.h /usr/include/c++/10/bits/list.tcc \
- /usr/local/include/uhd/types/dict.ipp /usr/include/boost/format.hpp \
- /usr/include/c++/10/locale \
- /usr/include/c++/10/bits/locale_facets_nonio.h \
- /usr/include/arm-linux-gnueabihf/c++/10/bits/time_members.h \
- /usr/include/arm-linux-gnueabihf/c++/10/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/10/bits/locale_facets_nonio.tcc \
- /usr/include/c++/10/bits/locale_conv.h \
- /usr/include/boost/format/detail/compat_workarounds.hpp \
- /usr/include/boost/format/detail/config_macros.hpp \
- /usr/include/boost/format/detail/workarounds_gcc-2_95.hpp \
- /usr/include/boost/format/detail/workarounds_stlport.hpp \
- /usr/include/boost/format/format_fwd.hpp \
- /usr/include/boost/format/internals_fwd.hpp \
- /usr/include/boost/format/internals.hpp \
- /usr/include/boost/core/ignore_unused.hpp \
+ /home/tgiglia/projects/SpectralDetector/EOCXmlMaker.hpp \
+ /usr/include/boost/property_tree/ptree.hpp \
+ /usr/include/boost/property_tree/ptree_fwd.hpp \
+ /usr/include/boost/optional/optional_fwd.hpp \
+ /usr/include/boost/property_tree/string_path.hpp \
+ /usr/include/boost/property_tree/id_translator.hpp \
  /usr/include/boost/optional.hpp /usr/include/boost/optional/optional.hpp \
  /usr/include/boost/core/explicit_operator_bool.hpp \
  /usr/include/boost/core/swap.hpp \
@@ -1194,7 +1175,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/preprocessor/slot/detail/shared.hpp \
  /usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
  /usr/include/boost/utility/detail/result_of_iterate.hpp \
- /usr/include/boost/optional/optional_fwd.hpp \
  /usr/include/boost/optional/detail/optional_config.hpp \
  /usr/include/boost/optional/detail/optional_factory_support.hpp \
  /usr/include/boost/optional/detail/optional_aligned_storage.hpp \
@@ -1202,12 +1182,387 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/optional/detail/optional_reference_spec.hpp \
  /usr/include/boost/optional/detail/optional_relops.hpp \
  /usr/include/boost/optional/detail/optional_swap.hpp \
+ /usr/include/boost/property_tree/exceptions.hpp \
+ /usr/include/boost/any.hpp /usr/include/boost/type_index.hpp \
+ /usr/include/boost/type_index/stl_type_index.hpp \
+ /usr/include/boost/type_index/type_index_facade.hpp \
+ /usr/include/boost/container_hash/hash_fwd.hpp \
+ /usr/include/boost/core/demangle.hpp /usr/include/c++/10/cxxabi.h \
+ /usr/include/arm-linux-gnueabihf/c++/10/bits/cxxabi_tweaks.h \
+ /usr/include/boost/type_traits/add_reference.hpp \
+ /usr/include/boost/utility/enable_if.hpp \
+ /usr/include/boost/property_tree/detail/exception_implementation.hpp \
+ /usr/include/boost/property_tree/detail/ptree_utils.hpp \
+ /usr/include/c++/10/locale \
+ /usr/include/c++/10/bits/locale_facets_nonio.h \
+ /usr/include/arm-linux-gnueabihf/c++/10/bits/time_members.h \
+ /usr/include/arm-linux-gnueabihf/c++/10/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/10/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/10/bits/locale_conv.h \
+ /usr/include/boost/property_tree/stream_translator.hpp \
+ /usr/include/boost/optional/optional_io.hpp \
+ /usr/include/boost/multi_index_container.hpp \
+ /usr/include/boost/core/no_exceptions_support.hpp \
+ /usr/include/boost/mpl/at.hpp /usr/include/boost/mpl/at_fwd.hpp \
+ /usr/include/boost/mpl/aux_/at_impl.hpp \
+ /usr/include/boost/mpl/begin_end.hpp \
+ /usr/include/boost/mpl/begin_end_fwd.hpp \
+ /usr/include/boost/mpl/aux_/begin_end_impl.hpp \
+ /usr/include/boost/mpl/sequence_tag_fwd.hpp \
+ /usr/include/boost/mpl/aux_/has_begin.hpp \
+ /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp \
+ /usr/include/boost/mpl/sequence_tag.hpp \
+ /usr/include/boost/mpl/advance.hpp \
+ /usr/include/boost/mpl/advance_fwd.hpp \
+ /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
+ /usr/include/boost/mpl/negate.hpp /usr/include/boost/mpl/long.hpp \
+ /usr/include/boost/mpl/long_fwd.hpp \
+ /usr/include/boost/mpl/aux_/advance_forward.hpp \
+ /usr/include/boost/mpl/next.hpp /usr/include/boost/mpl/next_prior.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp \
+ /usr/include/boost/mpl/aux_/advance_backward.hpp \
+ /usr/include/boost/mpl/prior.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp \
+ /usr/include/boost/mpl/deref.hpp \
+ /usr/include/boost/mpl/aux_/msvc_type.hpp \
+ /usr/include/boost/mpl/contains.hpp \
+ /usr/include/boost/mpl/contains_fwd.hpp \
+ /usr/include/boost/mpl/aux_/contains_impl.hpp \
+ /usr/include/boost/mpl/find.hpp /usr/include/boost/mpl/find_if.hpp \
+ /usr/include/boost/mpl/aux_/find_if_pred.hpp \
+ /usr/include/boost/mpl/aux_/iter_apply.hpp \
+ /usr/include/boost/mpl/apply.hpp /usr/include/boost/mpl/apply_fwd.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ /usr/include/boost/mpl/placeholders.hpp /usr/include/boost/mpl/arg.hpp \
+ /usr/include/boost/mpl/arg_fwd.hpp \
+ /usr/include/boost/mpl/aux_/na_assert.hpp \
+ /usr/include/boost/mpl/assert.hpp \
+ /usr/include/boost/mpl/aux_/config/gpu.hpp \
+ /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
+ /usr/include/boost/mpl/aux_/arity_spec.hpp \
+ /usr/include/boost/mpl/aux_/arg_typedef.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ /usr/include/boost/mpl/lambda.hpp /usr/include/boost/mpl/bind.hpp \
+ /usr/include/boost/mpl/bind_fwd.hpp \
+ /usr/include/boost/mpl/aux_/config/bind.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ /usr/include/boost/mpl/protect.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ /usr/include/boost/mpl/aux_/full_lambda.hpp \
+ /usr/include/boost/mpl/quote.hpp \
+ /usr/include/boost/mpl/aux_/has_type.hpp \
+ /usr/include/boost/mpl/aux_/config/bcc.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ /usr/include/boost/mpl/aux_/template_arity.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ /usr/include/boost/mpl/iter_fold_if.hpp \
+ /usr/include/boost/mpl/logical.hpp /usr/include/boost/mpl/or.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /usr/include/boost/mpl/always.hpp /usr/include/boost/mpl/pair.hpp \
+ /usr/include/boost/mpl/aux_/iter_fold_if_impl.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp \
+ /usr/include/boost/mpl/same_as.hpp \
+ /usr/include/boost/mpl/aux_/lambda_spec.hpp \
+ /usr/include/boost/mpl/size.hpp /usr/include/boost/mpl/size_fwd.hpp \
+ /usr/include/boost/mpl/aux_/size_impl.hpp \
+ /usr/include/boost/mpl/distance.hpp \
+ /usr/include/boost/mpl/distance_fwd.hpp \
+ /usr/include/boost/mpl/iter_fold.hpp /usr/include/boost/mpl/O1_size.hpp \
+ /usr/include/boost/mpl/O1_size_fwd.hpp \
+ /usr/include/boost/mpl/aux_/O1_size_impl.hpp \
+ /usr/include/boost/mpl/aux_/has_size.hpp \
+ /usr/include/boost/mpl/aux_/iter_fold_impl.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp \
+ /usr/include/boost/mpl/iterator_range.hpp \
+ /usr/include/boost/multi_index_container_fwd.hpp \
+ /usr/include/boost/multi_index/identity.hpp \
+ /usr/include/boost/multi_index/identity_fwd.hpp \
+ /usr/include/boost/type_traits/is_convertible.hpp \
+ /usr/include/boost/type_traits/is_abstract.hpp \
+ /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+ /usr/include/boost/multi_index/indexed_by.hpp \
+ /usr/include/boost/mpl/vector.hpp \
+ /usr/include/boost/mpl/limits/vector.hpp \
+ /usr/include/boost/mpl/vector/vector20.hpp \
+ /usr/include/boost/mpl/vector/vector10.hpp \
+ /usr/include/boost/mpl/vector/vector0.hpp \
+ /usr/include/boost/mpl/vector/aux_/at.hpp \
+ /usr/include/boost/mpl/vector/aux_/tag.hpp \
+ /usr/include/boost/mpl/aux_/config/typeof.hpp \
+ /usr/include/boost/mpl/vector/aux_/front.hpp \
+ /usr/include/boost/mpl/front_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/push_front.hpp \
+ /usr/include/boost/mpl/push_front_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/item.hpp \
+ /usr/include/boost/mpl/vector/aux_/pop_front.hpp \
+ /usr/include/boost/mpl/pop_front_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/push_back.hpp \
+ /usr/include/boost/mpl/push_back_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/pop_back.hpp \
+ /usr/include/boost/mpl/pop_back_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/back.hpp \
+ /usr/include/boost/mpl/back_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/clear.hpp \
+ /usr/include/boost/mpl/clear_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/vector0.hpp \
+ /usr/include/boost/mpl/vector/aux_/iterator.hpp \
+ /usr/include/boost/mpl/iterator_tags.hpp /usr/include/boost/mpl/plus.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp \
+ /usr/include/boost/mpl/minus.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp \
+ /usr/include/boost/mpl/vector/aux_/O1_size.hpp \
+ /usr/include/boost/mpl/vector/aux_/size.hpp \
+ /usr/include/boost/mpl/vector/aux_/empty.hpp \
+ /usr/include/boost/mpl/empty_fwd.hpp \
+ /usr/include/boost/mpl/vector/aux_/begin_end.hpp \
+ /usr/include/boost/mpl/vector/aux_/include_preprocessed.hpp \
+ /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp \
+ /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp \
+ /usr/include/boost/preprocessor/control/expr_if.hpp \
+ /usr/include/boost/preprocessor/repetition/enum.hpp \
+ /usr/include/boost/multi_index/ordered_index_fwd.hpp \
+ /usr/include/boost/multi_index/detail/ord_index_args.hpp \
+ /usr/include/boost/multi_index/tag.hpp \
+ /usr/include/boost/multi_index/detail/no_duplicate_tags.hpp \
+ /usr/include/boost/mpl/fold.hpp \
+ /usr/include/boost/mpl/aux_/fold_impl.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp \
+ /usr/include/boost/mpl/set/set0.hpp \
+ /usr/include/boost/mpl/set/aux_/at_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/has_key_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/tag.hpp \
+ /usr/include/boost/mpl/has_key_fwd.hpp \
+ /usr/include/boost/mpl/aux_/overload_names.hpp \
+ /usr/include/boost/mpl/aux_/ptr_to_ref.hpp \
+ /usr/include/boost/mpl/aux_/config/operators.hpp \
+ /usr/include/boost/mpl/set/aux_/clear_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/set0.hpp \
+ /usr/include/boost/mpl/set/aux_/size_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/empty_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/insert_impl.hpp \
+ /usr/include/boost/mpl/insert_fwd.hpp \
+ /usr/include/boost/mpl/set/aux_/item.hpp /usr/include/boost/mpl/base.hpp \
+ /usr/include/boost/mpl/set/aux_/insert_range_impl.hpp \
+ /usr/include/boost/mpl/insert_range_fwd.hpp \
+ /usr/include/boost/mpl/insert.hpp \
+ /usr/include/boost/mpl/aux_/insert_impl.hpp \
+ /usr/include/boost/mpl/reverse_fold.hpp \
+ /usr/include/boost/mpl/aux_/reverse_fold_impl.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp \
+ /usr/include/boost/mpl/clear.hpp \
+ /usr/include/boost/mpl/aux_/clear_impl.hpp \
+ /usr/include/boost/mpl/push_front.hpp \
+ /usr/include/boost/mpl/aux_/push_front_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/erase_impl.hpp \
+ /usr/include/boost/mpl/erase_fwd.hpp \
+ /usr/include/boost/mpl/set/aux_/erase_key_impl.hpp \
+ /usr/include/boost/mpl/erase_key_fwd.hpp \
+ /usr/include/boost/mpl/set/aux_/key_type_impl.hpp \
+ /usr/include/boost/mpl/key_type_fwd.hpp \
+ /usr/include/boost/mpl/set/aux_/value_type_impl.hpp \
+ /usr/include/boost/mpl/value_type_fwd.hpp \
+ /usr/include/boost/mpl/set/aux_/begin_end_impl.hpp \
+ /usr/include/boost/mpl/set/aux_/iterator.hpp \
+ /usr/include/boost/mpl/has_key.hpp \
+ /usr/include/boost/mpl/aux_/has_key_impl.hpp \
+ /usr/include/boost/mpl/transform.hpp \
+ /usr/include/boost/mpl/pair_view.hpp \
+ /usr/include/boost/mpl/iterator_category.hpp \
+ /usr/include/boost/mpl/min_max.hpp \
+ /usr/include/boost/mpl/is_sequence.hpp \
+ /usr/include/boost/mpl/aux_/inserter_algorithm.hpp \
+ /usr/include/boost/mpl/back_inserter.hpp \
+ /usr/include/boost/mpl/push_back.hpp \
+ /usr/include/boost/mpl/aux_/push_back_impl.hpp \
+ /usr/include/boost/mpl/inserter.hpp \
+ /usr/include/boost/mpl/front_inserter.hpp \
+ /usr/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
+ /usr/include/boost/multi_index/detail/access_specifier.hpp \
+ /usr/include/boost/multi_index/detail/adl_swap.hpp \
+ /usr/include/boost/multi_index/detail/allocator_traits.hpp \
+ /usr/include/boost/type_traits/is_empty.hpp \
+ /usr/include/boost/multi_index/detail/base_type.hpp \
+ /usr/include/boost/multi_index/detail/index_base.hpp \
+ /usr/include/boost/multi_index/detail/copy_map.hpp \
+ /usr/include/boost/multi_index/detail/auto_space.hpp \
+ /usr/include/boost/noncopyable.hpp \
+ /usr/include/boost/core/noncopyable.hpp \
+ /usr/include/boost/multi_index/detail/raw_ptr.hpp \
+ /usr/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
+ /usr/include/boost/multi_index/detail/node_handle.hpp \
+ /usr/include/boost/type_traits/aligned_storage.hpp \
+ /usr/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
+ /usr/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
+ /usr/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
+ /usr/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
+ /usr/include/boost/multi_index/detail/node_type.hpp \
+ /usr/include/boost/mpl/reverse_iter_fold.hpp \
+ /usr/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
+ /usr/include/boost/multi_index/detail/header_holder.hpp \
+ /usr/include/boost/multi_index/detail/index_node_base.hpp \
+ /usr/include/boost/archive/archive_exception.hpp \
+ /usr/include/boost/archive/detail/decl.hpp \
+ /usr/include/boost/archive/detail/abi_prefix.hpp \
+ /usr/include/boost/config/abi_prefix.hpp \
+ /usr/include/boost/archive/detail/abi_suffix.hpp \
+ /usr/include/boost/config/abi_suffix.hpp \
+ /usr/include/boost/serialization/access.hpp \
+ /usr/include/boost/multi_index/detail/is_index_list.hpp \
+ /usr/include/boost/mpl/empty.hpp \
+ /usr/include/boost/mpl/aux_/empty_impl.hpp \
+ /usr/include/boost/multi_index/detail/vartempl_support.hpp \
+ /usr/include/boost/tuple/tuple.hpp /usr/include/boost/ref.hpp \
+ /usr/include/boost/core/ref.hpp \
+ /usr/include/boost/tuple/detail/tuple_basic.hpp \
+ /usr/include/boost/type_traits/cv_traits.hpp \
+ /usr/include/boost/type_traits/add_const.hpp \
+ /usr/include/boost/type_traits/add_volatile.hpp \
+ /usr/include/boost/type_traits/add_cv.hpp \
+ /usr/include/boost/type_traits/remove_volatile.hpp \
+ /usr/include/boost/type_traits/function_traits.hpp \
+ /usr/include/boost/utility/swap.hpp \
+ /usr/include/boost/multi_index/detail/index_loader.hpp \
+ /usr/include/boost/serialization/nvp.hpp /usr/include/boost/core/nvp.hpp \
+ /usr/include/boost/serialization/level.hpp \
+ /usr/include/boost/type_traits/is_fundamental.hpp \
+ /usr/include/boost/serialization/level_enum.hpp \
+ /usr/include/boost/serialization/tracking.hpp \
+ /usr/include/boost/mpl/greater.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
+ /usr/include/boost/serialization/tracking_enum.hpp \
+ /usr/include/boost/serialization/type_info_implementation.hpp \
+ /usr/include/boost/serialization/traits.hpp \
+ /usr/include/boost/serialization/split_free.hpp \
+ /usr/include/boost/serialization/serialization.hpp \
+ /usr/include/boost/serialization/strong_typedef.hpp \
+ /usr/include/boost/type_traits/has_nothrow_copy.hpp \
+ /usr/include/boost/type_traits/is_copy_constructible.hpp \
+ /usr/include/boost/serialization/wrapper.hpp \
+ /usr/include/boost/serialization/base_object.hpp \
+ /usr/include/boost/type_traits/is_polymorphic.hpp \
+ /usr/include/boost/serialization/force_include.hpp \
+ /usr/include/boost/serialization/void_cast_fwd.hpp \
+ /usr/include/boost/multi_index/detail/index_saver.hpp \
+ /usr/include/boost/multi_index/detail/index_matcher.hpp \
+ /usr/include/boost/multi_index/detail/converter.hpp \
+ /usr/include/boost/multi_index/detail/has_tag.hpp \
+ /usr/include/boost/multi_index/detail/safe_mode.hpp \
+ /usr/include/boost/multi_index/detail/scope_guard.hpp \
+ /usr/include/boost/utility/base_from_member.hpp \
+ /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+ /usr/include/boost/multi_index/detail/archive_constructed.hpp \
+ /usr/include/boost/multi_index/detail/serialization_version.hpp \
+ /usr/include/boost/serialization/split_member.hpp \
+ /usr/include/boost/serialization/version.hpp \
+ /usr/include/boost/mpl/comparison.hpp \
+ /usr/include/boost/mpl/not_equal_to.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
+ /usr/include/boost/mpl/less_equal.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
+ /usr/include/boost/mpl/greater_equal.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
+ /usr/include/boost/serialization/collection_size_type.hpp \
+ /usr/include/boost/serialization/is_bitwise_serializable.hpp \
+ /usr/include/boost/multi_index/sequenced_index.hpp \
+ /usr/include/boost/bind/bind.hpp /usr/include/boost/mem_fn.hpp \
+ /usr/include/boost/bind/mem_fn.hpp /usr/include/boost/get_pointer.hpp \
+ /usr/include/boost/config/no_tr1/memory.hpp \
+ /usr/include/boost/bind/mem_fn_template.hpp \
+ /usr/include/boost/bind/mem_fn_cc.hpp /usr/include/boost/visit_each.hpp \
+ /usr/include/boost/core/is_same.hpp /usr/include/boost/bind/storage.hpp \
+ /usr/include/boost/bind/bind_cc.hpp \
+ /usr/include/boost/bind/bind_mf_cc.hpp \
+ /usr/include/boost/bind/bind_mf2_cc.hpp \
+ /usr/include/boost/bind/placeholders.hpp \
+ /usr/include/boost/call_traits.hpp \
+ /usr/include/boost/detail/call_traits.hpp \
+ /usr/include/boost/foreach_fwd.hpp \
+ /usr/include/boost/iterator/reverse_iterator.hpp \
+ /usr/include/boost/iterator/iterator_adaptor.hpp \
+ /usr/include/boost/core/use_default.hpp \
+ /usr/include/boost/iterator/iterator_categories.hpp \
+ /usr/include/boost/iterator/detail/config_def.hpp \
+ /usr/include/boost/iterator/detail/config_undef.hpp \
+ /usr/include/boost/iterator/iterator_facade.hpp \
+ /usr/include/boost/iterator/interoperable.hpp \
+ /usr/include/boost/iterator/iterator_traits.hpp \
+ /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
+ /usr/include/boost/detail/indirect_traits.hpp \
+ /usr/include/boost/type_traits/remove_pointer.hpp \
+ /usr/include/boost/detail/select_type.hpp \
+ /usr/include/boost/iterator/detail/enable_if.hpp \
+ /usr/include/boost/multi_index/detail/bidir_node_iterator.hpp \
+ /usr/include/boost/multi_index/detail/seq_index_node.hpp \
+ /usr/include/boost/multi_index/detail/seq_index_ops.hpp \
+ /usr/include/boost/multi_index/sequenced_index_fwd.hpp \
+ /usr/include/boost/multi_index/ordered_index.hpp \
+ /usr/include/boost/multi_index/detail/ord_index_impl.hpp \
+ /usr/include/boost/multi_index/detail/modify_key_adaptor.hpp \
+ /usr/include/boost/multi_index/detail/ord_index_node.hpp \
+ /usr/include/boost/multi_index/detail/uintptr_type.hpp \
+ /usr/include/boost/multi_index/detail/ord_index_ops.hpp \
+ /usr/include/boost/multi_index/detail/promotes_arg.hpp \
+ /usr/include/boost/multi_index/detail/is_transparent.hpp \
+ /usr/include/boost/type_traits/is_final.hpp \
+ /usr/include/boost/utility/declval.hpp \
+ /usr/include/boost/multi_index/detail/unbounded.hpp \
+ /usr/include/boost/multi_index/detail/value_compare.hpp \
+ /usr/include/boost/multi_index/detail/duplicates_iterator.hpp \
+ /usr/include/boost/multi_index/member.hpp \
+ /usr/include/boost/property_tree/detail/ptree_implementation.hpp \
+ /usr/include/boost/property_tree/xml_parser.hpp \
+ /usr/include/boost/property_tree/detail/xml_parser_write.hpp \
+ /usr/include/boost/property_tree/detail/xml_parser_utils.hpp \
+ /usr/include/boost/property_tree/detail/xml_parser_error.hpp \
+ /usr/include/boost/property_tree/detail/file_parser_error.hpp \
+ /usr/include/boost/property_tree/detail/xml_parser_writer_settings.hpp \
+ /usr/include/c++/10/iomanip /usr/include/c++/10/bits/quoted_string.h \
+ /usr/include/boost/property_tree/detail/xml_parser_flags.hpp \
+ /usr/include/boost/property_tree/detail/xml_parser_read_rapidxml.hpp \
+ /usr/include/boost/property_tree/detail/rapidxml.hpp \
+ /usr/include/boost/foreach.hpp /usr/include/boost/range/end.hpp \
+ /usr/include/boost/range/config.hpp \
+ /usr/include/boost/range/detail/implementation_help.hpp \
+ /usr/include/boost/range/detail/common.hpp \
+ /usr/include/boost/range/detail/sfinae.hpp \
+ /usr/include/boost/range/iterator.hpp \
+ /usr/include/boost/range/range_fwd.hpp \
+ /usr/include/boost/range/mutable_iterator.hpp \
+ /usr/include/boost/range/detail/extract_optional_type.hpp \
+ /usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
+ /usr/include/boost/range/const_iterator.hpp \
+ /usr/include/boost/range/begin.hpp /usr/include/boost/range/rend.hpp \
+ /usr/include/boost/range/reverse_iterator.hpp \
+ /usr/include/boost/range/rbegin.hpp \
+ /usr/include/boost/utility/addressof.hpp /usr/include/c++/10/set \
+ /usr/include/c++/10/bits/stl_set.h \
+ /usr/include/c++/10/bits/stl_multiset.h \
+ /usr/local/include/uhd/usrp/multi_usrp.hpp \
+ /usr/local/include/uhd/config.hpp /usr/local/include/uhd/device.hpp \
+ /usr/local/include/uhd/property_tree.hpp \
+ /usr/local/include/uhd/utils/noncopyable.hpp \
+ /usr/local/include/uhd/property_tree.ipp \
+ /usr/local/include/uhd/exception.hpp /usr/local/include/uhd/stream.hpp \
+ /usr/local/include/uhd/types/device_addr.hpp \
+ /usr/local/include/uhd/types/dict.hpp /usr/include/c++/10/list \
+ /usr/include/c++/10/bits/stl_list.h /usr/include/c++/10/bits/list.tcc \
+ /usr/local/include/uhd/types/dict.ipp /usr/include/boost/format.hpp \
+ /usr/include/boost/format/detail/compat_workarounds.hpp \
+ /usr/include/boost/format/detail/config_macros.hpp \
+ /usr/include/boost/format/detail/workarounds_gcc-2_95.hpp \
+ /usr/include/boost/format/detail/workarounds_stlport.hpp \
+ /usr/include/boost/format/format_fwd.hpp \
+ /usr/include/boost/format/internals_fwd.hpp \
+ /usr/include/boost/format/internals.hpp \
+ /usr/include/boost/core/ignore_unused.hpp \
  /usr/include/boost/format/alt_sstream.hpp \
  /usr/include/boost/core/allocator_access.hpp \
  /usr/include/boost/core/pointer_traits.hpp \
- /usr/include/boost/utility/base_from_member.hpp \
- /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
- /usr/include/boost/utility/enable_if.hpp \
  /usr/include/boost/format/alt_sstream_impl.hpp \
  /usr/include/boost/format/format_class.hpp \
  /usr/include/boost/format/exceptions.hpp \
@@ -1220,68 +1575,8 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/format/detail/unset_macros.hpp \
  /usr/include/boost/lexical_cast.hpp \
  /usr/include/boost/range/iterator_range_core.hpp \
- /usr/include/boost/iterator/iterator_traits.hpp \
- /usr/include/boost/iterator/iterator_facade.hpp \
- /usr/include/boost/iterator/interoperable.hpp \
- /usr/include/boost/mpl/or.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
- /usr/include/boost/type_traits/is_convertible.hpp \
- /usr/include/boost/type_traits/is_abstract.hpp \
- /usr/include/boost/type_traits/add_lvalue_reference.hpp \
- /usr/include/boost/type_traits/add_reference.hpp \
- /usr/include/boost/iterator/detail/config_def.hpp \
- /usr/include/boost/iterator/detail/config_undef.hpp \
- /usr/include/boost/iterator/iterator_categories.hpp \
- /usr/include/boost/mpl/placeholders.hpp /usr/include/boost/mpl/arg.hpp \
- /usr/include/boost/mpl/arg_fwd.hpp \
- /usr/include/boost/mpl/aux_/na_assert.hpp \
- /usr/include/boost/mpl/assert.hpp \
- /usr/include/boost/mpl/aux_/config/gpu.hpp \
- /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
- /usr/include/boost/mpl/aux_/arity_spec.hpp \
- /usr/include/boost/mpl/aux_/arg_typedef.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
- /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
- /usr/include/boost/core/use_default.hpp \
- /usr/include/boost/detail/indirect_traits.hpp \
- /usr/include/boost/type_traits/remove_pointer.hpp \
- /usr/include/boost/detail/select_type.hpp \
- /usr/include/boost/iterator/detail/enable_if.hpp \
- /usr/include/boost/type_traits/add_const.hpp \
- /usr/include/boost/mpl/always.hpp /usr/include/boost/mpl/apply.hpp \
- /usr/include/boost/mpl/apply_fwd.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
- /usr/include/boost/mpl/lambda.hpp /usr/include/boost/mpl/bind.hpp \
- /usr/include/boost/mpl/bind_fwd.hpp \
- /usr/include/boost/mpl/aux_/config/bind.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
- /usr/include/boost/mpl/next.hpp /usr/include/boost/mpl/next_prior.hpp \
- /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
- /usr/include/boost/mpl/protect.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
- /usr/include/boost/mpl/aux_/full_lambda.hpp \
- /usr/include/boost/mpl/quote.hpp \
- /usr/include/boost/mpl/aux_/has_type.hpp \
- /usr/include/boost/mpl/aux_/config/bcc.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
- /usr/include/boost/mpl/aux_/template_arity.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
- /usr/include/boost/range/functions.hpp \
- /usr/include/boost/range/begin.hpp /usr/include/boost/range/config.hpp \
- /usr/include/boost/range/iterator.hpp \
- /usr/include/boost/range/range_fwd.hpp \
- /usr/include/boost/range/mutable_iterator.hpp \
- /usr/include/boost/range/detail/extract_optional_type.hpp \
- /usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp \
- /usr/include/boost/range/const_iterator.hpp \
- /usr/include/boost/range/end.hpp \
- /usr/include/boost/range/detail/implementation_help.hpp \
- /usr/include/boost/range/detail/common.hpp \
- /usr/include/boost/range/detail/sfinae.hpp \
- /usr/include/boost/range/size.hpp /usr/include/boost/range/size_type.hpp \
+ /usr/include/boost/range/functions.hpp /usr/include/boost/range/size.hpp \
+ /usr/include/boost/range/size_type.hpp \
  /usr/include/boost/range/difference_type.hpp \
  /usr/include/boost/range/has_range_iterator.hpp \
  /usr/include/boost/range/concepts.hpp \
@@ -1308,7 +1603,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/type_traits/make_unsigned.hpp \
  /usr/include/boost/type_traits/is_signed.hpp \
  /usr/include/boost/type_traits/is_unsigned.hpp \
- /usr/include/boost/type_traits/add_volatile.hpp \
  /usr/include/boost/range/detail/has_member_size.hpp \
  /usr/include/boost/utility.hpp /usr/include/boost/utility/binary.hpp \
  /usr/include/boost/preprocessor/control/deduce_d.hpp \
@@ -1320,14 +1614,9 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/preprocessor/comparison/less_equal.hpp \
  /usr/include/boost/preprocessor/logical/not.hpp \
  /usr/include/boost/utility/identity_type.hpp \
- /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/range/distance.hpp \
  /usr/include/boost/iterator/distance.hpp \
- /usr/include/boost/range/empty.hpp /usr/include/boost/range/rbegin.hpp \
- /usr/include/boost/range/reverse_iterator.hpp \
- /usr/include/boost/iterator/reverse_iterator.hpp \
- /usr/include/boost/iterator/iterator_adaptor.hpp \
- /usr/include/boost/range/rend.hpp \
+ /usr/include/boost/range/empty.hpp \
  /usr/include/boost/range/algorithm/equal.hpp \
  /usr/include/boost/range/detail/safe_bool.hpp \
  /usr/include/boost/next_prior.hpp \
@@ -1357,7 +1646,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/lexical_cast/detail/converter_lexical_streams.hpp \
  /usr/include/boost/lexical_cast/detail/lcast_char_constants.hpp \
  /usr/include/boost/lexical_cast/detail/lcast_unsigned_converters.hpp \
- /usr/include/boost/noncopyable.hpp \
  /usr/include/boost/lexical_cast/detail/inf_nan.hpp \
  /usr/include/boost/math/special_functions/sign.hpp \
  /usr/include/boost/math/tools/config.hpp /usr/include/c++/10/cfloat \
@@ -1370,130 +1658,25 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/mpl/list.hpp /usr/include/boost/mpl/limits/list.hpp \
  /usr/include/boost/mpl/list/list20.hpp \
  /usr/include/boost/mpl/list/list10.hpp \
- /usr/include/boost/mpl/list/list0.hpp /usr/include/boost/mpl/long.hpp \
- /usr/include/boost/mpl/long_fwd.hpp \
+ /usr/include/boost/mpl/list/list0.hpp \
  /usr/include/boost/mpl/list/aux_/push_front.hpp \
- /usr/include/boost/mpl/push_front_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/item.hpp \
  /usr/include/boost/mpl/list/aux_/tag.hpp \
  /usr/include/boost/mpl/list/aux_/pop_front.hpp \
- /usr/include/boost/mpl/pop_front_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/push_back.hpp \
- /usr/include/boost/mpl/push_back_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/front.hpp \
- /usr/include/boost/mpl/front_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/clear.hpp \
- /usr/include/boost/mpl/clear_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/O1_size.hpp \
- /usr/include/boost/mpl/O1_size_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/size.hpp \
- /usr/include/boost/mpl/size_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/empty.hpp \
- /usr/include/boost/mpl/empty_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/begin_end.hpp \
- /usr/include/boost/mpl/begin_end_fwd.hpp \
  /usr/include/boost/mpl/list/aux_/iterator.hpp \
- /usr/include/boost/mpl/iterator_tags.hpp \
- /usr/include/boost/mpl/deref.hpp \
- /usr/include/boost/mpl/aux_/msvc_type.hpp \
- /usr/include/boost/mpl/aux_/lambda_spec.hpp \
  /usr/include/boost/mpl/list/aux_/include_preprocessed.hpp \
  /usr/include/boost/mpl/list/aux_/preprocessed/plain/list10.hpp \
  /usr/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp \
  /usr/include/boost/mpl/aux_/preprocessed/gcc/list.hpp \
- /usr/include/boost/mpl/contains.hpp \
- /usr/include/boost/mpl/contains_fwd.hpp \
- /usr/include/boost/mpl/sequence_tag.hpp \
- /usr/include/boost/mpl/sequence_tag_fwd.hpp \
- /usr/include/boost/mpl/aux_/has_begin.hpp \
- /usr/include/boost/mpl/aux_/contains_impl.hpp \
- /usr/include/boost/mpl/begin_end.hpp \
- /usr/include/boost/mpl/aux_/begin_end_impl.hpp \
- /usr/include/boost/mpl/aux_/traits_lambda_spec.hpp \
- /usr/include/boost/mpl/find.hpp /usr/include/boost/mpl/find_if.hpp \
- /usr/include/boost/mpl/aux_/find_if_pred.hpp \
- /usr/include/boost/mpl/aux_/iter_apply.hpp \
- /usr/include/boost/mpl/iter_fold_if.hpp \
- /usr/include/boost/mpl/logical.hpp /usr/include/boost/mpl/pair.hpp \
- /usr/include/boost/mpl/aux_/iter_fold_if_impl.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp \
- /usr/include/boost/mpl/same_as.hpp /usr/include/boost/mpl/remove_if.hpp \
- /usr/include/boost/mpl/fold.hpp /usr/include/boost/mpl/O1_size.hpp \
- /usr/include/boost/mpl/aux_/O1_size_impl.hpp \
- /usr/include/boost/mpl/aux_/has_size.hpp \
- /usr/include/boost/mpl/aux_/fold_impl.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp \
- /usr/include/boost/mpl/reverse_fold.hpp \
- /usr/include/boost/mpl/aux_/reverse_fold_impl.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp \
- /usr/include/boost/mpl/aux_/inserter_algorithm.hpp \
- /usr/include/boost/mpl/back_inserter.hpp \
- /usr/include/boost/mpl/push_back.hpp \
- /usr/include/boost/mpl/aux_/push_back_impl.hpp \
- /usr/include/boost/mpl/inserter.hpp \
- /usr/include/boost/mpl/front_inserter.hpp \
- /usr/include/boost/mpl/push_front.hpp \
- /usr/include/boost/mpl/aux_/push_front_impl.hpp \
- /usr/include/boost/mpl/clear.hpp \
- /usr/include/boost/mpl/aux_/clear_impl.hpp \
- /usr/include/boost/mpl/vector.hpp \
- /usr/include/boost/mpl/limits/vector.hpp \
- /usr/include/boost/mpl/vector/vector20.hpp \
- /usr/include/boost/mpl/vector/vector10.hpp \
- /usr/include/boost/mpl/vector/vector0.hpp \
- /usr/include/boost/mpl/vector/aux_/at.hpp \
- /usr/include/boost/mpl/at_fwd.hpp \
- /usr/include/boost/mpl/vector/aux_/tag.hpp \
- /usr/include/boost/mpl/aux_/config/typeof.hpp \
- /usr/include/boost/mpl/vector/aux_/front.hpp \
- /usr/include/boost/mpl/vector/aux_/push_front.hpp \
- /usr/include/boost/mpl/vector/aux_/item.hpp \
- /usr/include/boost/mpl/vector/aux_/pop_front.hpp \
- /usr/include/boost/mpl/vector/aux_/push_back.hpp \
- /usr/include/boost/mpl/vector/aux_/pop_back.hpp \
- /usr/include/boost/mpl/pop_back_fwd.hpp \
- /usr/include/boost/mpl/vector/aux_/back.hpp \
- /usr/include/boost/mpl/back_fwd.hpp \
- /usr/include/boost/mpl/vector/aux_/clear.hpp \
- /usr/include/boost/mpl/vector/aux_/vector0.hpp \
- /usr/include/boost/mpl/vector/aux_/iterator.hpp \
- /usr/include/boost/mpl/plus.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/plus.hpp \
- /usr/include/boost/mpl/minus.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp \
- /usr/include/boost/mpl/advance_fwd.hpp \
- /usr/include/boost/mpl/distance_fwd.hpp /usr/include/boost/mpl/prior.hpp \
- /usr/include/boost/mpl/vector/aux_/O1_size.hpp \
- /usr/include/boost/mpl/vector/aux_/size.hpp \
- /usr/include/boost/mpl/vector/aux_/empty.hpp \
- /usr/include/boost/mpl/vector/aux_/begin_end.hpp \
- /usr/include/boost/mpl/vector/aux_/include_preprocessed.hpp \
- /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector10.hpp \
- /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/vector.hpp \
- /usr/include/boost/mpl/at.hpp /usr/include/boost/mpl/aux_/at_impl.hpp \
- /usr/include/boost/mpl/advance.hpp /usr/include/boost/mpl/negate.hpp \
- /usr/include/boost/mpl/aux_/advance_forward.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp \
- /usr/include/boost/mpl/aux_/advance_backward.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp \
- /usr/include/boost/mpl/size.hpp \
- /usr/include/boost/mpl/aux_/size_impl.hpp \
- /usr/include/boost/mpl/distance.hpp /usr/include/boost/mpl/iter_fold.hpp \
- /usr/include/boost/mpl/aux_/iter_fold_impl.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp \
- /usr/include/boost/mpl/iterator_range.hpp \
- /usr/include/boost/mpl/comparison.hpp \
- /usr/include/boost/mpl/not_equal_to.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/not_equal_to.hpp \
- /usr/include/boost/mpl/greater.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/greater.hpp \
- /usr/include/boost/mpl/less_equal.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/less_equal.hpp \
- /usr/include/boost/mpl/greater_equal.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/greater_equal.hpp \
- /usr/include/c++/10/stdlib.h /usr/include/c++/10/math.h \
- /usr/include/boost/config/no_tr1/complex.hpp \
+ /usr/include/boost/mpl/remove_if.hpp /usr/include/c++/10/stdlib.h \
+ /usr/include/c++/10/math.h /usr/include/boost/config/no_tr1/complex.hpp \
  /usr/include/boost/math/special_functions/detail/fp_traits.hpp \
  /usr/include/boost/math/special_functions/fpclassify.hpp \
  /usr/include/boost/math/tools/real_cast.hpp \
@@ -1524,19 +1707,15 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/local/include/uhd/utils/cast.hpp \
  /usr/local/include/uhd/utils/dirty_tracked.hpp \
  /usr/local/include/uhd/rfnoc/property.ipp \
- /usr/local/include/uhd/utils/log.hpp /usr/include/c++/10/iomanip \
- /usr/include/c++/10/bits/quoted_string.h \
+ /usr/local/include/uhd/utils/log.hpp \
  /usr/local/include/uhd/utils/scope_exit.hpp \
  /usr/include/c++/10/unordered_set \
  /usr/include/c++/10/bits/unordered_set.h \
- /usr/include/boost/graph/adjacency_list.hpp /usr/include/c++/10/set \
- /usr/include/c++/10/bits/stl_set.h \
- /usr/include/c++/10/bits/stl_multiset.h \
+ /usr/include/boost/graph/adjacency_list.hpp \
  /usr/include/boost/unordered_set.hpp \
  /usr/include/boost/unordered/unordered_set.hpp \
  /usr/include/boost/functional/hash.hpp \
  /usr/include/boost/container_hash/hash.hpp \
- /usr/include/boost/container_hash/hash_fwd.hpp \
  /usr/include/boost/container_hash/detail/hash_float.hpp \
  /usr/include/boost/container_hash/detail/float_functions.hpp \
  /usr/include/boost/container_hash/detail/limits.hpp \
@@ -1552,22 +1731,10 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/move/detail/iterator_to_raw_pointer.hpp \
  /usr/include/boost/move/detail/to_raw_pointer.hpp \
  /usr/include/boost/move/detail/pointer_element.hpp \
- /usr/include/boost/core/no_exceptions_support.hpp \
  /usr/include/boost/unordered/detail/set.hpp \
  /usr/include/boost/unordered/detail/implementation.hpp \
- /usr/include/boost/preprocessor/repetition/enum.hpp \
- /usr/include/boost/tuple/tuple.hpp /usr/include/boost/ref.hpp \
- /usr/include/boost/core/ref.hpp \
- /usr/include/boost/tuple/detail/tuple_basic.hpp \
- /usr/include/boost/type_traits/cv_traits.hpp \
- /usr/include/boost/type_traits/add_cv.hpp \
- /usr/include/boost/type_traits/remove_volatile.hpp \
- /usr/include/boost/utility/swap.hpp \
- /usr/include/boost/type_traits/aligned_storage.hpp \
- /usr/include/boost/type_traits/is_empty.hpp \
  /usr/include/boost/type_traits/is_nothrow_swappable.hpp \
  /usr/include/boost/unordered/detail/fwd.hpp \
- /usr/include/boost/utility/addressof.hpp \
  /usr/include/boost/unordered/unordered_set_fwd.hpp \
  /usr/include/boost/functional/hash_fwd.hpp \
  /usr/include/boost/scoped_ptr.hpp \
@@ -1611,8 +1778,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/type_traits/has_negate.hpp \
  /usr/include/boost/type_traits/has_new_operator.hpp \
  /usr/include/boost/type_traits/has_not_equal_to.hpp \
- /usr/include/boost/type_traits/has_nothrow_copy.hpp \
- /usr/include/boost/type_traits/is_copy_constructible.hpp \
  /usr/include/boost/type_traits/has_nothrow_destructor.hpp \
  /usr/include/boost/type_traits/has_trivial_destructor.hpp \
  /usr/include/boost/type_traits/has_post_decrement.hpp \
@@ -1630,14 +1795,11 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/type_traits/has_virtual_destructor.hpp \
  /usr/include/boost/type_traits/is_complex.hpp \
  /usr/include/boost/type_traits/is_compound.hpp \
- /usr/include/boost/type_traits/is_fundamental.hpp \
  /usr/include/boost/type_traits/is_copy_assignable.hpp \
  /usr/include/boost/type_traits/is_noncopyable.hpp \
- /usr/include/boost/type_traits/is_final.hpp \
  /usr/include/boost/type_traits/is_list_constructible.hpp \
  /usr/include/boost/type_traits/is_member_object_pointer.hpp \
  /usr/include/boost/type_traits/is_object.hpp \
- /usr/include/boost/type_traits/is_polymorphic.hpp \
  /usr/include/boost/type_traits/is_scoped_enum.hpp \
  /usr/include/boost/type_traits/negation.hpp \
  /usr/include/boost/type_traits/is_stateless.hpp \
@@ -1664,124 +1826,11 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/graph/property_maps/null_property_map.hpp \
  /usr/include/boost/graph/named_graph.hpp \
  /usr/include/boost/multi_index/hashed_index.hpp \
- /usr/include/boost/call_traits.hpp \
- /usr/include/boost/detail/call_traits.hpp \
- /usr/include/boost/foreach_fwd.hpp \
- /usr/include/boost/multi_index/detail/access_specifier.hpp \
- /usr/include/boost/multi_index/detail/adl_swap.hpp \
- /usr/include/boost/multi_index/detail/allocator_traits.hpp \
- /usr/include/boost/multi_index/detail/auto_space.hpp \
  /usr/include/boost/multi_index/detail/bucket_array.hpp \
  /usr/include/boost/multi_index/detail/hash_index_node.hpp \
- /usr/include/boost/multi_index/detail/raw_ptr.hpp \
- /usr/include/boost/archive/archive_exception.hpp \
- /usr/include/boost/archive/detail/decl.hpp \
- /usr/include/boost/archive/detail/abi_prefix.hpp \
- /usr/include/boost/config/abi_prefix.hpp \
- /usr/include/boost/archive/detail/abi_suffix.hpp \
- /usr/include/boost/config/abi_suffix.hpp \
- /usr/include/boost/serialization/access.hpp \
- /usr/include/boost/multi_index/detail/do_not_copy_elements_tag.hpp \
  /usr/include/boost/multi_index/detail/hash_index_iterator.hpp \
- /usr/include/boost/serialization/nvp.hpp /usr/include/boost/core/nvp.hpp \
- /usr/include/boost/serialization/level.hpp \
- /usr/include/boost/serialization/level_enum.hpp \
- /usr/include/boost/serialization/tracking.hpp \
- /usr/include/boost/serialization/tracking_enum.hpp \
- /usr/include/boost/serialization/type_info_implementation.hpp \
- /usr/include/boost/serialization/traits.hpp \
- /usr/include/boost/serialization/split_free.hpp \
- /usr/include/boost/serialization/serialization.hpp \
- /usr/include/boost/serialization/strong_typedef.hpp \
- /usr/include/boost/serialization/wrapper.hpp \
- /usr/include/boost/serialization/base_object.hpp \
- /usr/include/boost/serialization/force_include.hpp \
- /usr/include/boost/serialization/void_cast_fwd.hpp \
- /usr/include/boost/serialization/split_member.hpp \
- /usr/include/boost/serialization/version.hpp \
- /usr/include/boost/multi_index/detail/index_node_base.hpp \
- /usr/include/boost/multi_index/detail/ignore_wstrict_aliasing.hpp \
- /usr/include/boost/multi_index/detail/restore_wstrict_aliasing.hpp \
- /usr/include/boost/multi_index/detail/modify_key_adaptor.hpp \
- /usr/include/boost/multi_index/detail/node_handle.hpp \
- /usr/include/boost/multi_index_container_fwd.hpp \
- /usr/include/boost/multi_index/identity.hpp \
- /usr/include/boost/multi_index/identity_fwd.hpp \
- /usr/include/boost/multi_index/indexed_by.hpp \
- /usr/include/boost/preprocessor/control/expr_if.hpp \
- /usr/include/boost/multi_index/ordered_index_fwd.hpp \
- /usr/include/boost/multi_index/detail/ord_index_args.hpp \
- /usr/include/boost/multi_index/tag.hpp \
- /usr/include/boost/multi_index/detail/no_duplicate_tags.hpp \
- /usr/include/boost/mpl/set/set0.hpp \
- /usr/include/boost/mpl/set/aux_/at_impl.hpp \
- /usr/include/boost/mpl/set/aux_/has_key_impl.hpp \
- /usr/include/boost/mpl/set/aux_/tag.hpp \
- /usr/include/boost/mpl/has_key_fwd.hpp \
- /usr/include/boost/mpl/aux_/overload_names.hpp \
- /usr/include/boost/mpl/aux_/ptr_to_ref.hpp \
- /usr/include/boost/mpl/aux_/config/operators.hpp \
- /usr/include/boost/mpl/set/aux_/clear_impl.hpp \
- /usr/include/boost/mpl/set/aux_/set0.hpp \
- /usr/include/boost/mpl/set/aux_/size_impl.hpp \
- /usr/include/boost/mpl/set/aux_/empty_impl.hpp \
- /usr/include/boost/mpl/set/aux_/insert_impl.hpp \
- /usr/include/boost/mpl/insert_fwd.hpp \
- /usr/include/boost/mpl/set/aux_/item.hpp /usr/include/boost/mpl/base.hpp \
- /usr/include/boost/mpl/set/aux_/insert_range_impl.hpp \
- /usr/include/boost/mpl/insert_range_fwd.hpp \
- /usr/include/boost/mpl/insert.hpp \
- /usr/include/boost/mpl/aux_/insert_impl.hpp \
- /usr/include/boost/mpl/set/aux_/erase_impl.hpp \
- /usr/include/boost/mpl/erase_fwd.hpp \
- /usr/include/boost/mpl/set/aux_/erase_key_impl.hpp \
- /usr/include/boost/mpl/erase_key_fwd.hpp \
- /usr/include/boost/mpl/set/aux_/key_type_impl.hpp \
- /usr/include/boost/mpl/key_type_fwd.hpp \
- /usr/include/boost/mpl/set/aux_/value_type_impl.hpp \
- /usr/include/boost/mpl/value_type_fwd.hpp \
- /usr/include/boost/mpl/set/aux_/begin_end_impl.hpp \
- /usr/include/boost/mpl/set/aux_/iterator.hpp \
- /usr/include/boost/mpl/has_key.hpp \
- /usr/include/boost/mpl/aux_/has_key_impl.hpp \
- /usr/include/boost/mpl/transform.hpp \
- /usr/include/boost/mpl/pair_view.hpp \
- /usr/include/boost/mpl/iterator_category.hpp \
- /usr/include/boost/mpl/min_max.hpp \
- /usr/include/boost/mpl/is_sequence.hpp \
- /usr/include/boost/multi_index/detail/ord_index_impl_fwd.hpp \
- /usr/include/boost/multi_index/detail/define_if_constexpr_macro.hpp \
- /usr/include/boost/multi_index/detail/undef_if_constexpr_macro.hpp \
- /usr/include/boost/multi_index/detail/promotes_arg.hpp \
- /usr/include/boost/multi_index/detail/is_transparent.hpp \
- /usr/include/boost/utility/declval.hpp \
- /usr/include/boost/multi_index/detail/safe_mode.hpp \
- /usr/include/boost/multi_index/detail/scope_guard.hpp \
- /usr/include/boost/multi_index/detail/vartempl_support.hpp \
  /usr/include/boost/multi_index/hashed_index_fwd.hpp \
  /usr/include/boost/multi_index/detail/hash_index_args.hpp \
- /usr/include/boost/multi_index/member.hpp \
- /usr/include/boost/multi_index_container.hpp \
- /usr/include/boost/multi_index/detail/base_type.hpp \
- /usr/include/boost/multi_index/detail/index_base.hpp \
- /usr/include/boost/multi_index/detail/copy_map.hpp \
- /usr/include/boost/multi_index/detail/node_type.hpp \
- /usr/include/boost/mpl/reverse_iter_fold.hpp \
- /usr/include/boost/mpl/aux_/reverse_iter_fold_impl.hpp \
- /usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_iter_fold_impl.hpp \
- /usr/include/boost/multi_index/detail/header_holder.hpp \
- /usr/include/boost/multi_index/detail/is_index_list.hpp \
- /usr/include/boost/mpl/empty.hpp \
- /usr/include/boost/mpl/aux_/empty_impl.hpp \
- /usr/include/boost/multi_index/detail/index_loader.hpp \
- /usr/include/boost/multi_index/detail/index_saver.hpp \
- /usr/include/boost/multi_index/detail/index_matcher.hpp \
- /usr/include/boost/multi_index/detail/converter.hpp \
- /usr/include/boost/multi_index/detail/has_tag.hpp \
- /usr/include/boost/multi_index/detail/archive_constructed.hpp \
- /usr/include/boost/multi_index/detail/serialization_version.hpp \
- /usr/include/boost/serialization/collection_size_type.hpp \
- /usr/include/boost/serialization/is_bitwise_serializable.hpp \
  /usr/include/boost/pending/container_traits.hpp \
  /usr/include/boost/unordered_map.hpp \
  /usr/include/boost/unordered/unordered_map.hpp \
@@ -1801,8 +1850,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/graph/adjacency_iterator.hpp \
  /usr/local/include/uhd/rfnoc/node.ipp \
  /usr/include/boost/units/detail/utility.hpp \
- /usr/include/boost/core/demangle.hpp /usr/include/c++/10/cxxabi.h \
- /usr/include/arm-linux-gnueabihf/c++/10/bits/cxxabi_tweaks.h \
  /usr/local/include/uhd/rfnoc/register_iface_holder.hpp \
  /usr/local/include/uhd/rfnoc/register_iface.hpp \
  /usr/local/include/uhd/rfnoc/rfnoc_types.hpp \
@@ -1885,16 +1932,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/thread/detail/make_tuple_indices.hpp \
  /usr/include/boost/thread/detail/invoke.hpp \
  /usr/include/boost/thread/detail/is_convertible.hpp \
- /usr/include/boost/bind/bind.hpp /usr/include/boost/mem_fn.hpp \
- /usr/include/boost/bind/mem_fn.hpp /usr/include/boost/get_pointer.hpp \
- /usr/include/boost/config/no_tr1/memory.hpp \
- /usr/include/boost/bind/mem_fn_template.hpp \
- /usr/include/boost/bind/mem_fn_cc.hpp /usr/include/boost/visit_each.hpp \
- /usr/include/boost/core/is_same.hpp /usr/include/boost/bind/storage.hpp \
- /usr/include/boost/bind/bind_cc.hpp \
- /usr/include/boost/bind/bind_mf_cc.hpp \
- /usr/include/boost/bind/bind_mf2_cc.hpp \
- /usr/include/boost/bind/placeholders.hpp \
  /usr/include/boost/io/ios_state.hpp /usr/include/boost/io_fwd.hpp \
  /usr/include/boost/thread/detail/thread_interruption.hpp \
  /usr/include/boost/thread/condition_variable.hpp \
@@ -1915,9 +1952,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/program_options/config.hpp \
  /usr/include/boost/program_options/errors.hpp \
  /usr/include/boost/program_options/value_semantic.hpp \
- /usr/include/boost/any.hpp /usr/include/boost/type_index.hpp \
- /usr/include/boost/type_index/stl_type_index.hpp \
- /usr/include/boost/type_index/type_index_facade.hpp \
  /usr/include/boost/function/function1.hpp \
  /usr/include/boost/function/detail/maybe_include.hpp \
  /usr/include/boost/function/function_template.hpp \

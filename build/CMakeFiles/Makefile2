@@ -81,12 +81,12 @@ clean: CMakeFiles/SpectralDetector.dir/clean
 CMakeFiles/SpectralDetector.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tgiglia/projects/SpectralDetector/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target SpectralDetector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tgiglia/projects/SpectralDetector/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target SpectralDetector"
 .PHONY : CMakeFiles/SpectralDetector.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SpectralDetector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tgiglia/projects/SpectralDetector/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tgiglia/projects/SpectralDetector/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/SpectralDetector.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tgiglia/projects/SpectralDetector/build/CMakeFiles 0
 .PHONY : CMakeFiles/SpectralDetector.dir/rule

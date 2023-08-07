@@ -153,6 +153,30 @@ AnalyzeRelativeGain.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.s
 .PHONY : AnalyzeRelativeGain.cpp.s
 
+EOCXmlMaker.o: EOCXmlMaker.cpp.o
+.PHONY : EOCXmlMaker.o
+
+# target to build an object file
+EOCXmlMaker.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.o
+.PHONY : EOCXmlMaker.cpp.o
+
+EOCXmlMaker.i: EOCXmlMaker.cpp.i
+.PHONY : EOCXmlMaker.i
+
+# target to preprocess a source file
+EOCXmlMaker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.i
+.PHONY : EOCXmlMaker.cpp.i
+
+EOCXmlMaker.s: EOCXmlMaker.cpp.s
+.PHONY : EOCXmlMaker.s
+
+# target to generate assembly for a file
+EOCXmlMaker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.s
+.PHONY : EOCXmlMaker.cpp.s
+
 Logger.o: Logger.cpp.o
 .PHONY : Logger.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... AnalyzeRelativeGain.o"
 	@echo "... AnalyzeRelativeGain.i"
 	@echo "... AnalyzeRelativeGain.s"
+	@echo "... EOCXmlMaker.o"
+	@echo "... EOCXmlMaker.i"
+	@echo "... EOCXmlMaker.s"
 	@echo "... Logger.o"
 	@echo "... Logger.i"
 	@echo "... Logger.s"
