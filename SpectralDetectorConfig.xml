@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <alarminfo>
+        <readerId>f480bf11-fe84-42d7-a0cc-cd02e53e14c5</readerId>
+        <readPlate>0</readPlate>
+        <domainIdStr>24</domainIdStr>
+        <cameraName>48_155_304_Camera-0304</cameraName>
+        <hotListId>b32a88e7-1dfd-427f-9cb9-569df29f600f</hotListId>
+        <hotListListId>55a5e859-9b15-48e8-a080-00c9bfa53aeb</hotListListId>
+        <hotListRev>1</hotListRev>
+        <hotlistListTypeId>4</hotlistListTypeId>
+        <alrmStatus>1</alrmStatus>
+        <alrmDomainId>24</alrmDomainId>
+        <alrmAlarmClassId2>2</alrmAlarmClassId2>
+        <alrmNotes>McLean Ave</alrmNotes>
+        <alrmResultText>Jammer Detected</alrmResultText>
+        <lat>41.55791</lat>
+        <lon>-72.72122</lon>
+        <errorradius>15.9357481</errorradius>
+        <velEast>0.0251652766</velEast>
+        <velNorth>-0.03739889</velNorth>
+    </alarminfo>
+</configuration>

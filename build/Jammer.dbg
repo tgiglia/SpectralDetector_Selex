@@ -4992,3 +4992,91 @@ Element: 11.091
 Element: 10.1737
 
 
+1691697576.1691697576775 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 14
+bState: 0
+Element: 8.61307
+Element: 7.72588
+Element: 9.97325
+Element: 8.23485
+Element: 9.5058
+Element: 11.5039
+Element: 11.1991
+Element: 12.0717
+Element: 7.2851
+Element: 6.60645
+Element: 10.0022
+
+
+1691697577.1691697577776 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 14
+bState: 0
+Element: 10.5246
+Element: 9.97192
+Element: 9.73431
+Element: 12.6007
+Element: 9.70523
+Element: 11.1032
+Element: 7.24836
+Element: 9.68068
+Element: 9.63797
+Element: 10.6078
+Element: 10.7483
+
+
+1691697578.1691697578777 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 14
+bState: 0
+Element: 8.47513
+Element: 9.47072
+Element: 9.25294
+Element: 9.84208
+Element: 9.62343
+Element: 10.9266
+Element: 9.14794
+Element: 10.3884
+Element: 8.61556
+Element: 9.8425
+Element: 10.0217
+
+
+1691697579.1691697579789 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 14
+bState: 0
+Element: 11.1988
+Element: 10.02
+Element: 8.50085
+Element: 8.50508
+Element: 10.5445
+Element: 10.4595
+Element: 11.7377
+Element: 12.3911
+Element: 11.6098
+Element: 10.8998
+Element: 8.77281
+
+
