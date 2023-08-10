@@ -118,7 +118,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     std::string dbgFile = "spectral.dbg";
     std::string cfgFile = "/home/tgiglia/Documents/SpectralDetectorConfig.xml";
     std::string notificationsFile;
-    
+    stringstream ssTmp;
     //http://192.168.1.71:5000/echo/
     //runRESTTest("192.168.1.71","5000");
 
@@ -162,7 +162,11 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
 
     // print the help message
     if (vm.count("help") or not vm.count("rate")) {
-        std::cout << boost::format("UHD RX ASCII Art DFT %s") % desc << std::endl;
+        
+        ssTmp<< boost::format("UHD RX ASCII Art DFT %s") % desc << std::endl;
+        std::cout << ssTmp.str();
+        
+        logDbgWithTime(dbgFile,ssTmp.str());
         return EXIT_FAILURE;
     }
 
@@ -173,10 +177,15 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     ra.testAlarmXML();
     ConfigData cd;
     if(cd.loadConfig(cfgFile,dbgFile)){
-        std::cout<<"CONFIG:"<<endl<<cd.showConfig()<<endl;
+        //std::cout<<"CONFIG:"<<endl<<cd.showConfig()<<endl;
+        stringstream ss;
+        ss<<"\nConfig\n"<<cd.showConfig()<<endl;
+        logDbgWithTime(dbgFile,ss.str());
+
     }
     else {
         std::cout<<"ERROR Could not load XML file."<<endl;
+        logDbgWithTime(dbgFile,"ERROR Could not load XML file...");
         return 0;
     }
 
@@ -187,9 +196,13 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
 
     
     // create a usrp device
-    std::cout << std::endl;
-    std::cout << boost::format("Creating the usrp device with: %s...") % args
+    ssTmp << std::endl;
+    ssTmp << boost::format("Creating the usrp device with: %s...") % args
               << std::endl;
+    logDbgWithTime(dbgFile,ssTmp.str());
+    /*std::cout << std::endl;
+    std::cout << boost::format("Creating the usrp device with: %s...") % args
+              << std::endl;*/
     uhd::usrp::multi_usrp::sptr usrp = uhd::usrp::multi_usrp::make(args);
 
     // Lock mboard clocks
@@ -200,54 +213,75 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     // always select the subdevice first, the channel mapping affects the other settings
     if (vm.count("subdev"))
         usrp->set_rx_subdev_spec(subdev);
-
-    std::cout << boost::format("Using Device: %s") % usrp->get_pp_string() << std::endl;
+    ssTmp.str("");
+    ssTmp << boost::format("Using Device: %s") % usrp->get_pp_string() << std::endl;
+    logDbgWithTime(dbgFile,ssTmp.str());
 
     // set the sample rate
     if (not vm.count("rate")) {
-        std::cerr << "Please specify the sample rate with --rate" << std::endl;
+        ssTmp.str("");
+        ssTmp << "Please specify the sample rate with --rate" << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         return EXIT_FAILURE;
     }
-    std::cout << boost::format("Setting RX Rate: %f Msps...") % (rate / 1e6) << std::endl;
+    ssTmp.str("");
+    ssTmp << boost::format("Setting RX Rate: %f Msps...") % (rate / 1e6) << std::endl;
+    logDbgWithTime(dbgFile,ssTmp.str());
     usrp->set_rx_rate(rate);
-    std::cout << boost::format("Actual RX Rate: %f Msps...") % (usrp->get_rx_rate() / 1e6)
+    ssTmp.str("");
+    ssTmp << boost::format("Actual RX Rate: %f Msps...") % (usrp->get_rx_rate() / 1e6)
               << std::endl
               << std::endl;
+    logDbgWithTime(dbgFile,ssTmp.str());
 
     // set the center frequency
     if (not vm.count("freq")) {
-        std::cerr << "Please specify the center frequency with --freq" << std::endl;
+        ssTmp.str("");
+        ssTmp << "Please specify the center frequency with --freq" << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         return EXIT_FAILURE;
     }
-    std::cout << boost::format("Setting RX Freq: %f MHz...") % (freq / 1e6) << std::endl;
+    ssTmp.str("");
+    ssTmp << boost::format("Setting RX Freq: %f MHz...") % (freq / 1e6) << std::endl;
+    logDbgWithTime(dbgFile,ssTmp.str());
     uhd::tune_request_t tune_request(freq);
     if (vm.count("int-n"))
         tune_request.args = uhd::device_addr_t("mode_n=integer");
     usrp->set_rx_freq(tune_request);
-    std::cout << boost::format("Actual RX Freq: %f MHz...") % (usrp->get_rx_freq() / 1e6)
+    ssTmp.str("");
+    ssTmp << boost::format("Actual RX Freq: %f MHz...") % (usrp->get_rx_freq() / 1e6)
               << std::endl
               << std::endl;
+    logDbgWithTime(dbgFile,ssTmp.str());
 
     // set the rf gain
     if (vm.count("gain")) {
-        std::cout << boost::format("Setting RX Gain: %f dB...") % gain << std::endl;
+        ssTmp.str("");
+        ssTmp << boost::format("Setting RX Gain: %f dB...") % gain << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         usrp->set_rx_gain(gain);
-        std::cout << boost::format("Actual RX Gain: %f dB...") % usrp->get_rx_gain()
+        ssTmp.str("");
+        ssTmp << boost::format("Actual RX Gain: %f dB...") % usrp->get_rx_gain()
                   << std::endl
                   << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
     } else {
         gain = usrp->get_rx_gain();
     }
 
     // set the analog frontend filter bandwidth
     if (vm.count("bw")) {
-        std::cout << boost::format("Setting RX Bandwidth: %f MHz...") % (bw / 1e6)
+        ssTmp.str("");
+        ssTmp << boost::format("Setting RX Bandwidth: %f MHz...") % (bw / 1e6)
                   << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         usrp->set_rx_bandwidth(bw);
-        std::cout << boost::format("Actual RX Bandwidth: %f MHz...")
+        ssTmp.str("");
+        ssTmp << boost::format("Actual RX Bandwidth: %f MHz...")
                          % (usrp->get_rx_bandwidth() / 1e6)
                   << std::endl
                   << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
     } else {
         bw = usrp->get_rx_bandwidth();
     }
@@ -264,8 +298,10 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     if (std::find(sensor_names.begin(), sensor_names.end(), "lo_locked")
         != sensor_names.end()) {
         uhd::sensor_value_t lo_locked = usrp->get_rx_sensor("lo_locked", 0);
-        std::cout << boost::format("Checking RX: %s ...") % lo_locked.to_pp_string()
+        ssTmp.str("");
+        ssTmp << boost::format("Checking RX: %s ...") % lo_locked.to_pp_string()
                   << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         UHD_ASSERT_THROW(lo_locked.to_bool());
     }
     sensor_names = usrp->get_mboard_sensor_names(0);
@@ -273,16 +309,20 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         and (std::find(sensor_names.begin(), sensor_names.end(), "mimo_locked")
                 != sensor_names.end())) {
         uhd::sensor_value_t mimo_locked = usrp->get_mboard_sensor("mimo_locked", 0);
-        std::cout << boost::format("Checking RX: %s ...") % mimo_locked.to_pp_string()
+        ssTmp.str("");
+        ssTmp << boost::format("Checking RX: %s ...") % mimo_locked.to_pp_string()
                   << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         UHD_ASSERT_THROW(mimo_locked.to_bool());
     }
     if ((ref == "external")
         and (std::find(sensor_names.begin(), sensor_names.end(), "ref_locked")
                 != sensor_names.end())) {
         uhd::sensor_value_t ref_locked = usrp->get_mboard_sensor("ref_locked", 0);
-        std::cout << boost::format("Checking RX: %s ...") % ref_locked.to_pp_string()
+        ssTmp.str("");
+        ssTmp << boost::format("Checking RX: %s ...") % ref_locked.to_pp_string()
                   << std::endl;
+        logDbgWithTime(dbgFile,ssTmp.str());
         UHD_ASSERT_THROW(ref_locked.to_bool());
     }
 
@@ -303,8 +343,8 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     
     size_t stCols = 126;
     size_t stLines = 37;
-    ssDbg<<"COLS: "<<stCols<<" LINES: "<<stLines<<std::endl;
-    logDbgWithTime(dbgFile,ssDbg.str());
+    /*ssDbg<<"COLS: "<<stCols<<" LINES: "<<stLines<<std::endl;
+    logDbgWithTime(dbgFile,ssDbg.str());*/
     rx_stream->issue_stream_cmd(uhd::stream_cmd_t::STREAM_MODE_START_CONTINUOUS);
     auto next_refresh = high_resolution_clock::now();
     
