@@ -52,6 +52,7 @@ struct alarmInfo
     std::string alrmEndDate;
     std::string alrmNotes;
     std::string alrmResultText;
+    
     std::string readTimeStamp;
     std::string readPlate;
     std::string id;

@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o -c /home/tgiglia/projects/SpectralDetector/rx_ascii_art_dft.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/rx_ascii_art_dft.cpp"
+},
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.o -c /home/tgiglia/projects/SpectralDetector/AnalyzeRelativeGain.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/AnalyzeRelativeGain.cpp"
+},
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/RESTUtils.cpp.o -c /home/tgiglia/projects/SpectralDetector/RESTUtils.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/RESTUtils.cpp"
+},
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/NotifyInfo.cpp.o -c /home/tgiglia/projects/SpectralDetector/NotifyInfo.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/NotifyInfo.cpp"
+},
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/Logger.cpp.o -c /home/tgiglia/projects/SpectralDetector/Logger.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/Logger.cpp"
+},
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.o -c /home/tgiglia/projects/SpectralDetector/EOCXmlMaker.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/EOCXmlMaker.cpp"
+},
+{
+  "directory": "/home/tgiglia/projects/SpectralDetector/build",
+  "command": "/usr/bin/arm-linux-gnueabihf-g++ -DBOOST_ALL_NO_LIB -DBOOST_ASIO_DISABLE_STD_EXPERIMENTAL_STRING_VIEW -DBOOST_ASIO_DISABLE_STD_STRING_VIEW -DBOOST_ATOMIC_DYN_LINK -DBOOST_CHRONO_DYN_LINK -DBOOST_DATE_TIME_DYN_LINK -DBOOST_ERROR_CODE_HEADER_ONLY -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_PROGRAM_OPTIONS_DYN_LINK -DBOOST_SERIALIZATION_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DBOOST_THREAD_DYN_LINK -DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK  -O2 -g -DNDEBUG -std=gnu++14 -o CMakeFiles/SpectralDetector.dir/ConfigData.cpp.o -c /home/tgiglia/projects/SpectralDetector/ConfigData.cpp",
+  "file": "/home/tgiglia/projects/SpectralDetector/ConfigData.cpp"
+}
+]

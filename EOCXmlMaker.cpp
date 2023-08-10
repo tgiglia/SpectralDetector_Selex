@@ -149,7 +149,7 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUS(alarmInfo ai)
     tree.put("alarm.read.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
     tree.put("alarm.read.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
     tree.put("alarm.read.<xmlattr>.rev","1");
-    tree.put("alarm.read.<xmlattr>.status","5");
+    tree.put("alarm.read.<xmlattr>.status","1");
     tree.put("alarm.read.<xmlattr>.xmlns","elsag:lprcore");
     tree.put("alarm.read.<xmlattr>.camera",ai.cameraName);
     tree.put("alarm.read.<xmlattr>.site",ai.readerId);
@@ -197,13 +197,13 @@ void ReadAlarmXMLMaker::testAlarmXML()
     alarmInfo ai;
 
     ai.alrmId = "2c6cf1c2-e234-4331-a491-ecff3ffb9c92";
-    ai.alrmStatus = "5";
+  
     ai.alrmTimestamp = "2023-08-07T09:54:27-04:00";
     ai.hotListId = "b32a88e7-1dfd-427f-9cb9-569df29f600f";
     ai.hotListListId = "55a5e859-9b15-48e8-a080-00c9bfa53aeb";
     ai.hotListRev = "1";
     ai.hotlistListTypeId  = "4";
-    ai.alrmStatus = "5";
+    ai.alrmStatus = "1";
     ai.alrmDomainId = 24;
     ai.alrmAlarmClassId2 = 2;
     ai.alrmCreateDate = "1/30/2023 10:44:13 AM -05:00";

@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.o"
   "CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.o.d"
+  "CMakeFiles/SpectralDetector.dir/ConfigData.cpp.o"
+  "CMakeFiles/SpectralDetector.dir/ConfigData.cpp.o.d"
   "CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.o"
   "CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.o.d"
   "CMakeFiles/SpectralDetector.dir/Logger.cpp.o"

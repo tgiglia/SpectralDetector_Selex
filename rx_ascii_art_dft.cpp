@@ -10,6 +10,7 @@
 
 #include "Logger.hpp"
 #include "EOCXmlMaker.hpp"
+#include "ConfigData.hpp"
 #include <uhd/usrp/multi_usrp.hpp>
 #include <uhd/utils/safe_main.hpp>
 #include <uhd/utils/thread.hpp>
@@ -115,6 +116,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     std::string deviceClass;
     std::string eocHost;
     std::string dbgFile = "spectral.dbg";
+    std::string cfgFile = "/home/tgiglia/Documents/SpectralDetectorConfig.xml";
     std::string notificationsFile;
     
     //http://192.168.1.71:5000/echo/
@@ -123,6 +125,15 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     //xmlTest("/home/tgiglia/Desktop/Share/test.xml","/home/tgiglia/Desktop/Share/out.xml");
     ReadAlarmXMLMaker ra;
     ra.testAlarmXML();
+    ConfigData cd;
+    if(cd.loadConfig(cfgFile,dbgFile)){
+        std::cout<<"CONFIG:"<<endl<<cd.showConfig()<<endl;
+    }
+    else {
+        std::cout<<"ERROR Could not load XML file."<<endl;
+        return 0;
+    }
+
     if(iKeepGoing == 1) 
     {
         return 0;
