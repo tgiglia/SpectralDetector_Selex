@@ -121,23 +121,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     
     //http://192.168.1.71:5000/echo/
     //runRESTTest("192.168.1.71","5000");
-    int iKeepGoing = 1;
-    //xmlTest("/home/tgiglia/Desktop/Share/test.xml","/home/tgiglia/Desktop/Share/out.xml");
-    ReadAlarmXMLMaker ra;
-    ra.testAlarmXML();
-    ConfigData cd;
-    if(cd.loadConfig(cfgFile,dbgFile)){
-        std::cout<<"CONFIG:"<<endl<<cd.showConfig()<<endl;
-    }
-    else {
-        std::cout<<"ERROR Could not load XML file."<<endl;
-        return 0;
-    }
 
-    if(iKeepGoing == 1) 
-    {
-        return 0;
-    }
     // setup the program options
     po::options_description desc("Allowed options");
     // clang-format off
@@ -183,7 +167,23 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     }
 
     
+    int iKeepGoing = 0;
+    //xmlTest("/home/tgiglia/Desktop/Share/test.xml","/home/tgiglia/Desktop/Share/out.xml");
+    ReadAlarmXMLMaker ra;
+    ra.testAlarmXML();
+    ConfigData cd;
+    if(cd.loadConfig(cfgFile,dbgFile)){
+        std::cout<<"CONFIG:"<<endl<<cd.showConfig()<<endl;
+    }
+    else {
+        std::cout<<"ERROR Could not load XML file."<<endl;
+        return 0;
+    }
 
+    if(iKeepGoing == 1) 
+    {
+        return 0;
+    }
 
     
     // create a usrp device

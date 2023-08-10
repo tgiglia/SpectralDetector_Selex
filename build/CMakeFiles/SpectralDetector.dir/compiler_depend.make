@@ -6236,6 +6236,7 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
   /usr/include/c++/10/set \
   /usr/include/c++/10/bits/stl_set.h \
   /usr/include/c++/10/bits/stl_multiset.h \
+  ../ConfigData.hpp \
   /usr/local/include/uhd/usrp/multi_usrp.hpp \
   /usr/local/include/uhd/config.hpp \
   /usr/local/include/uhd/device.hpp \
