@@ -227,3 +227,1175 @@ Mon Jul 24 10:07:37 2023
 2023-08-10 09:58:49.1691675929155: COLS: 126 LINES: 37
 
 
+2023-08-10 10:12:00.1691676720812: readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+2023-08-10 10:12:04.1691676724434: COLS: 126 LINES: 37
+
+
+2023-08-10 13:50:56.1691689856346: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 13:50:59.1691689859987: COLS: 126 LINES: 37
+
+
+2023-08-10 14:00:31.1691690431020: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:00:31.1691690431021: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:00:34.1691690434675: COLS: 126 LINES: 37
+
+
+2023-08-10 14:02:59.1691690579115: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:02:59.1691690579116: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:03:01.1691690581257: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:03:02.1691690582785: COLS: 126 LINES: 37
+
+
+2023-08-10 14:08:04.1691690884656: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:08:04.1691690884656: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:08:06.1691690886846: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:08:06.1691690886847: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:08:08.1691690888367: COLS: 126 LINES: 37
+
+
+2023-08-10 14:10:53.1691691053126: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:10:53.1691691053128: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:10:55.1691691055374: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:10:55.1691691055374: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:10:55.1691691055733: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-10 14:10:56.1691691056882: COLS: 126 LINES: 37
+
+
+2023-08-10 14:12:51.1691691171071: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:12:51.1691691171071: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:12:53.1691691173195: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:12:53.1691691173195: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:12:53.1691691173557: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-10 14:12:53.1691691173557: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-10 14:12:54.1691691174705: COLS: 126 LINES: 37
+
+
+2023-08-10 14:15:29.1691691329335: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:15:29.1691691329337: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:15:31.1691691331483: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:15:31.1691691331483: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:15:31.1691691331850: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-10 14:15:31.1691691331850: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-10 14:15:31.1691691331990: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-10 14:15:32.1691691332995: COLS: 126 LINES: 37
+
+
+2023-08-10 14:17:38.1691691458223: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:17:38.1691691458223: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:17:40.1691691460385: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:17:40.1691691460385: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:17:40.1691691460743: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-10 14:17:40.1691691460744: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-10 14:17:40.1691691460887: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-10 14:17:40.1691691460887: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+
+
+2023-08-10 14:17:40.1691691460888: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-10 14:17:41.1691691461892: COLS: 126 LINES: 37
+
+
+2023-08-10 14:25:43.1691691943392: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:25:43.1691691943394: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:25:45.1691691945535: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:25:45.1691691945536: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:25:45.1691691945889: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-10 14:25:45.1691691945889: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-10 14:25:46.1691691946038: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-10 14:25:46.1691691946038: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+
+
+2023-08-10 14:25:46.1691691946039: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-10 14:25:46.1691691946039: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-08-10 14:25:46.1691691946041: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+Setting RX Bandwidth: 2.000000 MHz...
+Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-08-10 14:25:47.1691691947042: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+Setting RX Bandwidth: 2.000000 MHz...
+Actual RX Bandwidth: 2.000000 MHz...
+
+Checking RX: LO: locked ...
+
+
+2023-08-10 14:29:33.1691692173691: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 1
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+
+
+
+2023-08-10 14:29:33.1691692173691: 
+Creating the usrp device with: ...
+
+
+2023-08-10 14:29:35.1691692175824: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-10 14:29:35.1691692175824: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-10 14:29:36.1691692176171: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-10 14:29:36.1691692176172: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-10 14:29:36.1691692176305: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-10 14:29:36.1691692176306: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+
+
+2023-08-10 14:29:36.1691692176307: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-10 14:29:36.1691692176307: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-08-10 14:29:36.1691692176308: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+Setting RX Bandwidth: 2.000000 MHz...
+Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-08-10 14:29:37.1691692177309: 
+Creating the usrp device with: ...
+Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+Setting RX Rate: 2.000000 Msps...
+Actual RX Rate: 2.000000 Msps...
+
+Setting RX Freq: 1575.420000 MHz...
+Actual RX Freq: 1575.420000 MHz...
+
+Setting RX Gain: 38.000000 dB...
+Actual RX Gain: 38.000000 dB...
+
+Setting RX Bandwidth: 2.000000 MHz...
+Actual RX Bandwidth: 2.000000 MHz...
+
+Checking RX: LO: locked ...
+
+
