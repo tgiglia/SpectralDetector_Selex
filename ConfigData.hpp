@@ -10,6 +10,7 @@ using namespace std;
 struct ConfigData
 {
     alarmInfo ai;
+    consumerInfo ci;
     bool loadConfig(string sXmlPath,string dbgFile);
     string showConfig();
 };

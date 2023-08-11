@@ -59,7 +59,7 @@ include_directories(
 link_directories(${CURSES_LIBRARIES} ${Boost_LIBRARY_DIRS} )
 
 ### Make the executable #######################################################
-add_executable(SpectralDetector rx_ascii_art_dft.cpp AnalyzeRelativeGain.cpp RESTUtils.cpp NotifyInfo.cpp Logger.cpp EOCXmlMaker.cpp ConfigData.cpp)
+add_executable(SpectralDetector rx_ascii_art_dft.cpp AnalyzeRelativeGain.cpp RESTUtils.cpp NotifyInfo.cpp Logger.cpp EOCXmlMaker.cpp ConfigData.cpp ThreadSafeStack.cpp DetectionConsumer.cpp)
 
 #set(CMAKE_BUILD_TYPE "Release")
 set(CMAKE_BUILD_TYPE "RelWithDebInfo") 

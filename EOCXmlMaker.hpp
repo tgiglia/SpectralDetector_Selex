@@ -65,7 +65,12 @@ struct alarmInfo
     double errorradius;
     double velEast;
     double velNorth;
+};
 
+struct consumerInfo
+{
+    int secsToWait;
+    int lastAlarmSecsIgnore;
 
 };
 

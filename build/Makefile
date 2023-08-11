@@ -177,6 +177,30 @@ ConfigData.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/ConfigData.cpp.s
 .PHONY : ConfigData.cpp.s
 
+DetectionConsumer.o: DetectionConsumer.cpp.o
+.PHONY : DetectionConsumer.o
+
+# target to build an object file
+DetectionConsumer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.o
+.PHONY : DetectionConsumer.cpp.o
+
+DetectionConsumer.i: DetectionConsumer.cpp.i
+.PHONY : DetectionConsumer.i
+
+# target to preprocess a source file
+DetectionConsumer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.i
+.PHONY : DetectionConsumer.cpp.i
+
+DetectionConsumer.s: DetectionConsumer.cpp.s
+.PHONY : DetectionConsumer.s
+
+# target to generate assembly for a file
+DetectionConsumer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.s
+.PHONY : DetectionConsumer.cpp.s
+
 EOCXmlMaker.o: EOCXmlMaker.cpp.o
 .PHONY : EOCXmlMaker.o
 
@@ -273,6 +297,30 @@ RESTUtils.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/RESTUtils.cpp.s
 .PHONY : RESTUtils.cpp.s
 
+ThreadSafeStack.o: ThreadSafeStack.cpp.o
+.PHONY : ThreadSafeStack.o
+
+# target to build an object file
+ThreadSafeStack.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/ThreadSafeStack.cpp.o
+.PHONY : ThreadSafeStack.cpp.o
+
+ThreadSafeStack.i: ThreadSafeStack.cpp.i
+.PHONY : ThreadSafeStack.i
+
+# target to preprocess a source file
+ThreadSafeStack.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/ThreadSafeStack.cpp.i
+.PHONY : ThreadSafeStack.cpp.i
+
+ThreadSafeStack.s: ThreadSafeStack.cpp.s
+.PHONY : ThreadSafeStack.s
+
+# target to generate assembly for a file
+ThreadSafeStack.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/SpectralDetector.dir/build.make CMakeFiles/SpectralDetector.dir/ThreadSafeStack.cpp.s
+.PHONY : ThreadSafeStack.cpp.s
+
 rx_ascii_art_dft.o: rx_ascii_art_dft.cpp.o
 .PHONY : rx_ascii_art_dft.o
 
@@ -312,6 +360,9 @@ help:
 	@echo "... ConfigData.o"
 	@echo "... ConfigData.i"
 	@echo "... ConfigData.s"
+	@echo "... DetectionConsumer.o"
+	@echo "... DetectionConsumer.i"
+	@echo "... DetectionConsumer.s"
 	@echo "... EOCXmlMaker.o"
 	@echo "... EOCXmlMaker.i"
 	@echo "... EOCXmlMaker.s"
@@ -324,6 +375,9 @@ help:
 	@echo "... RESTUtils.o"
 	@echo "... RESTUtils.i"
 	@echo "... RESTUtils.s"
+	@echo "... ThreadSafeStack.o"
+	@echo "... ThreadSafeStack.i"
+	@echo "... ThreadSafeStack.s"
 	@echo "... rx_ascii_art_dft.o"
 	@echo "... rx_ascii_art_dft.i"
 	@echo "... rx_ascii_art_dft.s"

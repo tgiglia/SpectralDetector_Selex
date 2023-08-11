@@ -1100,6 +1100,10 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/asio/windows/stream_handle.hpp \
  /usr/include/boost/asio/write_at.hpp \
  /usr/include/boost/asio/impl/write_at.hpp \
+ /home/tgiglia/projects/SpectralDetector/ThreadSafeStack.hpp \
+ /usr/include/c++/10/stack /usr/include/c++/10/deque \
+ /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
+ /usr/include/c++/10/bits/stl_stack.h \
  /home/tgiglia/projects/SpectralDetector/RESTUtils.hpp \
  /home/tgiglia/projects/SpectralDetector/Logger.hpp \
  /home/tgiglia/projects/SpectralDetector/EOCXmlMaker.hpp \
@@ -1722,10 +1726,8 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/container_hash/detail/limits.hpp \
  /usr/include/boost/integer/static_log2.hpp /usr/include/c++/10/typeindex \
  /usr/include/boost/container_hash/extensions.hpp \
- /usr/include/boost/detail/container_fwd.hpp /usr/include/c++/10/deque \
- /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
- /usr/include/c++/10/bitset /usr/include/boost/move/move.hpp \
- /usr/include/boost/move/iterator.hpp \
+ /usr/include/boost/detail/container_fwd.hpp /usr/include/c++/10/bitset \
+ /usr/include/boost/move/move.hpp /usr/include/boost/move/iterator.hpp \
  /usr/include/boost/move/detail/iterator_traits.hpp \
  /usr/include/boost/move/algorithm.hpp \
  /usr/include/boost/move/algo/move.hpp \

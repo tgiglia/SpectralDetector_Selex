@@ -17,6 +17,7 @@
 #include <iostream>
 #include "AnalyzeRelativeGain.hpp"
 #include "NotifyInfo.hpp"
+#include "ThreadSafeStack.hpp"
 
 namespace ascii_art_dft {
 
@@ -388,6 +389,11 @@ std::string scan_for_jammer(const log_pwr_dft_type& dft_,
     aRg.logIt(jammerDbgFile,aRg.showObj());
     if(isJammerFrame) {
         ssReply<<"Jammer Detected In Range!"<<std::endl;
+        //Post a the time on the stack
+        SingletonStack& singletonStack = SingletonStack::getInstance();
+        time_t ttCurr;
+        ttCurr = time(NULL);
+        singletonStack.theStack->push(ttCurr);
     }
     else {
         ssReply<<"No Jammer Detected In Range!"<<std::endl;

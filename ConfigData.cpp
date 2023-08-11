@@ -28,6 +28,8 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
         ai.errorradius = tree.get<double>("configuration.alarminfo.errorradius");
         ai.velEast = tree.get<double>("configuration.alarminfo.velEast");
         ai.velNorth = tree.get<double>("configuration.alarminfo.velNorth");
+        ci.secsToWait = tree.get<int>("configuration.consumer.secsToWait");
+        ci.lastAlarmSecsIgnore = tree.get<int>("configuration.consumer.lastAlarmSecsIgnore");
     }catch(std::exception ex) {
         cout<<"ConfigData::load: ERROR: "<<ex.what()<<endl;
         logDbgWithTime(dbgFile,ex.what());
@@ -123,7 +125,8 @@ string ConfigData::showConfig()
     ss<<"errorradius: "<<ai.errorradius<<endl;
     ss<<"velEast: "<<ai.velEast<<endl;
     ss<<"velNorth: "<<ai.velNorth<<endl;
-    
+    ss<<"secsToWait: "<<ci.secsToWait<<endl;
+    ss<<"lastAlarmSecsIgnore: "<<ci.lastAlarmSecsIgnore<<endl;
     
     return ss.str();
 }
