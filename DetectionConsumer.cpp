@@ -23,6 +23,9 @@ void DetectionConsumer::run(ConfigData cd)
             }while(!singletonStack.theStack->empty());
            
         }
+        else {
+            std::cout<<"DetectionConsumber::run: nothing on the stack"<<std::endl;
+        }
         std::this_thread::sleep_for(sleepDuration);
 
     }while(sb.keepGoing->getValue());

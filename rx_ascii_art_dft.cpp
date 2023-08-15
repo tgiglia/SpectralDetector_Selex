@@ -423,7 +423,9 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         int ch = getch();
         
     }
-
+    sb.keepGoing->setFalse();
+    consumerThr.join();
+    
     //------------------------------------------------------------------
     //-- Cleanup
     //------------------------------------------------------------------
