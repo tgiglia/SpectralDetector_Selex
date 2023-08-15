@@ -11,6 +11,7 @@
 #include "Logger.hpp"
 #include "EOCXmlMaker.hpp"
 #include "ConfigData.hpp"
+#include "DetectionConsumer.hpp"
 #include <uhd/usrp/multi_usrp.hpp>
 #include <uhd/utils/safe_main.hpp>
 #include <uhd/utils/thread.hpp>
@@ -100,7 +101,13 @@ int daemonize(std::string dbgFile)
     
 }
 
+void ConsumerThreadFunction(ConfigData cd) {
+    DetectionConsumer detectionConsumer;
+    detectionConsumer.run(cd);
 
+
+
+}
 
 int UHD_SAFE_MAIN(int argc, char* argv[])
 {
@@ -355,7 +362,14 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
             daemonize(dbgFile);
             logDbgWithTime(dbgFile,"Afterdaemonize....");
     }
-    
+
+    //Setup the Consumer thread
+    SingletonBoolean sb = SingletonBoolean::getInstance();
+    sb.keepGoing->setTrue();
+    std::thread consumerThr([cd]() {
+        ConsumerThreadFunction(cd);
+    });
+    //
     //------------------------------------------------------------------
     //-- Main loop
     //------------------------------------------------------------------

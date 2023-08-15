@@ -45,11 +45,54 @@ class SingletonStack {
         SingletonStack() {
             theStack = new ThreadSafeStack<time_t>();
         }
+    public:
         ~SingletonStack() {
             delete theStack;
         }
 
 };
+
+class MutexProtectedBoolean {
+private:
+    std::mutex mtx;
+    bool value;
+
+public:
+    MutexProtectedBoolean() : value(false) {}
+
+    void setTrue() {
+        std::lock_guard<std::mutex> lock(mtx);
+        value = true;
+    }
+    void setFalse() {
+        std::lock_guard<std::mutex> lock(mtx);
+        value = false;
+    }
+
+    bool getValue() {
+        std::lock_guard<std::mutex> lock(mtx);
+        return value;
+    }
+};
+
+class SingletonBoolean {
+    public:
+        MutexProtectedBoolean *keepGoing;
+        static SingletonBoolean& getInstance(){
+            static SingletonBoolean instance;
+            return instance;
+        }
+    private:
+     SingletonBoolean() {
+        keepGoing = new MutexProtectedBoolean();
+    }
+    public:
+    ~SingletonBoolean() {
+        delete keepGoing;
+    }
+
+};
+
 
 
 #endif

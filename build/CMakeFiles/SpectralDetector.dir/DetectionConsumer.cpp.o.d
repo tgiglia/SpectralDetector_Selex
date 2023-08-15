@@ -782,14 +782,6 @@ CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.o: \
  /usr/include/c++/10/bits/stl_tree.h /usr/include/c++/10/bits/stl_set.h \
  /usr/include/c++/10/bits/stl_multiset.h \
  /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/iostream \
- /home/tgiglia/projects/SpectralDetector/ThreadSafeStack.hpp \
- /usr/include/c++/10/stack /usr/include/c++/10/deque \
- /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
- /usr/include/c++/10/bits/stl_stack.h /usr/include/c++/10/mutex \
- /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
- /usr/include/c++/10/bits/parse_numbers.h \
- /usr/include/c++/10/bits/std_mutex.h \
- /usr/include/c++/10/bits/unique_lock.h /usr/include/c++/10/thread \
  /home/tgiglia/projects/SpectralDetector/Logger.hpp \
  /usr/include/c++/10/complex /usr/include/c++/10/cmath \
  /usr/include/math.h /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
@@ -801,4 +793,12 @@ CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.o: \
  /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
  /usr/include/arm-linux-gnueabihf/bits/mathcalls-narrow.h \
  /usr/include/arm-linux-gnueabihf/bits/iscanonical.h \
- /usr/include/arm-linux-gnueabihf/bits/mathinline.h
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
+ /usr/include/c++/10/bits/parse_numbers.h \
+ /home/tgiglia/projects/SpectralDetector/ThreadSafeStack.hpp \
+ /usr/include/c++/10/stack /usr/include/c++/10/deque \
+ /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
+ /usr/include/c++/10/bits/stl_stack.h /usr/include/c++/10/mutex \
+ /usr/include/c++/10/bits/std_mutex.h \
+ /usr/include/c++/10/bits/unique_lock.h /usr/include/c++/10/thread

@@ -1,4 +1,5 @@
 #include "DetectionConsumer.hpp"
+#include "ThreadSafeStack.hpp"
 #include <thread>
 #include <chrono>
 
@@ -6,7 +7,7 @@ void DetectionConsumer::run(ConfigData cd)
 {
     SingletonStack& singletonStack = SingletonStack::getInstance();
     std::chrono::seconds sleepDuration(cd.ci.secsToWait);
-
+    SingletonBoolean sb = SingletonBoolean::getInstance();
     do {
         
         if(!singletonStack.theStack->empty()) {
@@ -24,7 +25,7 @@ void DetectionConsumer::run(ConfigData cd)
         }
         std::this_thread::sleep_for(sleepDuration);
 
-    }while(true);
+    }while(sb.keepGoing->getValue());
 
 
 }

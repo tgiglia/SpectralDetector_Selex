@@ -1977,19 +1977,6 @@ CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.o: ../DetectionConsumer.cp
   /usr/include/c++/10/bits/stl_multiset.h \
   /usr/include/c++/10/bits/erase_if.h \
   /usr/include/c++/10/iostream \
-  ../ThreadSafeStack.hpp \
-  /usr/include/c++/10/stack \
-  /usr/include/c++/10/deque \
-  /usr/include/c++/10/bits/stl_deque.h \
-  /usr/include/c++/10/bits/deque.tcc \
-  /usr/include/c++/10/bits/stl_stack.h \
-  /usr/include/c++/10/mutex \
-  /usr/include/c++/10/chrono \
-  /usr/include/c++/10/ratio \
-  /usr/include/c++/10/bits/parse_numbers.h \
-  /usr/include/c++/10/bits/std_mutex.h \
-  /usr/include/c++/10/bits/unique_lock.h \
-  /usr/include/c++/10/thread \
   ../Logger.hpp \
   /usr/include/c++/10/complex \
   /usr/include/c++/10/cmath \
@@ -2003,7 +1990,20 @@ CMakeFiles/SpectralDetector.dir/DetectionConsumer.cpp.o: ../DetectionConsumer.cp
   /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
   /usr/include/arm-linux-gnueabihf/bits/mathcalls-narrow.h \
   /usr/include/arm-linux-gnueabihf/bits/iscanonical.h \
-  /usr/include/arm-linux-gnueabihf/bits/mathinline.h
+  /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+  /usr/include/c++/10/chrono \
+  /usr/include/c++/10/ratio \
+  /usr/include/c++/10/bits/parse_numbers.h \
+  ../ThreadSafeStack.hpp \
+  /usr/include/c++/10/stack \
+  /usr/include/c++/10/deque \
+  /usr/include/c++/10/bits/stl_deque.h \
+  /usr/include/c++/10/bits/deque.tcc \
+  /usr/include/c++/10/bits/stl_stack.h \
+  /usr/include/c++/10/mutex \
+  /usr/include/c++/10/bits/std_mutex.h \
+  /usr/include/c++/10/bits/unique_lock.h \
+  /usr/include/c++/10/thread
 
 CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.o: ../EOCXmlMaker.cpp \
   /usr/include/stdc-predef.h \
@@ -6884,6 +6884,12 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
   /usr/include/boost/asio/windows/stream_handle.hpp \
   /usr/include/boost/asio/write_at.hpp \
   /usr/include/boost/asio/impl/write_at.hpp \
+  ../ThreadSafeStack.hpp \
+  /usr/include/c++/10/stack \
+  /usr/include/c++/10/deque \
+  /usr/include/c++/10/bits/stl_deque.h \
+  /usr/include/c++/10/bits/deque.tcc \
+  /usr/include/c++/10/bits/stl_stack.h \
   ../RESTUtils.hpp \
   ../Logger.hpp \
   ../EOCXmlMaker.hpp \
@@ -7355,6 +7361,7 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
   /usr/include/c++/10/bits/stl_set.h \
   /usr/include/c++/10/bits/stl_multiset.h \
   ../ConfigData.hpp \
+  ../DetectionConsumer.hpp \
   /usr/local/include/uhd/usrp/multi_usrp.hpp \
   /usr/local/include/uhd/config.hpp \
   /usr/local/include/uhd/device.hpp \
@@ -7550,9 +7557,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
   /usr/include/c++/10/typeindex \
   /usr/include/boost/container_hash/extensions.hpp \
   /usr/include/boost/detail/container_fwd.hpp \
-  /usr/include/c++/10/deque \
-  /usr/include/c++/10/bits/stl_deque.h \
-  /usr/include/c++/10/bits/deque.tcc \
   /usr/include/c++/10/bitset \
   /usr/include/boost/move/move.hpp \
   /usr/include/boost/move/iterator.hpp \

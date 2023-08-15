@@ -2,7 +2,7 @@
 #define DETECTIONCONSUMER_HPP 
 
 #include "ConfigData.hpp"
-#include "ThreadSafeStack.hpp"
+
 #include "Logger.hpp"
 
 
