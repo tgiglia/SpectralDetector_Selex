@@ -153,9 +153,6 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         ("int-n", "tune USRP with integer-N tuning")
         ("jammer-thresh", po::value<float>(&jammerThreshold)->default_value(10.0),"threshold for jammer detection")
         ("jammer-bins", po::value<size_t>(&num_jammer_bins)->default_value(10), "number of bins for jammer bandwidth")
-        ("jammer-debug", po::value<std::string>(&jammerDbgFile)->default_value("ARG.txt"),"file name of jammer debug file")
-        ("notification-path",po::value<std::string>(&notificationsFile)->default_value("Notifications.txt"),"file name of the notifications file")
-        ("debug-path",po::value<std::string>(&dbgFile)->default_value("spectral.dbg"),"file name of the debug file")
         ("xml-path",po::value<std::string>(&cfgFile)->default_value("./SpectralDetectorConfig.xml"),"file name of the config file")
         ("device-class",po::value<std::string>(&deviceClass)->default_value("Jammer"),"device class name")
         ("eoc-host",po::value<std::string>(&eocHost)->default_value("localhost"),"eoc host name")
@@ -196,6 +193,9 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         logDbgWithTime(dbgFile,"ERROR Could not load XML file...");
         return 0;
     }
+    jammerDbgFile = cd.li.jammerDbg;
+    notificationsFile = cd.li.notificationDbg;
+    dbgFile = cd.li.spectralDbg;
 
     if(iKeepGoing == 1) 
     {
@@ -402,15 +402,11 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
             ref_lvl,
             jammerThreshold,
             num_jammer_bins,
-            jammerDbgFile);
+            jammerDbgFile,cd);
         
         std::string border = std::string((COLS), '-');
 
-        NotifyBase *nb = new FileNotify();
-        NotifyInfo ni;
-        ni.sNotifyFile = "Notifications.txt";
-        ni.sMessage = frame;
-        nb->sendNotify(ni);
+        
         
         // curses screen handling: clear and print frame
         /*clear();

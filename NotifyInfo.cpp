@@ -24,7 +24,7 @@ bool FileNotify::logIt(std::string sFileName,std::string message)
     
     std::ofstream outputFile(sFileName.c_str(),std::ios::app);
     if(outputFile.is_open()) {
-        outputFile<<message<<std::endl;
+        outputFile<<ss.str()<<std::endl;
     }
     else {
         std::cout<<"Failed to open file: "<<sFileName<<std::endl;

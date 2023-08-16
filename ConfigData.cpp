@@ -30,6 +30,10 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
         ai.velNorth = tree.get<double>("configuration.alarminfo.velNorth");
         ci.secsToWait = tree.get<int>("configuration.consumer.secsToWait");
         ci.lastAlarmSecsIgnore = tree.get<int>("configuration.consumer.lastAlarmSecsIgnore");
+        li.jammerDbg = tree.get<std::string>("configuration.logging.jammerDbg");
+        li.notificationDbg = tree.get<std::string>("configuration.logging.notificationDbg");
+        li.spectralDbg = tree.get<std::string>("configuration.logging.spectralDbg");
+
     }catch(std::exception ex) {
         cout<<"ConfigData::load: ERROR: "<<ex.what()<<endl;
         logDbgWithTime(dbgFile,ex.what());
@@ -127,6 +131,27 @@ string ConfigData::showConfig()
     ss<<"velNorth: "<<ai.velNorth<<endl;
     ss<<"secsToWait: "<<ci.secsToWait<<endl;
     ss<<"lastAlarmSecsIgnore: "<<ci.lastAlarmSecsIgnore<<endl;
-    
+    ss<<"jammerDbg: ";
+    if(li.jammerDbg.size() > 0) {
+        ss<<li.jammerDbg<<endl;
+    }
+    else {
+        ss<<"No value"<<endl;
+    }
+    ss<<"notificationDbg: ";
+    if(li.notificationDbg.size() > 0) {
+        ss<<li.notificationDbg<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
+    ss<<"spectralDbg: ";
+    if(li.spectralDbg.size() > 0) {
+        ss<<li.spectralDbg<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
+
     return ss.str();
 }

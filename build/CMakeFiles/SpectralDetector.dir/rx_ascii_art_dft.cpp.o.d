@@ -1104,8 +1104,7 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/c++/10/stack /usr/include/c++/10/deque \
  /usr/include/c++/10/bits/stl_deque.h /usr/include/c++/10/bits/deque.tcc \
  /usr/include/c++/10/bits/stl_stack.h \
- /home/tgiglia/projects/SpectralDetector/RESTUtils.hpp \
- /home/tgiglia/projects/SpectralDetector/Logger.hpp \
+ /home/tgiglia/projects/SpectralDetector/ConfigData.hpp \
  /home/tgiglia/projects/SpectralDetector/EOCXmlMaker.hpp \
  /usr/include/boost/property_tree/ptree.hpp \
  /usr/include/boost/property_tree/ptree_fwd.hpp \
@@ -1546,7 +1545,8 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: \
  /usr/include/boost/utility/addressof.hpp /usr/include/c++/10/set \
  /usr/include/c++/10/bits/stl_set.h \
  /usr/include/c++/10/bits/stl_multiset.h \
- /home/tgiglia/projects/SpectralDetector/ConfigData.hpp \
+ /home/tgiglia/projects/SpectralDetector/RESTUtils.hpp \
+ /home/tgiglia/projects/SpectralDetector/Logger.hpp \
  /home/tgiglia/projects/SpectralDetector/DetectionConsumer.hpp \
  /usr/local/include/uhd/usrp/multi_usrp.hpp \
  /usr/local/include/uhd/config.hpp /usr/local/include/uhd/device.hpp \

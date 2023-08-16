@@ -74,6 +74,14 @@ struct consumerInfo
 
 };
 
+struct loggingInfo
+{
+    std::string jammerDbg;
+    std::string notificationDbg;
+    std::string spectralDbg;
+
+};
+
 class ReadAlarmXMLMaker
 {
     public:

@@ -1,5 +1,7 @@
 #include "DetectionConsumer.hpp"
 #include "ThreadSafeStack.hpp"
+#include "Logger.hpp"
+
 #include <thread>
 #include <chrono>
 
@@ -17,14 +19,20 @@ void DetectionConsumer::run(ConfigData cd)
                 //is the time value late enough to post a new alarm?
                 if(ttTmp > lastMessageSent + cd.ci.lastAlarmSecsIgnore)
                 {
-                    std::cout<<"DetectionConsumer::run: We can send Alarm message for: "<<ttTmp<<std::endl;
+                    //std::cout<<"DetectionConsumer::run: We can send Alarm message for: "<<ttTmp<<std::endl;
+                    stringstream ss;
+                    ss<<"DetectionConsumer::run: We can send Alarm message for: ";
+                    ss<<ttTmp<<std::endl;
+
+                    logDbgWithTime(cd.li.notificationDbg,ss.str());
+
                     lastMessageSent = ttTmp;
                 }
             }while(!singletonStack.theStack->empty());
            
         }
         else {
-            std::cout<<"DetectionConsumber::run: nothing on the stack"<<std::endl;
+            //std::cout<<"DetectionConsumber::run: nothing on the stack"<<std::endl;
         }
         std::this_thread::sleep_for(sleepDuration);
 

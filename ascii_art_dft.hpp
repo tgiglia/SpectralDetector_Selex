@@ -18,6 +18,7 @@
 #include "AnalyzeRelativeGain.hpp"
 #include "NotifyInfo.hpp"
 #include "ThreadSafeStack.hpp"
+#include "ConfigData.hpp"
 
 namespace ascii_art_dft {
 
@@ -337,7 +338,7 @@ std::string scan_for_jammer(const log_pwr_dft_type& dft_,
     float ref_lvl,
     float jammerThreshold,
     size_t num_jammer_bins,
-    std::string jammerDbgFile) {
+    std::string jammerDbgFile,ConfigData cd) {
         
     std::stringstream ssReply;
         
@@ -398,7 +399,13 @@ std::string scan_for_jammer(const log_pwr_dft_type& dft_,
     else {
         ssReply<<"No Jammer Detected In Range!"<<std::endl;
     }
-    
+    NotifyBase *nb = new FileNotify();
+    NotifyInfo ni;
+    ni.sNotifyFile = cd.li.notificationDbg;
+    ni.sMessage = ssReply.str();
+    nb->sendNotify(ni);
+    delete nb;
+
     return ssReply.str();
 }
 } // namespace ascii_art_dft

@@ -11,6 +11,8 @@ struct ConfigData
 {
     alarmInfo ai;
     consumerInfo ci;
+    loggingInfo li;
+
     bool loadConfig(string sXmlPath,string dbgFile);
     string showConfig();
 };
