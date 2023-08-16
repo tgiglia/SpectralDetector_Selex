@@ -12,7 +12,8 @@ struct ConfigData
     alarmInfo ai;
     consumerInfo ci;
     loggingInfo li;
-
+    eocInfo ei;
+    
     bool loadConfig(string sXmlPath,string dbgFile);
     string showConfig();
 };

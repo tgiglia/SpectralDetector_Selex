@@ -82,6 +82,14 @@ struct loggingInfo
 
 };
 
+struct eocInfo
+{
+    std::string eocHost;
+    std::string eocUser;
+    std::string eocPass;
+    int eocPort;
+};
+
 class ReadAlarmXMLMaker
 {
     public:

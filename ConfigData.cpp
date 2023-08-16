@@ -33,6 +33,11 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
         li.jammerDbg = tree.get<std::string>("configuration.logging.jammerDbg");
         li.notificationDbg = tree.get<std::string>("configuration.logging.notificationDbg");
         li.spectralDbg = tree.get<std::string>("configuration.logging.spectralDbg");
+        ei.eocHost = tree.get<std::string>("configuration.eoc.eocHost");
+        ei.eocPort = tree.get<int>("configuration.eoc.eocPort");
+        ei.eocUser = tree.get<std::string>("configuration.eoc.eocUser");
+        ei.eocPass = tree.get<std::string>("configuration.eoc.eocPass");
+
 
     }catch(std::exception ex) {
         cout<<"ConfigData::load: ERROR: "<<ex.what()<<endl;
@@ -152,6 +157,27 @@ string ConfigData::showConfig()
     else {
         ss<<"No Value"<<endl;
     }
-
+    ss<<"eocHost: ";
+    if(ei.eocHost.size() > 0) {
+        ss<<ei.eocHost<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
+    ss<<"eocPort: "<<ei.eocPort<<endl;
+    ss<<"eocUser: ";
+    if(ei.eocUser.size() > 0) {
+        ss<<ei.eocUser<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
+    ss<<"eocPass: ";
+    if(ei.eocPass.size() > 0) {
+        ss<<ei.eocPass<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
     return ss.str();
 }
