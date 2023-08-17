@@ -143,8 +143,8 @@ bool RESTUtils::putAlarmWithRead(ConfigData cd,std::string sBody)
 {
   try {
 
-        std::string sTarget = cd.ei.eocHost + "/alarm" + cd.ai.alrmId;
-        std::cout<<"RESTUtils::putAlarmWithRead: target: " + sTarget;
+        std::string sTarget = cd.ei.eocHost;
+        //std::cout<<"RESTUtils::putAlarmWithRead: target: " + sTarget;
         boost::asio::io_context io_context;
 
         // Create a resolver to resolve the server hostname and port
@@ -162,18 +162,18 @@ bool RESTUtils::putAlarmWithRead(ConfigData cd,std::string sBody)
 
         //std::string encode64(const std::string &val)
         std::stringstream ssHeaders;
-        ssHeaders<<"POST /echo HTTP/1.1\r\n";
+        ssHeaders<<"POST /alarm/"<<cd.ai.alrmId<<" HTTP/1.1\r\n";
         ssHeaders<<"Host: "<<sTarget<<":" << std::to_string(cd.ei.eocPort).c_str() <<"\r\n";
-        ssHeaders<<"Authorization: Basic" <<encodedCredentials<<"\r\n";
+        ssHeaders<<"Authorization: Basic " <<encodedCredentials<<"\r\n";
         ssHeaders<<"Content-Type: application/json\r\n";
         ssHeaders<<"Content-Length: "<<std::to_string(sBody.length())<<"\r\n";
         ssHeaders<< "Connection: close\r\n\r\n";
         ssHeaders<<sBody;
         // Send the request
-        std::cout<<"Sending: \n"<<ssHeaders.str()<<std::endl;
+        //std::cout<<"Sending: \n"<<ssHeaders.str()<<std::endl;
         
         size_t numWrite = boost::asio::write(socket, boost::asio::buffer(ssHeaders.str()));
-        std::cout<<"Wrote "<<numWrite<<" ssHeaders is: "<<ssHeaders.str().size()<<std::endl;
+        //std::cout<<"Wrote "<<numWrite<<" ssHeaders is: "<<ssHeaders.str().size()<<std::endl;
 
         // Read and print the response
         boost::asio::streambuf response;
