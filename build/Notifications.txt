@@ -11220,3 +11220,32 @@ No Jammer Detected In Range!
 1692199857.1692199857699 :Jammer Detected In Range!
 
 
+1692280373.1692280373315 :Jammer Detected In Range!
+
+
+2023-08-17 09:52:54.1692280374306: DetectionConsumer::run: We can send Alarm message for: 1692280373
+
+
+2023-08-17 09:52:54.1692280374308: putAlarmWithRead FAILED!
+
+1692280374.1692280374315 :Jammer Detected In Range!
+
+
+1692280375.1692280375316 :No Jammer Detected In Range!
+
+
+1692280376.1692280376324 :Jammer Detected In Range!
+
+
+1692280377.1692280377317 :Jammer Detected In Range!
+
+
+1692280378.1692280378318 :Jammer Detected In Range!
+
+
+1692280379.1692280379317 :Jammer Detected In Range!
+
+
+1692280380.1692280380318 :Jammer Detected In Range!
+
+

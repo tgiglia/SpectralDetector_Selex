@@ -178,8 +178,9 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     
     int iKeepGoing = 0;
     //xmlTest("/home/tgiglia/Desktop/Share/test.xml","/home/tgiglia/Desktop/Share/out.xml");
-    ReadAlarmXMLMaker ra;
-    ra.testAlarmXML();
+    /*ReadAlarmXMLMaker ra;
+    ra.testAlarmXML();*/
+    
     ConfigData cd;
     if(cd.loadConfig(cfgFile,dbgFile)){
         //std::cout<<"CONFIG:"<<endl<<cd.showConfig()<<endl;

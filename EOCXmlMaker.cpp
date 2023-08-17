@@ -1,4 +1,7 @@
 #include "EOCXmlMaker.hpp"
+#include <boost/uuid/uuid.hpp>
+#include <boost/uuid/uuid_generators.hpp>
+#include <boost/uuid/uuid_io.hpp>
 
 using namespace std;
 
@@ -192,6 +195,16 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUS(alarmInfo ai)
     return ss.str();
 }
 
+string ReadAlarmXMLMaker::generateGUID() 
+{
+    boost::uuids::random_generator gen;
+    boost::uuids::uuid uuid = gen();
+
+    // Convert the UUID to a string representation
+    std::string uuidStr = boost::uuids::to_string(uuid);
+ 
+    return uuidStr;
+}
 void ReadAlarmXMLMaker::testAlarmXML()
 {
     alarmInfo ai;

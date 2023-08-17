@@ -779,4 +779,150 @@ CMakeFiles/SpectralDetector.dir/EOCXmlMaker.cpp.o: \
  /usr/include/boost/utility/addressof.hpp /usr/include/c++/10/set \
  /usr/include/c++/10/bits/stl_tree.h /usr/include/c++/10/bits/stl_set.h \
  /usr/include/c++/10/bits/stl_multiset.h \
- /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/iostream
+ /usr/include/c++/10/bits/erase_if.h /usr/include/c++/10/iostream \
+ /usr/include/boost/uuid/uuid.hpp \
+ /usr/include/boost/uuid/detail/config.hpp \
+ /usr/include/boost/uuid/detail/uuid_generic.ipp \
+ /usr/include/boost/uuid/uuid_generators.hpp \
+ /usr/include/boost/uuid/nil_generator.hpp \
+ /usr/include/boost/uuid/string_generator.hpp \
+ /usr/include/boost/uuid/name_generator.hpp \
+ /usr/include/boost/uuid/name_generator_sha1.hpp \
+ /usr/include/boost/uuid/basic_name_generator.hpp \
+ /usr/include/boost/uuid/detail/sha1.hpp \
+ /usr/include/boost/uuid/random_generator.hpp \
+ /usr/include/boost/random/mersenne_twister.hpp \
+ /usr/include/boost/integer/integer_mask.hpp \
+ /usr/include/boost/integer_fwd.hpp /usr/include/c++/10/climits \
+ /usr/lib/gcc/arm-linux-gnueabihf/10/include/limits.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/10/include/syslimits.h \
+ /usr/include/limits.h /usr/include/arm-linux-gnueabihf/bits/posix1_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/arm-linux-gnueabihf/bits/posix2_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/xopen_lim.h \
+ /usr/include/arm-linux-gnueabihf/bits/uio_lim.h \
+ /usr/include/boost/integer.hpp /usr/include/boost/integer_traits.hpp \
+ /usr/include/boost/random/detail/config.hpp \
+ /usr/include/boost/random/detail/ptr_helper.hpp \
+ /usr/include/boost/random/detail/seed.hpp \
+ /usr/include/boost/random/detail/seed_impl.hpp \
+ /usr/include/boost/config/no_tr1/cmath.hpp /usr/include/c++/10/cmath \
+ /usr/include/math.h /usr/include/arm-linux-gnueabihf/bits/math-vector.h \
+ /usr/include/arm-linux-gnueabihf/bits/libm-simd-decl-stubs.h \
+ /usr/include/arm-linux-gnueabihf/bits/flt-eval-method.h \
+ /usr/include/arm-linux-gnueabihf/bits/fp-logb.h \
+ /usr/include/arm-linux-gnueabihf/bits/fp-fast.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls-helper-functions.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathcalls-narrow.h \
+ /usr/include/arm-linux-gnueabihf/bits/iscanonical.h \
+ /usr/include/arm-linux-gnueabihf/bits/mathinline.h \
+ /usr/include/boost/integer/static_log2.hpp \
+ /usr/include/boost/random/traits.hpp \
+ /usr/include/boost/type_traits/is_signed.hpp \
+ /usr/include/boost/type_traits/make_unsigned.hpp \
+ /usr/include/boost/type_traits/is_unsigned.hpp \
+ /usr/include/boost/random/detail/const_mod.hpp \
+ /usr/include/boost/random/detail/large_arithmetic.hpp \
+ /usr/include/boost/random/detail/integer_log2.hpp \
+ /usr/include/boost/integer/integer_log2.hpp \
+ /usr/include/boost/random/detail/disable_warnings.hpp \
+ /usr/include/boost/random/detail/enable_warnings.hpp \
+ /usr/include/boost/random/detail/signed_unsigned_tools.hpp \
+ /usr/include/boost/random/detail/generator_bits.hpp \
+ /usr/include/boost/random/detail/generator_seed_seq.hpp \
+ /usr/include/boost/random/detail/polynomial.hpp \
+ /usr/include/boost/random/uniform_int.hpp \
+ /usr/include/boost/random/uniform_int_distribution.hpp \
+ /usr/include/boost/random/detail/operators.hpp \
+ /usr/include/boost/random/detail/uniform_int_float.hpp \
+ /usr/include/boost/random/variate_generator.hpp \
+ /usr/include/boost/tti/has_member_function.hpp \
+ /usr/include/boost/function_types/property_tags.hpp \
+ /usr/include/boost/mpl/bitxor.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/bitxor.hpp \
+ /usr/include/boost/function_types/detail/pp_tags/preprocessed.hpp \
+ /usr/include/boost/function_types/detail/pp_loop.hpp \
+ /usr/include/boost/preprocessor/punctuation/paren.hpp \
+ /usr/include/boost/function_types/detail/encoding/def.hpp \
+ /usr/include/boost/function_types/detail/encoding/aliases_def.hpp \
+ /usr/include/boost/function_types/detail/pp_cc_loop/preprocessed.hpp \
+ /usr/include/boost/function_types/detail/pp_tags/cc_tag.hpp \
+ /usr/include/boost/function_types/detail/encoding/aliases_undef.hpp \
+ /usr/include/boost/function_types/detail/encoding/undef.hpp \
+ /usr/include/boost/tti/detail/ddeftype.hpp \
+ /usr/include/boost/tti/detail/dmem_fun.hpp \
+ /usr/include/boost/function_types/is_member_function_pointer.hpp \
+ /usr/include/boost/function_types/components.hpp \
+ /usr/include/boost/mpl/remove.hpp /usr/include/boost/mpl/remove_if.hpp \
+ /usr/include/boost/function_types/config/config.hpp \
+ /usr/include/boost/function_types/config/compiler.hpp \
+ /usr/include/boost/function_types/config/cc_names.hpp \
+ /usr/include/boost/mpl/vector/vector30.hpp \
+ /usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector30.hpp \
+ /usr/include/boost/function_types/detail/class_transform.hpp \
+ /usr/include/boost/function_types/detail/pp_variate_loop/preprocessed.hpp \
+ /usr/include/boost/function_types/detail/pp_arity_loop.hpp \
+ /usr/include/boost/function_types/detail/components_impl/arity20_0.hpp \
+ /usr/include/boost/function_types/detail/components_impl/arity10_0.hpp \
+ /usr/include/boost/function_types/detail/components_impl/arity20_1.hpp \
+ /usr/include/boost/function_types/detail/components_impl/arity10_1.hpp \
+ /usr/include/boost/function_types/detail/components_as_mpl_sequence.hpp \
+ /usr/include/boost/function_types/detail/retag_default_cc.hpp \
+ /usr/include/boost/mpl/bitand.hpp \
+ /usr/include/boost/mpl/aux_/preprocessed/gcc/bitand.hpp \
+ /usr/include/boost/function_types/detail/pp_retag_default_cc/preprocessed.hpp \
+ /usr/include/boost/tti/detail/dcomp_mem_fun.hpp \
+ /usr/include/boost/tti/detail/dftclass.hpp \
+ /usr/include/boost/function_types/parameter_types.hpp \
+ /usr/include/boost/blank.hpp /usr/include/boost/blank_fwd.hpp \
+ /usr/include/boost/detail/templated_streams.hpp \
+ /usr/include/boost/type_traits/is_stateless.hpp \
+ /usr/include/boost/type_traits/has_trivial_constructor.hpp \
+ /usr/include/boost/type_traits/has_trivial_copy.hpp \
+ /usr/include/boost/type_traits/has_trivial_destructor.hpp \
+ /usr/include/boost/mpl/pop_front.hpp \
+ /usr/include/boost/mpl/aux_/pop_front_impl.hpp \
+ /usr/include/boost/function_types/is_callable_builtin.hpp \
+ /usr/include/boost/tti/detail/dmacro_sunfix.hpp \
+ /usr/include/boost/tti/detail/dnullptr.hpp \
+ /usr/include/boost/tti/gen/namespace_gen.hpp \
+ /usr/include/boost/tti/detail/denclosing_type.hpp \
+ /usr/include/boost/type_traits/is_union.hpp \
+ /usr/include/boost/tti/detail/dptmf.hpp \
+ /usr/include/boost/function_types/member_function_pointer.hpp \
+ /usr/include/boost/function_types/detail/synthesize.hpp \
+ /usr/include/boost/function_types/detail/cv_traits.hpp \
+ /usr/include/boost/function_types/detail/synthesize_impl/arity20_0.hpp \
+ /usr/include/boost/function_types/detail/synthesize_impl/arity10_0.hpp \
+ /usr/include/boost/function_types/detail/synthesize_impl/arity20_1.hpp \
+ /usr/include/boost/function_types/detail/synthesize_impl/arity10_1.hpp \
+ /usr/include/boost/function_types/detail/to_sequence.hpp \
+ /usr/include/boost/tti/gen/has_member_function_gen.hpp \
+ /usr/include/boost/uuid/detail/random_provider.hpp \
+ /usr/include/boost/uuid/entropy_error.hpp \
+ /usr/include/boost/uuid/detail/random_provider_detect_platform.hpp \
+ /usr/include/boost/predef/library/c/cloudabi.h \
+ /usr/include/boost/predef/version_number.h \
+ /usr/include/boost/predef/make.h /usr/include/boost/predef/detail/test.h \
+ /usr/include/boost/predef/library/c/_prefix.h \
+ /usr/include/boost/predef/detail/_cassert.h /usr/include/c++/10/cassert \
+ /usr/include/boost/predef/library/c/gnu.h \
+ /usr/include/boost/predef/os/bsd/open.h \
+ /usr/include/boost/predef/os/bsd.h /usr/include/boost/predef/os/macos.h \
+ /usr/include/boost/predef/os/ios.h \
+ /usr/include/boost/predef/os/bsd/bsdi.h \
+ /usr/include/boost/predef/os/bsd/dragonfly.h \
+ /usr/include/boost/predef/os/bsd/free.h \
+ /usr/include/boost/predef/os/bsd/net.h \
+ /usr/include/boost/predef/os/windows.h \
+ /usr/include/arm-linux-gnueabihf/sys/syscall.h \
+ /usr/include/arm-linux-gnueabihf/asm/unistd.h \
+ /usr/include/arm-linux-gnueabihf/asm/unistd-eabi.h \
+ /usr/include/arm-linux-gnueabihf/bits/syscall.h \
+ /usr/include/boost/uuid/detail/random_provider_include_platform.hpp \
+ /usr/include/boost/uuid/detail/random_provider_getrandom.ipp \
+ /usr/include/arm-linux-gnueabihf/sys/random.h \
+ /usr/include/boost/uuid/uuid_io.hpp /usr/include/boost/io/ios_state.hpp \
+ /usr/include/boost/io_fwd.hpp

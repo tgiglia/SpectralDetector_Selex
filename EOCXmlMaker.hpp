@@ -95,6 +95,7 @@ class ReadAlarmXMLMaker
     public:
         string deriveXmlUS(CGInfo cgi,string plate,string timeStamp,string eocGuid);
         string deriveAlarmAndReadXMLUS(alarmInfo ai);
+        string generateGUID();
         void testHarness();
         void testAlarmXML();
 

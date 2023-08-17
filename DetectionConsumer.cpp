@@ -1,7 +1,8 @@
 #include "DetectionConsumer.hpp"
 #include "ThreadSafeStack.hpp"
 #include "Logger.hpp"
-
+#include "EOCXmlMaker.hpp"
+#include "RESTUtils.hpp"
 #include <thread>
 #include <chrono>
 
@@ -25,7 +26,20 @@ void DetectionConsumer::run(ConfigData cd)
                     ss<<ttTmp<<std::endl;
 
                     logDbgWithTime(cd.li.notificationDbg,ss.str());
-
+                    ReadAlarmXMLMaker *raxm = new ReadAlarmXMLMaker();
+                    cd.ai.id = raxm->generateGUID();
+                    cd.ai.alrmId = raxm->generateGUID();
+                    std::string alarmXML = raxm->deriveAlarmAndReadXMLUS(cd.ai);
+                    RESTUtils *ru = new RESTUtils();
+                    bool bSendRt = ru->putAlarmWithRead(cd,alarmXML);
+                    if(!bSendRt) {
+                        logDbgWithTime(cd.li.notificationDbg,"putAlarmWithRead FAILED!");
+                    }
+                    else {
+                        logDbgWithTime(cd.li.notificationDbg,"putAlarmWithRead SUCCEEDED!");
+                    }
+                    delete raxm;
+                    delete ru;
                     lastMessageSent = ttTmp;
                 }
             }while(!singletonStack.theStack->empty());
