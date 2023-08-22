@@ -143,6 +143,9 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUS(alarmInfo ai)
     tree.put("alarm.<xmlattr>.status",ai.alrmStatus);
     tree.put("alarm.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
     tree.put("alarm.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
+    tree.put("alarm.<xmlattr>.xmlns","elsag:lpcore");
+
+    
 
     tree.put("alarm.alarmtimestamp",ai.alrmTimestamp);
     tree.put("alarm.ResultText",ai.alrmResultText);
@@ -291,6 +294,6 @@ EOCPutTimes generatePutTimes(time_t tt)
     char endBuf[80];
     strftime(endBuf,sizeof(endBuf),"%Y-%m-%dT%H:%M:%S",timeInfo);
     ept.endTime = endBuf;
-    
+
     return ept;
 }
