@@ -14,6 +14,7 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
         ai.readPlate = tree.get<std::string>("configuration.alarminfo.readPlate");
         ai.domainIdStr = tree.get<std::string>("configuration.alarminfo.domainIdStr");
         ai.cameraName = tree.get<std::string>("configuration.alarminfo.cameraName");
+        ai.camera_site_id = tree.get<std::string>("configuration.alarminfo.camera_site_id");
         ai.hotListId = tree.get<std::string>("configuration.alarminfo.hotListId");
         ai.hotListListId = tree.get<std::string>("configuration.alarminfo.hotListListId");
         ai.hotListRev = tree.get<std::string>("configuration.alarminfo.hotListRev");
@@ -74,6 +75,13 @@ string ConfigData::showConfig()
     ss<<"cameraName: ";
     if(ai.cameraName.size() > 0) {
         ss<<ai.cameraName<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
+    ss<<"camera_site_id ";
+    if(ai.camera_site_id.size() > 0) {
+        ss<<ai.camera_site_id<<endl;
     }
     else {
         ss<<"No Value"<<endl;

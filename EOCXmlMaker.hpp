@@ -60,6 +60,7 @@ struct alarmInfo
     std::string readerId;
     std::string domainIdStr;
     std::string cameraName;
+    std::string camera_site_id;
     double lat;
     double lon;
     double errorradius;

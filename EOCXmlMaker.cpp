@@ -158,6 +158,7 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUS(alarmInfo ai)
     tree.put("alarm.read.<xmlattr>.status","1");
     tree.put("alarm.read.<xmlattr>.xmlns","elsag:lprcore");
     tree.put("alarm.read.<xmlattr>.camera",ai.cameraName);
+    tree.put("alarm.read.<xmlattr>.camera_site_id",ai.camera_site_id);
     tree.put("alarm.read.<xmlattr>.site",ai.readerId);
     tree.put("alarm.read.<xmlattr>.domain",ai.domainIdStr);
 

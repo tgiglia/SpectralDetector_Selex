@@ -11516,3 +11516,20 @@ No Jammer Detected In Range!
 1692715817.1692715817756 :No Jammer Detected In Range!
 
 
+1692729672.1692729672782 :Jammer Detected In Range!
+
+
+2023-08-22 14:41:13.1692729673762: DetectionConsumer::run: We can send Alarm message for: 1692729672
+
+
+2023-08-22 14:41:13.1692729673763: <?xml version="1.0" encoding="utf-8"?>
+<alarm id="a90dca33-5e6e-4781-b305-ea8166acb044" rev="1" status="4" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="elsag:lpcore"><alarmtimestamp>2023-08-22T14:41:12</alarmtimestamp><ResultText>Jammer Detected</ResultText><domain>24</domain><read id="3c52ac3d-c76c-4946-b279-60d6152e5700" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rev="1" status="1" xmlns="elsag:lprcore" camera="48_155_304_Camera-0304" camera_site_id="C0A97E86-17EA-43CB-8559-6D3B1B3CACD6" site="f480bf11-fe84-42d7-a0cc-cd02e53e14c5" domain="24"><timestamp>2023-08-22T14:41:12</timestamp><class>Invariant</class><plate>0</plate><confidence>0</confidence><gps rev="0"><timestamp>2023-08-22T14:41:12</timestamp><position lat="41.55791" long="-72.721220000000002" errorradius="15.9357481"/><velocity east="0.025165276600000001" north="-0.037398889999999997"/></gps><facing>Front</facing><platelocation height="578" width="578" y="578" x="578"/></read><hotlistentry id="b32a88e7-1dfd-427f-9cb9-569df29f600f" rev="1" ListId="55a5e859-9b15-48e8-a080-00c9bfa53aeb" ListTypeId="4"><DomainId>24</DomainId><Plate>0</Plate><AlarmClassId2>2</AlarmClassId2><CreateDate>2023-02-01T00:00:00</CreateDate><BeginDate>2023-02-01T00:00:00</BeginDate><EndDate>2023-02-01T00:00:00</EndDate><Notes>McLean Ave</Notes></hotlistentry></alarm>
+
+2023-08-22 14:41:13.1692729673769: putAlarmWithRead SUCCEEDED!
+
+1692729673.1692729673771 :Jammer Detected In Range!
+
+
+1692729674.1692729674776 :Jammer Detected In Range!
+
+
