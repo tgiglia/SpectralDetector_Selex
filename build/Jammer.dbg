@@ -13880,3 +13880,69 @@ Element: 6.92732
 Element: 10.5528
 
 
+1692715815.1692715815746 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 7.928
+Element: 9.0821
+Element: 10.9813
+Element: 11.2753
+Element: 9.46269
+Element: 9.74484
+Element: 10.4482
+Element: 9.2517
+Element: 11.0644
+Element: 9.70794
+Element: 7.0418
+
+
+1692715816.1692715816748 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 10.0175
+Element: 7.04082
+Element: 10.371
+Element: 11.0915
+Element: 11.1046
+Element: 9.83864
+Element: 10.0274
+Element: 11.7555
+Element: 7.84939
+Element: 9.19093
+Element: 8.66225
+
+
+1692715817.1692715817755 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 0
+Element: 8.23549
+Element: 6.60485
+Element: 8.24328
+Element: 10.2188
+Element: 9.3333
+Element: 7.26407
+Element: 8.81728
+Element: 10.6107
+Element: 5.94346
+Element: 4.62141
+Element: 8.71579
+
+

@@ -162,7 +162,7 @@ bool RESTUtils::putAlarmWithRead(ConfigData cd,std::string sBody)
 
         //std::string encode64(const std::string &val)
         std::stringstream ssHeaders;
-        ssHeaders<<"POST /alarm/"<<cd.ai.alrmId<<" HTTP/1.1\r\n";
+        ssHeaders<<"PUT /alarm/"<<cd.ai.alrmId<<" HTTP/1.1\r\n";
         ssHeaders<<"Host: "<<sTarget<<":" << std::to_string(cd.ei.eocPort).c_str() <<"\r\n";
         ssHeaders<<"Authorization: Basic " <<encodedCredentials<<"\r\n";
         ssHeaders<<"Content-Type: application/json\r\n";
