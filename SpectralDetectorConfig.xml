@@ -20,4 +20,19 @@
         <velEast>0.0251652766</velEast>
         <velNorth>-0.03739889</velNorth>
     </alarminfo>
+    <consumer>
+        <secsToWait>1</secsToWait>
+        <lastAlarmSecsIgnore>60</lastAlarmSecsIgnore>
+    </consumer>
+    <logging>
+	<jammerDbg>/home/uhduser/projects/SpectralDetector_Selex/build/Jammer.dbg</jammerDbg>
+	<notificationDbg>/home/uhduser/projects/SpectralDetector_Selex/build/Notifications.txt</notificationDbg>
+	<spectralDbg>/home/uhduser/projects/SpectralDetector_Selex/build/spectral.dbg</spectralDbg>
+    </logging>
+    <eoc>
+	<eocHost>devops-us-01</eocHost>
+	<eocPort>8099</eocPort>
+	<eocUser>devuser</eocuser>
+	<eocPass>Elsag-7</eocPass>
+    </eoc>
 </configuration>

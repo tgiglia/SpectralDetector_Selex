@@ -13748,3 +13748,135 @@ Element: 9.6347
 Element: 10.5104
 
 
+1692713213.1692713213245 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 10.0884
+Element: 9.82799
+Element: 8.68711
+Element: 12.5479
+Element: 13.2596
+Element: 8.98868
+Element: 10.1606
+Element: 9.46997
+Element: 10.2213
+Element: 6.21842
+Element: 7.25301
+
+
+1692713214.1692713214245 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 9.26641
+Element: 7.78121
+Element: 10.9356
+Element: 11.0063
+Element: 10.1369
+Element: 9.37447
+Element: 11.4525
+Element: 9.80152
+Element: 8.9975
+Element: 9.77681
+Element: 11.3934
+
+
+1692713215.1692713215254 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 11.3191
+Element: 7.94373
+Element: 8.82256
+Element: 9.30385
+Element: 11.3521
+Element: 7.78442
+Element: 9.97003
+Element: 11.3178
+Element: 10.8394
+Element: 8.26474
+Element: 8.12945
+
+
+1692713216.1692713216246 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 11.6178
+Element: 11.3949
+Element: 10.7545
+Element: 11.0419
+Element: 10.9377
+Element: 7.1833
+Element: 10.0075
+Element: 9.58897
+Element: 6.80446
+Element: 7.94845
+Element: 12.6826
+
+
+1692713217.1692713217247 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 6.7261
+Element: 8.77958
+Element: 5.95689
+Element: 10.0813
+Element: 11.412
+Element: 7.30437
+Element: 7.53357
+Element: 12.7963
+Element: 11.3375
+Element: 8.93144
+Element: 8.30522
+
+
+1692713218.1692713218247 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 5.33375
+Element: 12.2018
+Element: 11.5356
+Element: 9.40412
+Element: 8.25055
+Element: 7.04337
+Element: 10.2915
+Element: 6.96593
+Element: 8.85016
+Element: 6.92732
+Element: 10.5528
+
+
