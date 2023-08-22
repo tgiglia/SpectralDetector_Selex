@@ -264,3 +264,33 @@ void ReadAlarmXMLMaker::testHarness()
 
 
 }
+
+
+EOCPutTimes generatePutTimes(time_t tt)
+{
+    EOCPutTimes ept;
+
+    struct tm *timeInfo;
+    timeInfo = localtime(&tt);
+
+    char currBuf[80];
+    strftime(currBuf,sizeof(currBuf),"%Y-%m-%dT%H:%M:%S",timeInfo);
+    ept.createTime = currBuf;
+
+    timeInfo->tm_hour = 0;
+    timeInfo->tm_mday = 1;
+    timeInfo->tm_min = 0;
+    timeInfo->tm_mon = 1;
+    timeInfo->tm_sec = 0;
+    
+    char beginBuf[80];
+    strftime(beginBuf,sizeof(beginBuf),"%Y-%m-%dT%H:%M:%S",timeInfo);
+    ept.beginTime = beginBuf;
+
+    timeInfo->tm_zone += 1;
+    char endBuf[80];
+    strftime(endBuf,sizeof(endBuf),"%Y-%m-%dT%H:%M:%S",timeInfo);
+    ept.endTime = endBuf;
+    
+    return ept;
+}

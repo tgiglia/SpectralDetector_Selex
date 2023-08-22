@@ -26,6 +26,12 @@ void DetectionConsumer::run(ConfigData cd)
                     ss<<ttTmp<<std::endl;
 
                     logDbgWithTime(cd.li.notificationDbg,ss.str());
+                    EOCPutTimes ept = generatePutTimes(ttTmp);
+                    cd.ai.alrmTimestamp = ept.createTime;
+                    cd.ai.alrmBeginDate = ept.beginTime;
+                    cd.ai.alrmCreateDate = ept.beginTime;
+                    cd.ai.alrmEndDate = ept.endTime;
+
                     ReadAlarmXMLMaker *raxm = new ReadAlarmXMLMaker();
                     cd.ai.id = raxm->generateGUID();
                     cd.ai.alrmId = raxm->generateGUID();

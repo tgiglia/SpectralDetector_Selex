@@ -13616,3 +13616,135 @@ Element: 11.9588
 Element: 10.2802
 
 
+1692712637.1692712637669 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 10.5768
+Element: 8.24152
+Element: 9.2241
+Element: 10.6444
+Element: 11.593
+Element: 9.73478
+Element: 10.7991
+Element: 12.4886
+Element: 11.3778
+Element: 6.94121
+Element: 8.7596
+
+
+1692712638.1692712638669 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 10.879
+Element: 7.49298
+Element: 7.01856
+Element: 12.2243
+Element: 11.9355
+Element: 11.9092
+Element: 8.46479
+Element: 9.25291
+Element: 10.3271
+Element: 9.04407
+Element: 8.5079
+
+
+1692712639.1692712639681 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 7.29458
+Element: 6.84263
+Element: 8.03802
+Element: 9.97898
+Element: 11.6116
+Element: 6.79098
+Element: 5.77988
+Element: 10.2831
+Element: 11.9228
+Element: 12.2831
+Element: 9.0548
+
+
+1692712640.1692712640678 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 10.6785
+Element: 10.68
+Element: 10.8715
+Element: 11.8859
+Element: 12.5512
+Element: 8.52991
+Element: 9.30455
+Element: 5.67289
+Element: 7.19426
+Element: 9.42086
+Element: 10.6663
+
+
+1692712641.1692712641678 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 10.2193
+Element: 8.91041
+Element: 8.67013
+Element: 10.2347
+Element: 11.5415
+Element: 9.94028
+Element: 4.77062
+Element: 8.87153
+Element: 4.83667
+Element: 8.89017
+Element: 9.26634
+
+
+1692712642.1692712642681 :Processing Frame...
+
+iTotalNumBins: 119
+iRangeOfBins: 10
+iCenterBin: 59
+iLowerBound: 54
+iUpperBound: 64
+fThreshold: 11
+bState: 1
+Element: 8.51123
+Element: 11.2368
+Element: 11.3893
+Element: 10.0862
+Element: 10.9286
+Element: 9.81997
+Element: 8.67572
+Element: 11.1061
+Element: 7.71818
+Element: 9.6347
+Element: 10.5104
+
+

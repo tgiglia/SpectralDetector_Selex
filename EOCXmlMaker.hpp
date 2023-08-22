@@ -101,6 +101,16 @@ class ReadAlarmXMLMaker
 
 };
 
+struct EOCPutTimes
+{
+    std::string createTime;
+    std::string beginTime;
+    std::string endTime;
+
+};
+
+
+EOCPutTimes generatePutTimes(time_t tt);
 void xmlTest(std::string sInputFile,std::string sOutputFile);
 void storeXMLInMemory(pt::ptree tree);
 
