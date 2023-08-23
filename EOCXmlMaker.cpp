@@ -154,7 +154,7 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUS(alarmInfo ai)
     tree.put("alarm.<xmlattr>.status",ai.alrmStatus);
     tree.put("alarm.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
     tree.put("alarm.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
-    tree.put("alarm.<xmlattr>.xmlns","elsag:lpcore");
+    tree.put("alarm.<xmlattr>.xmlns","elsag:lprcore");
 
     
 
