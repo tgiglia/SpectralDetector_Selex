@@ -114,7 +114,7 @@ struct EOCPutTimes
 EOCPutTimes generatePutTimes(time_t tt);
 void xmlTest(std::string sInputFile,std::string sOutputFile);
 void storeXMLInMemory(pt::ptree tree);
-
+std::string readFileToString(const std::string& filePath);
 
 
 #endif

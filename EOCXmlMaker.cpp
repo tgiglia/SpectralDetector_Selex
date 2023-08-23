@@ -298,3 +298,15 @@ EOCPutTimes generatePutTimes(time_t tt)
 
     return ept;
 }
+
+std::string readFileToString(const std::string& filePath) {
+    std::ifstream file(filePath);
+    if (!file.is_open()) {
+        throw std::runtime_error("Unable to open file");
+    }
+
+    // Read the entire file into an std::string
+    std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
+    
+    return content;
+}
