@@ -86,6 +86,17 @@ void xmlTest(std::string sInputFile,std::string sOutputFile)
 //id="76745e3d-124b-405e-af43-e4fcd3cdff72" rev="1" camera="40_1122_1_Beds5711221" 
 //camera_site_id="58e333ee-69e6-4846-8346-903fdf0c5fb5" site="9b9e2e5d-9a3c-4a80-9ee3-d902f03a68ed"
 // domain="66" xmlns="elsag:lprcore">
+string ReadAlarmXMLMaker::trimXmlHeader(std::string& s,std::string& match) 
+{
+    size_t foundPos = s.find(match);
+    if(foundPos == string::npos) 
+    {
+        return s;
+    }
+    return s.substr(foundPos);
+}
+
+
 
 string ReadAlarmXMLMaker::deriveXmlUS(CGInfo cgi,string plate,string timeStamp,string eocGuid) 
 {

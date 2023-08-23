@@ -37,11 +37,14 @@ void DetectionConsumer::run(ConfigData cd)
                     cd.ai.id = raxm->generateGUID();
                     cd.ai.alrmId = raxm->generateGUID();
                     std::string alarmXML = raxm->deriveAlarmAndReadXMLUS(cd.ai);
-                    //std::string alarmXML = readFileToString("/home/tgiglia/Desktop/ChrisEx.xml");
-                    logDbgWithTime(cd.li.notificationDbg,alarmXML);
+                    std::string tag = "<alarm";
+                    std::string trimmedXML = raxm->trimXmlHeader(alarmXML,tag);
+
+                    
+                    logDbgWithTime(cd.li.notificationDbg,trimmedXML);
 
                     RESTUtils *ru = new RESTUtils();
-                    bool bSendRt = ru->putAlarmWithRead(cd,alarmXML);
+                    bool bSendRt = ru->putAlarmWithRead(cd,trimmedXML);
                     if(!bSendRt) {
                         logDbgWithTime(cd.li.notificationDbg,"putAlarmWithRead FAILED!");
                     }
