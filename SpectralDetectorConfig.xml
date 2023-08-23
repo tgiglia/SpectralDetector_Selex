@@ -2,7 +2,7 @@
 <configuration>
     <alarminfo>
         <readerId>f480bf11-fe84-42d7-a0cc-cd02e53e14c5</readerId>
-        <readPlate>0</readPlate>
+        <readPlate>WAN924</readPlate>
         <domainIdStr>24</domainIdStr>
         <cameraName>48_155_304_Camera-0304</cameraName>
         <camera_site_id>C0A97E86-17EA-43CB-8559-6D3B1B3CACD6</camera_site_id>
@@ -14,7 +14,7 @@
         <alrmDomainId>24</alrmDomainId>
         <alrmAlarmClassId2>2</alrmAlarmClassId2>
         <alrmNotes>McLean Ave</alrmNotes>
-        <alrmResultText>Jammer Detected</alrmResultText>
+        <alrmResultText>[Wrong State]</alrmResultText>
         <lat>41.55791</lat>
         <lon>-72.72122</lon>
         <errorradius>15.9357481</errorradius>

@@ -32,11 +32,12 @@ void DetectionConsumer::run(ConfigData cd)
                     cd.ai.alrmCreateDate = ept.beginTime;
                     cd.ai.alrmEndDate = ept.endTime;
                     cd.ai.readTimeStamp = ept.createTime;
-                    
+
                     ReadAlarmXMLMaker *raxm = new ReadAlarmXMLMaker();
                     cd.ai.id = raxm->generateGUID();
                     cd.ai.alrmId = raxm->generateGUID();
                     std::string alarmXML = raxm->deriveAlarmAndReadXMLUS(cd.ai);
+                    //std::string alarmXML = readFileToString("/home/tgiglia/Desktop/ChrisEx.xml");
                     logDbgWithTime(cd.li.notificationDbg,alarmXML);
 
                     RESTUtils *ru = new RESTUtils();

@@ -3579,3 +3579,331 @@ Creating the usrp device with: ...
 2023-08-22 14:41:12.1692729672758: Checking RX: LO: locked ...
 
 
+2023-08-23 09:39:35.1692797975448: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: raspberrypi-02
+eocPort: 8099
+eocUser: devuser
+eocPass: devpass
+
+
+
+2023-08-23 09:39:35.1692797975449: 
+Creating the usrp device with: ...
+
+
+2023-08-23 09:39:37.1692797977509: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-23 09:39:37.1692797977509: Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-23 09:39:37.1692797977894: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-23 09:39:37.1692797977894: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-23 09:39:38.1692797978048: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-23 09:39:38.1692797978048: Setting RX Gain: 38.000000 dB...
+
+
+2023-08-23 09:39:38.1692797978049: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-23 09:39:38.1692797978049: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-08-23 09:39:38.1692797978052: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-08-23 09:39:39.1692797979052: Checking RX: LO: locked ...
+
+
+2023-08-23 11:29:44.1692804584012: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: raspberrypi-02
+eocPort: 8099
+eocUser: devuser
+eocPass: devpass
+
+
+
+2023-08-23 11:29:44.1692804584013: 
+Creating the usrp device with: ...
+
+
+2023-08-23 11:29:46.1692804586266: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-23 11:29:46.1692804586266: Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-23 11:29:46.1692804586661: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-23 11:29:46.1692804586661: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-23 11:29:46.1692804586801: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-23 11:29:46.1692804586802: Setting RX Gain: 38.000000 dB...
+
+
+2023-08-23 11:29:46.1692804586802: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-23 11:29:46.1692804586802: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-08-23 11:29:46.1692804586804: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-08-23 11:29:47.1692804587804: Checking RX: LO: locked ...
+
+
+2023-08-23 11:38:42.1692805122366: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: 0
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: raspberrypi-02
+eocPort: 8099
+eocUser: devuser
+eocPass: devpass
+
+
+
+2023-08-23 11:38:42.1692805122366: 
+Creating the usrp device with: ...
+
+
+2023-08-23 11:38:44.1692805124413: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-23 11:38:44.1692805124413: Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-23 11:38:44.1692805124770: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-23 11:38:44.1692805124770: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-23 11:38:44.1692805124924: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-23 11:38:44.1692805124924: Setting RX Gain: 38.000000 dB...
+
+
+2023-08-23 11:38:44.1692805124925: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-23 11:38:44.1692805124926: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-08-23 11:38:44.1692805124928: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-08-23 11:38:45.1692805125929: Checking RX: LO: locked ...
+
+
+2023-08-23 11:44:09.1692805449620: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: raspberrypi-02
+eocPort: 8099
+eocUser: devuser
+eocPass: devpass
+
+
+
+2023-08-23 11:44:09.1692805449620: 
+Creating the usrp device with: ...
+
+
+2023-08-23 11:44:11.1692805451683: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-08-23 11:44:11.1692805451684: Setting RX Rate: 2.000000 Msps...
+
+
+2023-08-23 11:44:12.1692805452040: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-08-23 11:44:12.1692805452040: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-08-23 11:44:12.1692805452178: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-08-23 11:44:12.1692805452179: Setting RX Gain: 38.000000 dB...
+
+
+2023-08-23 11:44:12.1692805452179: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-08-23 11:44:12.1692805452180: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-08-23 11:44:12.1692805452181: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-08-23 11:44:13.1692805453182: Checking RX: LO: locked ...
+
+

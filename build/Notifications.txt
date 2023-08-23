@@ -11533,3 +11533,108 @@ No Jammer Detected In Range!
 1692729674.1692729674776 :Jammer Detected In Range!
 
 
+1692797979.1692797979063 :Jammer Detected In Range!
+
+
+2023-08-23 09:39:40.1692797980054: DetectionConsumer::run: We can send Alarm message for: 1692797979
+
+
+2023-08-23 09:39:40.1692797980055: <alarm xmlns="elsag:lprcore" rev="1" id="dd467fa5-b881-46af-9d68-352dfe68e419" status="4">
+  <alarmtimestamp>2023-08-23T10:54:00.0000658-04:00</alarmtimestamp>
+  <domain>24</domain>
+  <read id="446e41bb-eb52-4532-ba13-33617b60344b" camera="48_155_304_Camera-0304" 
+    camera_site_id="C0A97E86-17EA-43CB-8559-6D3B1B3CACD6" 
+    site="f480bf11-fe84-42d7-a0cc-cd02e53e14c5" domain="24">
+    <timestamp>2023-08-23T10:54:00.00000008-04:00</timestamp>
+    <speed>100</speed>
+    <imagedata>REMOVED</imagedata>
+    <plate>WAN924</plate>
+    <overviews>
+      <snapshot id="446e41bb-eb52-4532-ba13-33617b60344c">
+        <imagedata>REMOVED</imagedata>
+      </snapshot>
+    </overviews>
+  </read>
+  <hotlistentry id="b32a88e7-1dfd-427f-9cb9-569df29f600f" ListId="55a5e859-9b15-48e8-a080-00c9bfa53aeb" 
+    ListTypeId="4">
+    <Plate>PN200</Plate>
+    <LocaleCode>NJ</LocaleCode>
+    <AlarmClassId2>15</AlarmClassId2>
+    <CreateDate>2023-06-13T12:57:01.9992219-04:00</CreateDate>
+    <BeginDate>2022-01-01T00:00:00.0000000-05:00</BeginDate>
+    <EndDate>2050-12-30T00:00:00.0000000-05:00</EndDate>
+  </hotlistentry>
+</alarm>
+
+
+2023-08-23 09:39:40.1692797980058: putAlarmWithRead SUCCEEDED!
+
+1692797980.1692797980063 :No Jammer Detected In Range!
+
+
+1692797981.1692797981062 :Jammer Detected In Range!
+
+
+1692797982.1692797982075 :No Jammer Detected In Range!
+
+
+1692797983.1692797983073 :Jammer Detected In Range!
+
+
+1692804587.1692804587814 :Jammer Detected In Range!
+
+
+2023-08-23 11:29:48.1692804588806: DetectionConsumer::run: We can send Alarm message for: 1692804587
+
+
+2023-08-23 11:29:48.1692804588807: <?xml version="1.0" encoding="utf-8"?>
+<alarm id="a06f276c-95d7-43b9-a49a-b97de4cbdea5" rev="1" status="4" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="elsag:lpcore"><alarmtimestamp>2023-08-23T11:29:47</alarmtimestamp><ResultText>Jammer Detected</ResultText><domain>24</domain><read id="84792501-7758-404b-9503-ae622b50ead9" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rev="1" status="1" xmlns="elsag:lprcore" camera="48_155_304_Camera-0304" camera_site_id="C0A97E86-17EA-43CB-8559-6D3B1B3CACD6" site="f480bf11-fe84-42d7-a0cc-cd02e53e14c5" domain="24"><timestamp>2023-08-23T11:29:47</timestamp><class>Invariant</class><plate>0</plate><confidence>0</confidence><gps rev="0"><timestamp>2023-08-23T11:29:47</timestamp><position lat="41.55791" long="-72.721220000000002" errorradius="15.9357481"/><velocity east="0.025165276600000001" north="-0.037398889999999997"/></gps><facing>Front</facing><platelocation height="578" width="578" y="578" x="578"/></read><hotlistentry id="b32a88e7-1dfd-427f-9cb9-569df29f600f" rev="1" ListId="55a5e859-9b15-48e8-a080-00c9bfa53aeb" ListTypeId="4"><DomainId>24</DomainId><Plate>0</Plate><AlarmClassId2>2</AlarmClassId2><CreateDate>2023-02-01T00:00:00</CreateDate><BeginDate>2023-02-01T00:00:00</BeginDate><EndDate>2023-02-01T00:00:00</EndDate><Notes>McLean Ave</Notes></hotlistentry></alarm>
+
+2023-08-23 11:29:48.1692804588809: putAlarmWithRead SUCCEEDED!
+
+1692804588.1692804588815 :Jammer Detected In Range!
+
+
+1692804589.1692804589825 :Jammer Detected In Range!
+
+
+1692805125.1692805125942 :Jammer Detected In Range!
+
+
+2023-08-23 11:38:46.1692805126932: DetectionConsumer::run: We can send Alarm message for: 1692805125
+
+
+2023-08-23 11:38:46.1692805126933: <?xml version="1.0" encoding="utf-8"?>
+<alarm id="fcce8c21-d810-4d00-8490-a426b330d29f" rev="1" status="4" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="elsag:lpcore"><alarmtimestamp>2023-08-23T11:38:45</alarmtimestamp><ResultText>Jammer Detected</ResultText><domain>24</domain><read id="4e66bd6a-3975-4c5b-a1eb-0340ed21df81" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rev="1" status="1" xmlns="elsag:lprcore" camera="48_155_304_Camera-0304" camera_site_id="C0A97E86-17EA-43CB-8559-6D3B1B3CACD6" site="f480bf11-fe84-42d7-a0cc-cd02e53e14c5" domain="24"><timestamp>2023-08-23T11:38:45</timestamp><class>Invariant</class><plate>0</plate><confidence>0</confidence><gps rev="0"><timestamp>2023-08-23T11:38:45</timestamp><position lat="41.55791" long="-72.721220000000002" errorradius="15.9357481"/><velocity east="0.025165276600000001" north="-0.037398889999999997"/></gps><facing>Front</facing><platelocation height="578" width="578" y="578" x="578"/></read><hotlistentry id="b32a88e7-1dfd-427f-9cb9-569df29f600f" rev="1" ListId="55a5e859-9b15-48e8-a080-00c9bfa53aeb" ListTypeId="4"><DomainId>24</DomainId><Plate>0</Plate><AlarmClassId2>2</AlarmClassId2><CreateDate>2023-02-01T00:00:00</CreateDate><BeginDate>2023-02-01T00:00:00</BeginDate><EndDate>2023-02-01T00:00:00</EndDate><Notes>McLean Ave</Notes></hotlistentry></alarm>
+
+2023-08-23 11:38:46.1692805126934: putAlarmWithRead SUCCEEDED!
+
+1692805126.1692805126940 :Jammer Detected In Range!
+
+
+1692805127.1692805127952 :No Jammer Detected In Range!
+
+
+1692805128.1692805128942 :Jammer Detected In Range!
+
+
+1692805129.1692805129943 :Jammer Detected In Range!
+
+
+1692805453.1692805453192 :Jammer Detected In Range!
+
+
+2023-08-23 11:44:14.1692805454184: DetectionConsumer::run: We can send Alarm message for: 1692805453
+
+
+2023-08-23 11:44:14.1692805454185: <?xml version="1.0" encoding="utf-8"?>
+<alarm id="c301a2b0-1d89-4016-b7d4-7ab197a0589d" rev="1" status="4" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="elsag:lpcore"><alarmtimestamp>2023-08-23T11:44:13</alarmtimestamp><ResultText>Jammer Detected</ResultText><domain>24</domain><read id="942798f1-b587-436a-a037-07a3926025a0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" rev="1" status="1" xmlns="elsag:lprcore" camera="48_155_304_Camera-0304" camera_site_id="C0A97E86-17EA-43CB-8559-6D3B1B3CACD6" site="f480bf11-fe84-42d7-a0cc-cd02e53e14c5" domain="24"><timestamp>2023-08-23T11:44:13</timestamp><class>Invariant</class><plate>WAN924</plate><confidence>0</confidence><gps rev="0"><timestamp>2023-08-23T11:44:13</timestamp><position lat="41.55791" long="-72.721220000000002" errorradius="15.9357481"/><velocity east="0.025165276600000001" north="-0.037398889999999997"/></gps><facing>Front</facing><platelocation height="578" width="578" y="578" x="578"/></read><hotlistentry id="b32a88e7-1dfd-427f-9cb9-569df29f600f" rev="1" ListId="55a5e859-9b15-48e8-a080-00c9bfa53aeb" ListTypeId="4"><DomainId>24</DomainId><Plate>WAN924</Plate><AlarmClassId2>2</AlarmClassId2><CreateDate>2023-02-01T00:00:00</CreateDate><BeginDate>2023-02-01T00:00:00</BeginDate><EndDate>2023-02-01T00:00:00</EndDate><Notes>McLean Ave</Notes></hotlistentry></alarm>
+
+2023-08-23 11:44:14.1692805454186: putAlarmWithRead SUCCEEDED!
+
+1692805454.1692805454193 :Jammer Detected In Range!
+
+
+1692805455.1692805455193 :No Jammer Detected In Range!
+
+
