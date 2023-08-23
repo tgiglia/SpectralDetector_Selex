@@ -7705,6 +7705,7 @@ CMakeFiles/SpectralDetector.dir/RESTUtils.cpp.o: ../RESTUtils.cpp \
   /usr/include/boost/beast/websocket/impl/stream.hpp \
   /usr/include/boost/beast/websocket/impl/write.hpp \
   /usr/include/boost/beast/zlib.hpp \
+  ../Logger.hpp \
   /usr/include/boost/archive/iterators/binary_from_base64.hpp \
   /usr/include/boost/serialization/throw_exception.hpp \
   /usr/include/boost/iterator/transform_iterator.hpp \

@@ -41,7 +41,7 @@ void DetectionConsumer::run(ConfigData cd)
                     std::string trimmedXML = raxm->trimXmlHeader(alarmXML,tag);
 
                     
-                    logDbgWithTime(cd.li.notificationDbg,trimmedXML);
+                    //logDbgWithTime(cd.li.notificationDbg,trimmedXML);
 
                     RESTUtils *ru = new RESTUtils();
                     bool bSendRt = ru->putAlarmWithRead(cd,trimmedXML);

@@ -1,4 +1,5 @@
 #include "RESTUtils.hpp"
+#include "Logger.hpp"
 #include <boost/archive/iterators/binary_from_base64.hpp>
 #include <boost/archive/iterators/base64_from_binary.hpp>
 #include <boost/archive/iterators/transform_width.hpp>
@@ -113,6 +114,7 @@ bool RESTUtils::testRESTPost(std::string sTarget,std::string sPort,std::string s
 
         if (status_code != 200) {
             std::cout << "Response returned with status code " << status_code << std::endl;
+            
             return false;
         }
 
@@ -187,7 +189,10 @@ bool RESTUtils::putAlarmWithRead(ConfigData cd,std::string sBody)
         std::getline(response_stream, status_message);
 
         if (status_code != 200) {
-            std::cout << "Response returned with status code " << status_code << std::endl;
+            //std::cout << "Response returned with status code " << status_code << std::endl;
+            std::stringstream sError;
+            sError<<"Response returned with status code " << status_code;
+            logDbgWithTime(cd.li.notificationDbg,sError.str());
             return false;
         }
 
@@ -196,18 +201,20 @@ bool RESTUtils::putAlarmWithRead(ConfigData cd,std::string sBody)
 
         // Output the response headers
         std::string header;
-        while (std::getline(response_stream, header) && header != "\r") {
+        /*while (std::getline(response_stream, header) && header != "\r") {
             std::cout << header << std::endl;
-        }
-        std::cout << std::endl;
+        }*/
+        //std::cout << std::endl;
 
         // Read and output the remaining response data
-        if (response.size() > 0) {
+        /*if (response.size() > 0) {
             std::cout << &response;
-        }
+        }*/
 
     } catch (std::exception& e) {
-        std::cout << "Exception: " << e.what() << std::endl;
+        std::stringstream sError;
+        sError << "Exception: " << e.what() << std::endl;
+        logDbgWithTime(cd.li.notificationDbg,sError.str());
         return false;
     }
 
