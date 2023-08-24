@@ -212,6 +212,7 @@ CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.o
  /usr/include/c++/10/limits
  /usr/include/c++/10/ctime
  /usr/include/c++/10/bits/parse_numbers.h
+ /home/tgiglia/projects/SpectralDetector/Logger.hpp
 
 CMakeFiles/SpectralDetector.dir/ConfigData.cpp.o
  /home/tgiglia/projects/SpectralDetector/ConfigData.cpp

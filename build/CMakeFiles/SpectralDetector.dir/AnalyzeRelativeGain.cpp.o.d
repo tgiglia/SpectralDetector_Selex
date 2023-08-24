@@ -172,4 +172,5 @@ CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.o: \
  /usr/include/c++/10/bits/fstream.tcc /usr/include/c++/10/iostream \
  /usr/include/c++/10/chrono /usr/include/c++/10/ratio \
  /usr/include/c++/10/limits /usr/include/c++/10/ctime \
- /usr/include/c++/10/bits/parse_numbers.h
+ /usr/include/c++/10/bits/parse_numbers.h \
+ /home/tgiglia/projects/SpectralDetector/Logger.hpp

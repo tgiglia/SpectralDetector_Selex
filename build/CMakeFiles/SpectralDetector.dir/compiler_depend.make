@@ -210,7 +210,8 @@ CMakeFiles/SpectralDetector.dir/AnalyzeRelativeGain.cpp.o: ../AnalyzeRelativeGai
   /usr/include/c++/10/ratio \
   /usr/include/c++/10/limits \
   /usr/include/c++/10/ctime \
-  /usr/include/c++/10/bits/parse_numbers.h
+  /usr/include/c++/10/bits/parse_numbers.h \
+  ../Logger.hpp
 
 CMakeFiles/SpectralDetector.dir/ConfigData.cpp.o: ../ConfigData.cpp \
   /usr/include/stdc-predef.h \
@@ -11634,6 +11635,10 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 
 /usr/include/boost/lexical_cast/detail/converter_lexical.hpp:
 
+/usr/include/boost/asio/detail/handler_alloc_helpers.hpp:
+
+/usr/include/boost/beast/websocket/stream.hpp:
+
 /usr/include/boost/multi_index/detail/is_transparent.hpp:
 
 /usr/include/boost/mpl/vector/aux_/size.hpp:
@@ -11777,6 +11782,20 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 /usr/include/boost/optional/detail/optional_aligned_storage.hpp:
 
 /usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sigcontext.h:
+
+/usr/include/libintl.h:
+
+/usr/include/arm-linux-gnueabihf/c++/10/bits/ctype_base.h:
+
+/usr/include/boost/asio/traits/submit_member.hpp:
+
+/usr/include/boost/mpl/eval_if.hpp:
+
+/usr/include/boost/serialization/tracking_enum.hpp:
+
+/usr/include/boost/beast/http/dynamic_body.hpp:
 
 /usr/include/boost/mpl/inserter.hpp:
 
@@ -11948,18 +11967,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 
 /usr/include/boost/multi_index/detail/serialization_version.hpp:
 
-/usr/include/arm-linux-gnueabihf/c++/10/bits/ctype_base.h:
-
-/usr/include/boost/asio/traits/submit_member.hpp:
-
-/usr/include/libintl.h:
-
-/usr/include/boost/mpl/eval_if.hpp:
-
-/usr/include/boost/serialization/tracking_enum.hpp:
-
-/usr/include/boost/beast/http/dynamic_body.hpp:
-
 /usr/include/wctype.h:
 
 /usr/include/boost/intrusive/detail/equal_to_value.hpp:
@@ -12060,8 +12067,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 
 /usr/include/boost/asio/basic_serial_port.hpp:
 
-/usr/include/boost/asio/detail/is_executor.hpp:
-
 /usr/include/boost/preprocessor/arithmetic/sub.hpp:
 
 /usr/include/stdio.h:
@@ -12081,6 +12086,8 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp:
 
 /usr/include/boost/random/detail/generator_bits.hpp:
+
+/usr/include/boost/asio/detail/is_executor.hpp:
 
 /usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
 
@@ -13138,8 +13145,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 
 /usr/include/arm-linux-gnueabihf/asm/unistd-eabi.h:
 
-/usr/include/arm-linux-gnueabihf/bits/sigcontext.h:
-
 /usr/include/boost/math/special_functions/sign.hpp:
 
 /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp:
@@ -13639,10 +13644,6 @@ CMakeFiles/SpectralDetector.dir/rx_ascii_art_dft.cpp.o: ../rx_ascii_art_dft.cpp 
 /usr/include/boost/property_tree/ptree.hpp:
 
 /usr/include/boost/asio/traits/execute_free.hpp:
-
-/usr/include/boost/asio/detail/handler_alloc_helpers.hpp:
-
-/usr/include/boost/beast/websocket/stream.hpp:
 
 /usr/include/linux/stat.h:
 

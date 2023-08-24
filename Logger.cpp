@@ -1,9 +1,13 @@
 #include "Logger.hpp"
 
+
 void logDbgWithTime(std::string sFileName,std::string message)
 {
 	std::stringstream ss;
-	
+	//make sure the file has not exceeded the maxsize
+    std::uintmax_t maxSize = 200000;
+    checkForTrucate(sFileName,maxSize);
+    
 	//Get the current system time
     std::chrono::system_clock::time_point now = std::chrono::system_clock::now();
     // Convert the system time to a duration since the epoch
@@ -23,6 +27,28 @@ void logDbgWithTime(std::string sFileName,std::string message)
     }
     else {
         std::cout<<"Failed to open file: "<<sFileName<<std::endl;
+    }
+
+}
+
+
+void checkForTrucate(std::string sFileName,std::uintmax_t maxSize)
+{
+    std::ifstream file(sFileName, std::ios::binary | std::ios::ate);
+
+    if (!file) 
+    {        
+        return;
+    }
+
+    std::streampos fileSize = file.tellg(); // Get the current position, which is the file size
+    file.close();
+    if(fileSize > maxSize) 
+    {
+        //we have to truncate
+        std::ofstream file(sFileName, std::ios::trunc);
+        // Close the file to truncate it
+        file.close();
     }
 
 }

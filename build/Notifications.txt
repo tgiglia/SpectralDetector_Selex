@@ -11731,3 +11731,339 @@ No Jammer Detected In Range!
 1692817025.1692817025461 :Jammer Detected In Range!
 
 
+1692886377.1692886377685 :No Jammer Detected In Range!
+
+
+1692886378.1692886378685 :No Jammer Detected In Range!
+
+
+1692886379.1692886379696 :No Jammer Detected In Range!
+
+
+1692886380.1692886380691 :Jammer Detected In Range!
+
+
+2023-08-24 10:13:01.1692886381677: DetectionConsumer::run: We can send Alarm message for: 1692886380
+
+
+2023-08-24 10:13:01.1692886381679: Exception: connect: Connection refused
+
+
+2023-08-24 10:13:01.1692886381679: putAlarmWithRead FAILED!
+
+1692886381.1692886381687 :Jammer Detected In Range!
+
+
+1692886382.1692886382688 :Jammer Detected In Range!
+
+
+1692886383.1692886383689 :Jammer Detected In Range!
+
+
+1692886384.1692886384689 :Jammer Detected In Range!
+
+
+1692886385.1692886385700 :Jammer Detected In Range!
+
+
+1692886386.1692886386691 :Jammer Detected In Range!
+
+
+1692886387.1692886387691 :Jammer Detected In Range!
+
+
+1692886388.1692886388691 :No Jammer Detected In Range!
+
+
+1692886389.1692886389693 :Jammer Detected In Range!
+
+
+1692886390.1692886390693 :Jammer Detected In Range!
+
+
+1692886391.1692886391700 :Jammer Detected In Range!
+
+
+1692886392.1692886392694 :Jammer Detected In Range!
+
+
+1692886393.1692886393694 :No Jammer Detected In Range!
+
+
+1692886394.1692886394695 :Jammer Detected In Range!
+
+
+1692886395.1692886395696 :Jammer Detected In Range!
+
+
+1692886396.1692886396697 :Jammer Detected In Range!
+
+
+1692886397.1692886397698 :Jammer Detected In Range!
+
+
+1692886398.1692886398698 :Jammer Detected In Range!
+
+
+1692886399.1692886399698 :No Jammer Detected In Range!
+
+
+1692886400.1692886400699 :No Jammer Detected In Range!
+
+
+1692886569.1692886569513 :No Jammer Detected In Range!
+
+
+1692886570.1692886570513 :No Jammer Detected In Range!
+
+
+1692886571.1692886571513 :No Jammer Detected In Range!
+
+
+1692886572.1692886572526 :Jammer Detected In Range!
+
+
+2023-08-24 10:16:13.1692886573505: DetectionConsumer::run: We can send Alarm message for: 1692886572
+
+
+2023-08-24 10:16:13.1692886573507: putAlarmWithRead SUCCEEDED!
+
+1692886573.1692886573515 :Jammer Detected In Range!
+
+
+1692886574.1692886574516 :Jammer Detected In Range!
+
+
+1692886575.1692886575516 :No Jammer Detected In Range!
+
+
+1692886576.1692886576516 :No Jammer Detected In Range!
+
+
+1692886577.1692886577518 :No Jammer Detected In Range!
+
+
+1692886578.1692886578519 :No Jammer Detected In Range!
+
+
+1692886579.1692886579518 :Jammer Detected In Range!
+
+
+1692886580.1692886580519 :Jammer Detected In Range!
+
+
+1692886581.1692886581520 :Jammer Detected In Range!
+
+
+1692886582.1692886582521 :No Jammer Detected In Range!
+
+
+1692886583.1692886583529 :Jammer Detected In Range!
+
+
+1692886584.1692886584531 :Jammer Detected In Range!
+
+
+1692886585.1692886585523 :Jammer Detected In Range!
+
+
+1692886586.1692886586523 :Jammer Detected In Range!
+
+
+1692886587.1692886587528 :Jammer Detected In Range!
+
+
+1692886588.1692886588524 :No Jammer Detected In Range!
+
+
+1692886589.1692886589525 :No Jammer Detected In Range!
+
+
+1692886590.1692886590534 :Jammer Detected In Range!
+
+
+1692886591.1692886591537 :Jammer Detected In Range!
+
+
+1692886592.1692886592540 :Jammer Detected In Range!
+
+
+1692886593.1692886593529 :Jammer Detected In Range!
+
+
+1692886594.1692886594528 :Jammer Detected In Range!
+
+
+1692886595.1692886595528 :No Jammer Detected In Range!
+
+
+1692886596.1692886596529 :No Jammer Detected In Range!
+
+
+1692886597.1692886597530 :Jammer Detected In Range!
+
+
+1692886598.1692886598531 :Jammer Detected In Range!
+
+
+1692886599.1692886599531 :No Jammer Detected In Range!
+
+
+1692886600.1692886600532 :Jammer Detected In Range!
+
+
+1692886601.1692886601532 :Jammer Detected In Range!
+
+
+1692902034.1692902034387 :Jammer Detected In Range!
+
+
+2023-08-24 14:33:55.1692902035375: DetectionConsumer::run: We can send Alarm message for: 1692902034
+
+
+1692902035.1692902035384 :Jammer Detected In Range!
+
+
+2023-08-24 14:33:55.1692902035385: putAlarmWithRead SUCCEEDED!
+
+1692902036.1692902036386 :No Jammer Detected In Range!
+
+
+1692902037.1692902037385 :Jammer Detected In Range!
+
+
+1692902038.1692902038386 :No Jammer Detected In Range!
+
+
+1692902039.1692902039386 :Jammer Detected In Range!
+
+
+1692902040.1692902040391 :No Jammer Detected In Range!
+
+
+1692902041.1692902041398 :Jammer Detected In Range!
+
+
+1692902042.1692902042390 :Jammer Detected In Range!
+
+
+1692902043.1692902043390 :Jammer Detected In Range!
+
+
+1692902044.1692902044390 :Jammer Detected In Range!
+
+
+1692902045.1692902045394 :Jammer Detected In Range!
+
+
+1692902046.1692902046391 :Jammer Detected In Range!
+
+
+1692902047.1692902047402 :Jammer Detected In Range!
+
+
+1692902048.1692902048402 :Jammer Detected In Range!
+
+
+1692902049.1692902049403 :Jammer Detected In Range!
+
+
+1692902050.1692902050395 :No Jammer Detected In Range!
+
+
+1692902051.1692902051394 :Jammer Detected In Range!
+
+
+1692902052.1692902052394 :Jammer Detected In Range!
+
+
+1692902053.1692902053395 :No Jammer Detected In Range!
+
+
+1692902054.1692902054396 :Jammer Detected In Range!
+
+
+1692902055.1692902055408 :Jammer Detected In Range!
+
+
+1692902056.1692902056405 :No Jammer Detected In Range!
+
+
+1692902057.1692902057406 :No Jammer Detected In Range!
+
+
+1692902058.1692902058398 :No Jammer Detected In Range!
+
+
+1692902059.1692902059399 :No Jammer Detected In Range!
+
+
+1692902060.1692902060399 :Jammer Detected In Range!
+
+
+1692902061.1692902061400 :No Jammer Detected In Range!
+
+
+1692902062.1692902062401 :No Jammer Detected In Range!
+
+
+1692902063.1692902063410 :Jammer Detected In Range!
+
+
+1692902064.1692902064409 :No Jammer Detected In Range!
+
+
+1692902065.1692902065409 :No Jammer Detected In Range!
+
+
+1692902066.1692902066404 :Jammer Detected In Range!
+
+
+1692902067.1692902067404 :Jammer Detected In Range!
+
+
+1692902068.1692902068404 :No Jammer Detected In Range!
+
+
+1692902069.1692902069405 :No Jammer Detected In Range!
+
+
+1692902070.1692902070406 :Jammer Detected In Range!
+
+
+1692902071.1692902071415 :Jammer Detected In Range!
+
+
+1692902072.1692902072415 :Jammer Detected In Range!
+
+
+1692902073.1692902073408 :Jammer Detected In Range!
+
+
+1692902074.1692902074408 :Jammer Detected In Range!
+
+
+1692902075.1692902075409 :Jammer Detected In Range!
+
+
+1692902076.1692902076409 :Jammer Detected In Range!
+
+
+1692902077.1692902077410 :Jammer Detected In Range!
+
+
+1692902078.1692902078416 :Jammer Detected In Range!
+
+
+1692902079.1692902079414 :Jammer Detected In Range!
+
+
+1692902080.1692902080412 :No Jammer Detected In Range!
+
+
+1692902081.1692902081414 :No Jammer Detected In Range!
+
+
+1692902082.1692902082413 :Jammer Detected In Range!
+
+

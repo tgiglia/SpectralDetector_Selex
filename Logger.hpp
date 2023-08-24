@@ -20,6 +20,7 @@
 
 
 void logDbgWithTime(std::string sFileName,std::string message);
+void checkForTrucate(std::string sFileName,std::uintmax_t maxSize);
 
 
 
