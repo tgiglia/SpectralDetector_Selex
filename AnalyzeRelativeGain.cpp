@@ -34,7 +34,7 @@ bool AnalyzeRelativeGain::IsFrameAJammer() {
 void AnalyzeRelativeGain::logIt(std::string sFileName,std::string message) {
 	std::uintmax_t maxSize = 200000;
     checkForTrucate(sFileName,maxSize);
-	
+
     std::ofstream outputFile(sFileName.c_str(),std::ios::app);
     if(outputFile.is_open()) {
         outputFile<<message<<std::endl;
@@ -42,14 +42,13 @@ void AnalyzeRelativeGain::logIt(std::string sFileName,std::string message) {
     else {
         std::cout<<"Failed to open file: "<<sFileName<<std::endl;
     }
-
+	outputFile.close();
 }
 
 void AnalyzeRelativeGain::logWithTime(std::string sFileName,std::string message) {
 	std::stringstream ss;
 	
-	std::uintmax_t maxSize = 200000;
-    checkForTrucate(sFileName,maxSize);
+	
 	//Get the current system time
     std::chrono::system_clock::time_point now = std::chrono::system_clock::now();
     // Convert the system time to a duration since the epoch
