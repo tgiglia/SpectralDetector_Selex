@@ -1,5 +1,5 @@
 #include "NotifyInfo.hpp"
-
+#include "Logger.hpp"
 
 bool FileNotify::sendNotify(NotifyInfo ni) 
 {
@@ -11,7 +11,8 @@ bool FileNotify::sendNotify(NotifyInfo ni)
 bool FileNotify::logIt(std::string sFileName,std::string message)
 {
 	std::stringstream ss;
-	
+	std::uintmax_t maxSize = 200000;
+    checkForTrucate(sFileName,maxSize);
 	//Get the current system time
     std::chrono::system_clock::time_point now = std::chrono::system_clock::now();
     // Convert the system time to a duration since the epoch

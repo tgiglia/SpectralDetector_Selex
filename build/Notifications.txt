@@ -60,3 +60,74 @@
 1692903712.1692903712603 :Jammer Detected In Range!
 
 
+1692982030.1692982030022 :Jammer Detected In Range!
+
+
+2023-08-25 12:47:11.1692982031014: DetectionConsumer::run: We can send Alarm message for: 1692982030
+
+
+2023-08-25 12:47:11.1692982031017: putAlarmWithRead SUCCEEDED!
+
+1692982031.1692982031024 :Jammer Detected In Range!
+
+
+1692982032.1692982032025 :Jammer Detected In Range!
+
+
+1692982033.1692982033024 :Jammer Detected In Range!
+
+
+1692982034.1692982034025 :Jammer Detected In Range!
+
+
+1692982035.1692982035026 :Jammer Detected In Range!
+
+
+1692982036.1692982036026 :Jammer Detected In Range!
+
+
+1692982037.1692982037034 :Jammer Detected In Range!
+
+
+1692982038.1692982038027 :Jammer Detected In Range!
+
+
+1692982039.1692982039028 :Jammer Detected In Range!
+
+
+1692982040.1692982040032 :Jammer Detected In Range!
+
+
+1692982041.1692982041029 :No Jammer Detected In Range!
+
+
+1692982042.1692982042030 :Jammer Detected In Range!
+
+
+1692982043.1692982043036 :Jammer Detected In Range!
+
+
+1692982044.1692982044041 :No Jammer Detected In Range!
+
+
+1692982045.1692982045046 :Jammer Detected In Range!
+
+
+1692982046.1692982046044 :No Jammer Detected In Range!
+
+
+1692982047.1692982047034 :Jammer Detected In Range!
+
+
+1692982048.1692982048033 :No Jammer Detected In Range!
+
+
+1692982049.1692982049034 :Jammer Detected In Range!
+
+
+1692982050.1692982050035 :No Jammer Detected In Range!
+
+
+1692982051.1692982051035 :Jammer Detected In Range!
+
+

@@ -1098,4 +1098,6 @@ CMakeFiles/SpectralDetector.dir/NotifyInfo.cpp.o: \
  /usr/include/c++/10/fstream /usr/include/c++/10/bits/codecvt.h \
  /usr/include/arm-linux-gnueabihf/c++/10/bits/basic_file.h \
  /usr/include/arm-linux-gnueabihf/c++/10/bits/c++io.h \
- /usr/include/c++/10/bits/fstream.tcc
+ /usr/include/c++/10/bits/fstream.tcc \
+ /home/tgiglia/projects/SpectralDetector/Logger.hpp \
+ /usr/include/c++/10/complex
