@@ -20,6 +20,7 @@
         <errorradius>15.9357481</errorradius>
         <velEast>0.0251652766</velEast>
         <velNorth>-0.03739889</velNorth>
+	<device_type>Jammer</device_type>
     </alarminfo>
     <consumer>
         <secsToWait>1</secsToWait>
@@ -33,7 +34,7 @@
     <eoc>
 	<eocHost>devops-us-01</eocHost>
 	<eocPort>8099</eocPort>
-	<eocUser>devuser</eocuser>
+	<eocUser>devuser</eocUser>
 	<eocPass>Elsag-7</eocPass>
     </eoc>
 </configuration>

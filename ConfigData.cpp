@@ -29,6 +29,7 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
         ai.errorradius = tree.get<double>("configuration.alarminfo.errorradius");
         ai.velEast = tree.get<double>("configuration.alarminfo.velEast");
         ai.velNorth = tree.get<double>("configuration.alarminfo.velNorth");
+        ai.device_type = tree.get<std::string>("configuration.alarminfo.device_type");
         ci.secsToWait = tree.get<int>("configuration.consumer.secsToWait");
         ci.lastAlarmSecsIgnore = tree.get<int>("configuration.consumer.lastAlarmSecsIgnore");
         li.jammerDbg = tree.get<std::string>("configuration.logging.jammerDbg");
@@ -43,7 +44,7 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
     }catch(std::exception ex) {
         cout<<"ConfigData::load: ERROR: "<<ex.what()<<endl;
         logDbgWithTime(dbgFile,ex.what());
-
+        exit(1);
     }
     return true;
 }
@@ -144,6 +145,13 @@ string ConfigData::showConfig()
     ss<<"velNorth: "<<ai.velNorth<<endl;
     ss<<"secsToWait: "<<ci.secsToWait<<endl;
     ss<<"lastAlarmSecsIgnore: "<<ci.lastAlarmSecsIgnore<<endl;
+    ss<<"device_type: ";
+    if(ai.device_type.size() > 0) {
+        ss<<ai.device_type<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
     ss<<"jammerDbg: ";
     if(li.jammerDbg.size() > 0) {
         ss<<li.jammerDbg<<endl;

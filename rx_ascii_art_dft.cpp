@@ -120,7 +120,7 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
     float ref_lvl, dyn_rng,jammerThreshold;
     bool show_controls;
     std::string jammerDbgFile;
-    std::string deviceClass;
+    
     std::string eocHost;
     std::string dbgFile = "spectral.dbg";
     std::string cfgFile = "/home/tgiglia/Documents/SpectralDetectorConfig.xml";
@@ -154,9 +154,8 @@ int UHD_SAFE_MAIN(int argc, char* argv[])
         ("jammer-thresh", po::value<float>(&jammerThreshold)->default_value(10.0),"threshold for jammer detection")
         ("jammer-bins", po::value<size_t>(&num_jammer_bins)->default_value(10), "number of bins for jammer bandwidth")
         ("xml-path",po::value<std::string>(&cfgFile)->default_value("./SpectralDetectorConfig.xml"),"file name of the config file")
-        ("device-class",po::value<std::string>(&deviceClass)->default_value("Jammer"),"device class name")
-        ("eoc-host",po::value<std::string>(&eocHost)->default_value("localhost"),"eoc host name")
-        ("eoc-port",po::value<int>(&eocPort)->default_value(2001),"eoc host port")
+        
+  
         ("daemon",po::value<int>(&iDaemonFlg)->default_value(1),"daemon flag set to 0 for daemon.")
         
     ;

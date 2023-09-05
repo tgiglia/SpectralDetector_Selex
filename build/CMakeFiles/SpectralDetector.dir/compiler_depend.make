@@ -5625,7 +5625,9 @@ CMakeFiles/SpectralDetector.dir/NotifyInfo.cpp.o: ../NotifyInfo.cpp \
   /usr/include/c++/10/bits/codecvt.h \
   /usr/include/arm-linux-gnueabihf/c++/10/bits/basic_file.h \
   /usr/include/arm-linux-gnueabihf/c++/10/bits/c++io.h \
-  /usr/include/c++/10/bits/fstream.tcc
+  /usr/include/c++/10/bits/fstream.tcc \
+  ../Logger.hpp \
+  /usr/include/c++/10/complex
 
 CMakeFiles/SpectralDetector.dir/RESTUtils.cpp.o: ../RESTUtils.cpp \
   /usr/include/stdc-predef.h \
