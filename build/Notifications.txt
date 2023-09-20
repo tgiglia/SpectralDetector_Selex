@@ -7870,3 +7870,422 @@
 1693925604.1693925604492 :No Jammer Detected In Range!
 
 
+1694455799.1694455799283 :No Jammer Detected In Range!
+
+
+1694455800.1694455800284 :No Jammer Detected In Range!
+
+
+1694455801.1694455801297 :No Jammer Detected In Range!
+
+
+1694455802.1694455802294 :No Jammer Detected In Range!
+
+
+1694455803.1694455803294 :No Jammer Detected In Range!
+
+
+1694455804.1694455804295 :No Jammer Detected In Range!
+
+
+1694455805.1694455805297 :No Jammer Detected In Range!
+
+
+1694455806.1694455806300 :No Jammer Detected In Range!
+
+
+1694455807.1694455807299 :No Jammer Detected In Range!
+
+
+1694527802.1694527802407 :No Jammer Detected In Range!
+
+
+1694527803.1694527803408 :No Jammer Detected In Range!
+
+
+1694527804.1694527804412 :No Jammer Detected In Range!
+
+
+1694527805.1694527805409 :No Jammer Detected In Range!
+
+
+1694527806.1694527806410 :No Jammer Detected In Range!
+
+
+1694527807.1694527807411 :No Jammer Detected In Range!
+
+
+1694527808.1694527808411 :No Jammer Detected In Range!
+
+
+1694527809.1694527809422 :No Jammer Detected In Range!
+
+
+1694527810.1694527810421 :No Jammer Detected In Range!
+
+
+1694527811.1694527811422 :No Jammer Detected In Range!
+
+
+1694527812.1694527812425 :No Jammer Detected In Range!
+
+
+1694527813.1694527813424 :No Jammer Detected In Range!
+
+
+1694527814.1694527814426 :No Jammer Detected In Range!
+
+
+1694527815.1694527815424 :No Jammer Detected In Range!
+
+
+1694527816.1694527816424 :No Jammer Detected In Range!
+
+
+1694527817.1694527817425 :No Jammer Detected In Range!
+
+
+1694527818.1694527818418 :No Jammer Detected In Range!
+
+
+1694527819.1694527819418 :No Jammer Detected In Range!
+
+
+1694527820.1694527820418 :No Jammer Detected In Range!
+
+
+1694527821.1694527821419 :No Jammer Detected In Range!
+
+
+1694527822.1694527822420 :No Jammer Detected In Range!
+
+
+1694527823.1694527823420 :No Jammer Detected In Range!
+
+
+1694527824.1694527824421 :No Jammer Detected In Range!
+
+
+1694527825.1694527825422 :No Jammer Detected In Range!
+
+
+1694527826.1694527826422 :No Jammer Detected In Range!
+
+
+1694527827.1694527827423 :No Jammer Detected In Range!
+
+
+1694527828.1694527828432 :No Jammer Detected In Range!
+
+
+1694527829.1694527829439 :No Jammer Detected In Range!
+
+
+1694527830.1694527830434 :No Jammer Detected In Range!
+
+
+1694527831.1694527831425 :No Jammer Detected In Range!
+
+
+1694527832.1694527832426 :No Jammer Detected In Range!
+
+
+1694527833.1694527833426 :No Jammer Detected In Range!
+
+
+1694530129.1694530129101 :No Jammer Detected In Range!
+
+
+1694530130.1694530130100 :No Jammer Detected In Range!
+
+
+1694530131.1694530131112 :No Jammer Detected In Range!
+
+
+1694530132.1694530132112 :No Jammer Detected In Range!
+
+
+1694530133.1694530133112 :No Jammer Detected In Range!
+
+
+1694530134.1694530134102 :No Jammer Detected In Range!
+
+
+1694530135.1694530135104 :No Jammer Detected In Range!
+
+
+1694530136.1694530136104 :No Jammer Detected In Range!
+
+
+1694530137.1694530137104 :No Jammer Detected In Range!
+
+
+1694530138.1694530138105 :No Jammer Detected In Range!
+
+
+1694530139.1694530139117 :No Jammer Detected In Range!
+
+
+1694530140.1694530140116 :No Jammer Detected In Range!
+
+
+1694530141.1694530141113 :No Jammer Detected In Range!
+
+
+1694530142.1694530142121 :No Jammer Detected In Range!
+
+
+1694530143.1694530143118 :No Jammer Detected In Range!
+
+
+1694530144.1694530144109 :No Jammer Detected In Range!
+
+
+1694530145.1694530145109 :No Jammer Detected In Range!
+
+
+1694530146.1694530146110 :No Jammer Detected In Range!
+
+
+1694530147.1694530147110 :No Jammer Detected In Range!
+
+
+1694530148.1694530148111 :No Jammer Detected In Range!
+
+
+1694530149.1694530149120 :No Jammer Detected In Range!
+
+
+1694530150.1694530150113 :No Jammer Detected In Range!
+
+
+1694530151.1694530151113 :No Jammer Detected In Range!
+
+
+1694530152.1694530152114 :No Jammer Detected In Range!
+
+
+1694530153.1694530153114 :No Jammer Detected In Range!
+
+
+1694530154.1694530154115 :No Jammer Detected In Range!
+
+
+1694530155.1694530155126 :No Jammer Detected In Range!
+
+
+1694530156.1694530156127 :No Jammer Detected In Range!
+
+
+1694530157.1694530157125 :No Jammer Detected In Range!
+
+
+1694530158.1694530158117 :No Jammer Detected In Range!
+
+
+1694530159.1694530159118 :No Jammer Detected In Range!
+
+
+1694530160.1694530160119 :No Jammer Detected In Range!
+
+
+1694530161.1694530161119 :No Jammer Detected In Range!
+
+
+1694530162.1694530162120 :No Jammer Detected In Range!
+
+
+1694530163.1694530163130 :No Jammer Detected In Range!
+
+
+1694530164.1694530164130 :No Jammer Detected In Range!
+
+
+1694530165.1694530165130 :No Jammer Detected In Range!
+
+
+1695132475.1695132475007 :No Jammer Detected In Range!
+
+
+1695132476.1695132476007 :No Jammer Detected In Range!
+
+
+1695132477.1695132477008 :No Jammer Detected In Range!
+
+
+1695132478.1695132478015 :No Jammer Detected In Range!
+
+
+1695132479.1695132479009 :No Jammer Detected In Range!
+
+
+1695132480.1695132480010 :No Jammer Detected In Range!
+
+
+1695132481.1695132481010 :No Jammer Detected In Range!
+
+
+1695132482.1695132482011 :No Jammer Detected In Range!
+
+
+1695132483.1695132483012 :No Jammer Detected In Range!
+
+
+1695132484.1695132484021 :No Jammer Detected In Range!
+
+
+1695132485.1695132485013 :No Jammer Detected In Range!
+
+
+1695132486.1695132486014 :No Jammer Detected In Range!
+
+
+1695132487.1695132487014 :No Jammer Detected In Range!
+
+
+1695132488.1695132488015 :No Jammer Detected In Range!
+
+
+1695132489.1695132489015 :No Jammer Detected In Range!
+
+
+1695132490.1695132490024 :No Jammer Detected In Range!
+
+
+1695132491.1695132491017 :No Jammer Detected In Range!
+
+
+1695132492.1695132492017 :No Jammer Detected In Range!
+
+
+1695132493.1695132493018 :No Jammer Detected In Range!
+
+
+1695132494.1695132494021 :Jammer Detected In Range!
+
+
+2023-09-19 10:08:15.1695132495001: DetectionConsumer::run: We can send Alarm message for: 1695132494
+
+
+2023-09-19 10:08:15.1695132495002: Exception: connect: Connection refused
+
+
+2023-09-19 10:08:15.1695132495002: putAlarmWithRead FAILED!
+
+1695132495.1695132495019 :Jammer Detected In Range!
+
+
+1695132496.1695132496030 :No Jammer Detected In Range!
+
+
+1695132497.1695132497020 :Jammer Detected In Range!
+
+
+1695132498.1695132498022 :Jammer Detected In Range!
+
+
+1695132499.1695132499025 :No Jammer Detected In Range!
+
+
+1695132500.1695132500022 :No Jammer Detected In Range!
+
+
+1695132501.1695132501023 :No Jammer Detected In Range!
+
+
+1695132502.1695132502034 :No Jammer Detected In Range!
+
+
+1695132503.1695132503032 :No Jammer Detected In Range!
+
+
+1695132504.1695132504036 :No Jammer Detected In Range!
+
+
+1695132505.1695132505034 :No Jammer Detected In Range!
+
+
+1695132506.1695132506035 :No Jammer Detected In Range!
+
+
+1695132507.1695132507033 :No Jammer Detected In Range!
+
+
+1695132508.1695132508027 :No Jammer Detected In Range!
+
+
+1695132509.1695132509028 :No Jammer Detected In Range!
+
+
+1695132510.1695132510028 :No Jammer Detected In Range!
+
+
+1695132511.1695132511029 :No Jammer Detected In Range!
+
+
+1695132512.1695132512030 :No Jammer Detected In Range!
+
+
+1695132513.1695132513041 :No Jammer Detected In Range!
+
+
+1695132514.1695132514040 :No Jammer Detected In Range!
+
+
+1695132515.1695132515044 :No Jammer Detected In Range!
+
+
+1695132516.1695132516042 :No Jammer Detected In Range!
+
+
+1695132517.1695132517041 :No Jammer Detected In Range!
+
+
+1695132518.1695132518043 :No Jammer Detected In Range!
+
+
+1695132519.1695132519034 :No Jammer Detected In Range!
+
+
+1695132520.1695132520035 :No Jammer Detected In Range!
+
+
+1695132521.1695132521036 :No Jammer Detected In Range!
+
+
+1695132522.1695132522036 :No Jammer Detected In Range!
+
+
+1695132523.1695132523037 :No Jammer Detected In Range!
+
+
+1695132524.1695132524037 :No Jammer Detected In Range!
+
+
+1695132525.1695132525041 :No Jammer Detected In Range!
+
+
+1695132526.1695132526038 :No Jammer Detected In Range!
+
+
+1695132527.1695132527039 :No Jammer Detected In Range!
+
+
+1695132528.1695132528040 :No Jammer Detected In Range!
+
+
+1695132529.1695132529051 :No Jammer Detected In Range!
+
+
+1695132530.1695132530055 :No Jammer Detected In Range!
+
+
+1695132531.1695132531051 :No Jammer Detected In Range!
+
+
+1695132532.1695132532051 :No Jammer Detected In Range!
+
+
+1695132533.1695132533050 :No Jammer Detected In Range!
+
+

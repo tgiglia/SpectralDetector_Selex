@@ -36,7 +36,8 @@ void DetectionConsumer::run(ConfigData cd)
                     ReadAlarmXMLMaker *raxm = new ReadAlarmXMLMaker();
                     cd.ai.id = raxm->generateGUID();
                     cd.ai.alrmId = raxm->generateGUID();
-                    std::string alarmXML = raxm->deriveAlarmAndReadXMLUS(cd.ai);
+                    //std::string alarmXML = raxm->deriveAlarmAndReadXMLUS(cd.ai);
+                    std::string alarmXML = raxm->deriveAlarmAndReadXMLUSHotListShort(cd.ai);
                     std::string tag = "<alarm";
                     std::string trimmedXML = raxm->trimXmlHeader(alarmXML,tag);
 

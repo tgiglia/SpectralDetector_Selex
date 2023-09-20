@@ -210,6 +210,82 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUS(alarmInfo ai)
     return ss.str();
 }
 
+string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUSHotListShort(alarmInfo ai) 
+{
+    stringstream ss;
+
+    // Create an empty property tree object.
+    pt::ptree tree;
+    tree.put("alarm", "");
+    tree.put("alarm.<xmlattr>.id",ai.alrmId);
+    tree.put("alarm.<xmlattr>.rev","1");
+    tree.put("alarm.<xmlattr>.status",ai.alrmStatus);
+    tree.put("alarm.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
+    tree.put("alarm.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
+    tree.put("alarm.<xmlattr>.xmlns","elsag:lprcore");
+
+    
+
+    tree.put("alarm.alarmtimestamp",ai.alrmTimestamp);
+    tree.put("alarm.ResultText",ai.alrmResultText);
+    tree.put("alarm.domain",ai.alrmDomainId);
+    tree.put("alarm.read","");
+    tree.put("alarm.read.<xmlattr>.id",ai.id);
+    tree.put("alarm.read.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
+    tree.put("alarm.read.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
+    tree.put("alarm.read.<xmlattr>.rev","1");
+    tree.put("alarm.read.<xmlattr>.status","1");
+    tree.put("alarm.read.<xmlattr>.xmlns","elsag:lprcore");
+    tree.put("alarm.read.<xmlattr>.camera",ai.cameraName);
+    tree.put("alarm.read.<xmlattr>.camera_site_id",ai.camera_site_id);
+    tree.put("alarm.read.<xmlattr>.site",ai.readerId);
+    tree.put("alarm.read.<xmlattr>.domain",ai.domainIdStr);
+
+    tree.put("alarm.read.timestamp",ai.readTimeStamp);
+    tree.put("alarm.read.class","Invariant");
+    tree.put("alarm.read.plate",ai.readPlate);
+    tree.put("alarm.read.confidence","0");
+
+    //GPS section
+    tree.put("alarm.read.gps.<xmlattr>.rev","0");
+    tree.put("alarm.read.gps.timestamp",ai.readTimeStamp);
+    tree.put("alarm.read.gps.position.<xmlattr>.lat",ai.lat);
+    tree.put("alarm.read.gps.position.<xmlattr>.long",ai.lon);
+    tree.put("alarm.read.gps.position.<xmlattr>.errorradius",ai.errorradius);
+    tree.put("alarm.read.gps.velocity.<xmlattr>.east",ai.velEast);
+    tree.put("alarm.read.gps.velocity.<xmlattr>.north",ai.velNorth);
+
+    tree.put("alarm.read.facing","Front");
+    tree.put("alarm.read.platelocation.<xmlattr>.height","578");
+    tree.put("alarm.read.platelocation.<xmlattr>.width","578");
+    tree.put("alarm.read.platelocation.<xmlattr>.y","578");
+    tree.put("alarm.read.platelocation.<xmlattr>.x","578");
+
+    tree.put("alarm.hotlistentry.<xmlattr>.id","5f703b83-5e13-4343-849d-a9dd8a74f9ac");
+    tree.put("alarm.hotlistentry.<xmlattr>.rev",ai.hotListRev);
+    tree.put("alarm.hotlistentry.<xmlattr>.Name","GPS Jammer Alerts");
+    tree.put("alarm.hotlistentry.<xmlattr>.ListId",ai.hotListListId);
+    tree.put("alarm.hotlistentry.<xmlattr>.ListTypeId2",ai.hotlistListTypeId);
+    tree.put("alarm.hotlistentry.<xmlattr>.ListTypeId",ai.hotlistListTypeId);
+
+    tree.put("alarm.hotlistentry.DomainId",ai.alrmDomainId);
+    tree.put("alarm.hotlistentry.LastUpdate","2023-09-20T11:20:51.7173632-04:00");
+    tree.put("alarm.hotlistentry.DynamicEntryGracePeriod","00:00:00");
+    tree.put("alarm.hotlistentry.DefaultAlarmClassId","9");
+
+
+    //tree.put("alarm.hotlistentry.Plate",ai.readPlate);
+    //tree.put("alarm.hotlistentry.AlarmClassId2",ai.alrmAlarmClassId2);
+    //tree.put("alarm.hotlistentry.CreateDate",ai.alrmCreateDate);
+    //tree.put("alarm.hotlistentry.BeginDate",ai.alrmBeginDate);
+    //tree.put("alarm.hotlistentry.EndDate",ai.alrmEndDate);
+    //tree.put("alarm.hotlistentry.Notes",ai.alrmNotes);
+
+    pt::write_xml(ss,tree);
+    return ss.str();
+
+}
+
 string ReadAlarmXMLMaker::generateGUID() 
 {
     boost::uuids::random_generator gen;

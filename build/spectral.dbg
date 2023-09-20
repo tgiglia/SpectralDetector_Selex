@@ -5045,3 +5045,233 @@ Creating the usrp device with: ...
 2023-09-05 10:53:16.1693925596468: Checking RX: LO: locked ...
 
 
+2023-09-11 14:09:55.1694455795635: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: Jammer Detected
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: raspberrypi-02
+eocPort: 8099
+eocUser: devuser
+eocPass: devpass
+
+
+
+2023-09-11 14:09:55.1694455795636: 
+Creating the usrp device with: ...
+
+
+2023-09-11 14:09:57.1694455797786: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-11 14:09:57.1694455797787: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-11 14:09:58.1694455798137: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-11 14:09:58.1694455798137: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-11 14:09:58.1694455798271: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-11 14:09:58.1694455798271: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-11 14:09:58.1694455798272: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-11 14:09:58.1694455798272: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-11 14:09:58.1694455798273: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-11 14:09:59.1694455799274: Checking RX: LO: locked ...
+
+
+2023-09-12 10:09:58.1694527798771: 
+Creating the usrp device with: ...
+
+
+2023-09-12 10:10:00.1694527800887: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-12 10:10:00.1694527800887: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-12 10:10:01.1694527801250: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-12 10:10:01.1694527801251: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-12 10:10:01.1694527801394: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-12 10:10:01.1694527801395: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-12 10:10:01.1694527801395: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-12 10:10:01.1694527801395: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-12 10:10:01.1694527801397: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-12 10:10:02.1694527802398: Checking RX: LO: locked ...
+
+
+2023-09-12 10:48:45.1694530125495: 
+Creating the usrp device with: ...
+
+
+2023-09-12 10:48:47.1694530127603: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-12 10:48:47.1694530127603: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-12 10:48:47.1694530127944: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-12 10:48:47.1694530127944: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-12 10:48:48.1694530128086: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-12 10:48:48.1694530128086: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-12 10:48:48.1694530128087: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-12 10:48:48.1694530128087: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-12 10:48:48.1694530128089: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-12 10:48:49.1694530129089: Checking RX: LO: locked ...
+
+
+2023-09-19 10:07:43.1695132463854: 
+Creating the usrp device with: ...
+
+
+2023-09-19 10:07:53.1695132473506: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-19 10:07:53.1695132473507: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-19 10:07:53.1695132473852: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-19 10:07:53.1695132473852: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-19 10:07:53.1695132473994: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-19 10:07:53.1695132473994: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-19 10:07:53.1695132473995: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-19 10:07:53.1695132473995: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-19 10:07:53.1695132473996: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-19 10:07:54.1695132474997: Checking RX: LO: locked ...
+
+
