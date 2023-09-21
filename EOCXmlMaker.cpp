@@ -269,7 +269,7 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUSHotListShort(alarmInfo ai)
     tree.put("alarm.hotlistentry.<xmlattr>.ListTypeId",ai.hotlistListTypeId);
 
     tree.put("alarm.hotlistentry.DomainId",ai.alrmDomainId);
-    tree.put("alarm.hotlistentry.LastUpdate","2023-09-20T11:20:51.7173632-04:00");
+    tree.put("alarm.hotlistentry.LastUpdate",ai.alrmCreateDate);
     tree.put("alarm.hotlistentry.DynamicEntryGracePeriod","00:00:00");
     tree.put("alarm.hotlistentry.DefaultAlarmClassId","9");
 
