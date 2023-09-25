@@ -341,8 +341,8 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUSHotListShortWImage(alarmInfo ai
     tree.put("alarm.read.platelocation.<xmlattr>.x","578");
 
     //oveviess/snapshot/image section
-    tree.put("alarm.read.overviews.snapshot.<amlattr>.id",ai.overviewId);
-    tree.put("alarm.read.overviews.snapshot.<amlattr>.camera",ai.cameraName);
+    tree.put("alarm.read.overviews.snapshot.<xmlattr>.id",ai.overviewId);
+    tree.put("alarm.read.overviews.snapshot.<xmlattr>.camera",ai.cameraName);
     tree.put("alarm.read.overviews.snapshot.timestamp",ai.readTimeStamp);
     tree.put("alarm.read.overviews.snapshot.imagedata",image64);
     
