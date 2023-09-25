@@ -286,6 +286,86 @@ string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUSHotListShort(alarmInfo ai)
 
 }
 
+
+string ReadAlarmXMLMaker::deriveAlarmAndReadXMLUSHotListShortWImage(alarmInfo ai, string image64) {
+        stringstream ss;
+
+    // Create an empty property tree object.
+    pt::ptree tree;
+    tree.put("alarm", "");
+    tree.put("alarm.<xmlattr>.id",ai.alrmId);
+    tree.put("alarm.<xmlattr>.rev","1");
+    tree.put("alarm.<xmlattr>.status",ai.alrmStatus);
+    tree.put("alarm.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
+    tree.put("alarm.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
+    tree.put("alarm.<xmlattr>.xmlns","elsag:lprcore");
+
+    
+
+    tree.put("alarm.alarmtimestamp",ai.alrmTimestamp);
+    tree.put("alarm.ResultText",ai.alrmResultText);
+    tree.put("alarm.domain",ai.alrmDomainId);
+    tree.put("alarm.read","");
+    tree.put("alarm.read.<xmlattr>.id",ai.id);
+    tree.put("alarm.read.<xmlattr>.xmlns:xsd","http://www.w3.org/2001/XMLSchema");
+    tree.put("alarm.read.<xmlattr>.xmlns:xsi","http://www.w3.org/2001/XMLSchema-instance");
+    tree.put("alarm.read.<xmlattr>.rev","1");
+    tree.put("alarm.read.<xmlattr>.status","1");
+    tree.put("alarm.read.<xmlattr>.xmlns","elsag:lprcore");
+    tree.put("alarm.read.<xmlattr>.camera",ai.cameraName);
+    tree.put("alarm.read.<xmlattr>.camera_site_id",ai.camera_site_id);
+    tree.put("alarm.read.<xmlattr>.site",ai.readerId);
+    tree.put("alarm.read.<xmlattr>.domain",ai.domainIdStr);
+
+    tree.put("alarm.read.timestamp",ai.readTimeStamp);
+    tree.put("alarm.read.class","Invariant");
+    tree.put("alarm.read.plate",ai.readPlate);
+    tree.put("alarm.read.confidence","0");
+    
+
+    tree.put("alarm.read.imagedata",image64);
+
+    //GPS section
+    tree.put("alarm.read.gps.<xmlattr>.rev","0");
+    tree.put("alarm.read.gps.timestamp",ai.readTimeStamp);
+    tree.put("alarm.read.gps.position.<xmlattr>.lat",ai.lat);
+    tree.put("alarm.read.gps.position.<xmlattr>.long",ai.lon);
+    tree.put("alarm.read.gps.position.<xmlattr>.errorradius",ai.errorradius);
+    tree.put("alarm.read.gps.velocity.<xmlattr>.east",ai.velEast);
+    tree.put("alarm.read.gps.velocity.<xmlattr>.north",ai.velNorth);
+
+    tree.put("alarm.read.facing","Front");
+    tree.put("alarm.read.platelocation.<xmlattr>.height","578");
+    tree.put("alarm.read.platelocation.<xmlattr>.width","578");
+    tree.put("alarm.read.platelocation.<xmlattr>.y","578");
+    tree.put("alarm.read.platelocation.<xmlattr>.x","578");
+
+    //oveviess/snapshot/image section
+    tree.put("alarm.read.overviews.snapshot.<amlattr>.id",ai.overviewId);
+    tree.put("alarm.read.overviews.snapshot.<amlattr>.camera",ai.cameraName);
+    tree.put("alarm.read.overviews.snapshot.timestamp",ai.readTimeStamp);
+    tree.put("alarm.read.overviews.snapshot.imagedata",image64);
+    
+
+    tree.put("alarm.hotlistentry.<xmlattr>.id","5f703b83-5e13-4343-849d-a9dd8a74f9ac");
+    tree.put("alarm.hotlistentry.<xmlattr>.rev",ai.hotListRev);
+    tree.put("alarm.hotlistentry.<xmlattr>.Name","GPS Jammer Alerts");
+    tree.put("alarm.hotlistentry.<xmlattr>.ListId",ai.hotListListId);
+    tree.put("alarm.hotlistentry.<xmlattr>.ListTypeId2",ai.hotlistListTypeId);
+    tree.put("alarm.hotlistentry.<xmlattr>.ListTypeId",ai.hotlistListTypeId);
+
+    tree.put("alarm.hotlistentry.DomainId",ai.alrmDomainId);
+    tree.put("alarm.hotlistentry.LastUpdate",ai.alrmCreateDate);
+    tree.put("alarm.hotlistentry.DynamicEntryGracePeriod","00:00:00");
+    tree.put("alarm.hotlistentry.DefaultAlarmClassId","9");
+
+
+    
+    pt::write_xml(ss,tree);
+    return ss.str();
+
+}
+
 string ReadAlarmXMLMaker::generateGUID() 
 {
     boost::uuids::random_generator gen;
@@ -396,4 +476,28 @@ std::string readFileToString(const std::string& filePath) {
     std::string content((std::istreambuf_iterator<char>(file)), std::istreambuf_iterator<char>());
     
     return content;
+}
+
+
+std::string base64_encode(const std::string &s)
+{
+    static const std::string base64_chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+    size_t i=0,ix=0,leng = s.length();
+    std::stringstream q;
+ 
+    for(i=0,ix=leng - leng%3; i<ix; i+=3)
+    {
+        q<< base64_chars[ (s[i] & 0xfc) >> 2 ];
+        q<< base64_chars[ ((s[i] & 0x03) << 4) + ((s[i+1] & 0xf0) >> 4)  ];
+        q<< base64_chars[ ((s[i+1] & 0x0f) << 2) + ((s[i+2] & 0xc0) >> 6)  ];
+        q<< base64_chars[ s[i+2] & 0x3f ];
+    }
+    if (ix<leng)
+    {
+        q<< base64_chars[ (s[ix] & 0xfc) >> 2 ];
+        q<< base64_chars[ ((s[ix] & 0x03) << 4) + (ix+1<leng ? (s[ix+1] & 0xf0) >> 4 : 0)];
+        q<< (ix+1<leng ? base64_chars[ ((s[ix+1] & 0x0f) << 2) ] : '=');
+        q<< '=';
+    }
+    return q.str();
 }

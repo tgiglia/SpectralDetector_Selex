@@ -20,6 +20,7 @@
         <errorradius>15.9357481</errorradius>
         <velEast>0.0251652766</velEast>
         <velNorth>-0.03739889</velNorth>
+        <jammerjpg>/home/tgiglia/projects/SpectralDetector/gpsjammer.jpg</jammerjpg>
 	<device_type>Jammer</device_type>
     </alarminfo>
     <consumer>

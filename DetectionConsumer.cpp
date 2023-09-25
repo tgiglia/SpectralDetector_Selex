@@ -11,6 +11,17 @@ void DetectionConsumer::run(ConfigData cd)
     SingletonStack& singletonStack = SingletonStack::getInstance();
     std::chrono::seconds sleepDuration(cd.ci.secsToWait);
     SingletonBoolean sb = SingletonBoolean::getInstance();
+    bool bGotImage = false;
+    std::string imageBase64;
+    //Read in the Image file
+    try {
+        std::string imageBytes = readFileToString(cd.ai.jammerjpg);
+        imageBase64 = base64_encode(imageBytes);
+        bGotImage = true;
+        logDbgWithTime(cd.li.spectralDbg,"Successfully read in image file!");
+    }catch(const std::runtime_error& e) {
+        logDbgWithTime(cd.li.spectralDbg,"ERROR: could not read in image file.");
+    }
     do {
         
         if(!singletonStack.theStack->empty()) {
@@ -36,8 +47,17 @@ void DetectionConsumer::run(ConfigData cd)
                     ReadAlarmXMLMaker *raxm = new ReadAlarmXMLMaker();
                     cd.ai.id = raxm->generateGUID();
                     cd.ai.alrmId = raxm->generateGUID();
+                    cd.ai.overviewId = raxm->generateGUID();
+
                     //std::string alarmXML = raxm->deriveAlarmAndReadXMLUS(cd.ai);
-                    std::string alarmXML = raxm->deriveAlarmAndReadXMLUSHotListShort(cd.ai);
+                    std::string alarmXML;
+                    if(bGotImage) {
+                        alarmXML = raxm->deriveAlarmAndReadXMLUSHotListShortWImage(cd.ai,imageBase64);    
+                    }
+                    else {
+                        alarmXML = raxm->deriveAlarmAndReadXMLUSHotListShort(cd.ai);    
+                    }
+                    
                     std::string tag = "<alarm";
                     std::string trimmedXML = raxm->trimXmlHeader(alarmXML,tag);
 

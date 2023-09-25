@@ -5275,3 +5275,554 @@ Creating the usrp device with: ...
 2023-09-19 10:07:54.1695132474997: Checking RX: LO: locked ...
 
 
+2023-09-21 14:38:08.1695321488010: std::exception
+
+2023-09-21 14:46:48.1695322008612: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/uhduser/projects/SpectralDetector_Selex/build/Jammer.dbg
+notificationDbg: /home/uhduser/projects/SpectralDetector_Selex/build/Notifications.txt
+spectralDbg: /home/uhduser/projects/SpectralDetector_Selex/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-21 14:50:29.1695322229525: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-21 14:50:29.1695322229526: 
+Creating the usrp device with: ...
+
+
+2023-09-21 14:50:31.1695322231492: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-21 14:50:31.1695322231492: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-21 14:50:31.1695322231857: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-21 14:50:31.1695322231857: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-21 14:50:31.1695322231999: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-21 14:50:31.1695322231999: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-21 14:50:32.1695322232000: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-21 14:50:32.1695322232000: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-21 14:50:32.1695322232002: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-21 14:50:33.1695322233003: Checking RX: LO: locked ...
+
+
+2023-09-22 10:36:14.1695393374101: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-22 10:36:14.1695393374102: 
+Creating the usrp device with: ...
+
+
+2023-09-22 10:36:16.1695393376097: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-22 10:36:16.1695393376097: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-22 10:36:16.1695393376454: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-22 10:36:16.1695393376455: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-22 10:36:16.1695393376591: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-22 10:36:16.1695393376591: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-22 10:36:16.1695393376592: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-22 10:36:16.1695393376592: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-22 10:36:16.1695393376595: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-22 10:36:17.1695393377596: Checking RX: LO: locked ...
+
+
+2023-09-22 10:36:17.1695393377602: Successfully read in image file!
+
+2023-09-25 11:57:13.1695657433650: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-25 11:57:13.1695657433651: 
+Creating the usrp device with: ...
+
+
+2023-09-25 11:57:23.1695657443539: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-25 11:57:23.1695657443539: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-25 11:57:23.1695657443902: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-25 11:57:23.1695657443902: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-25 11:57:24.1695657444041: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-25 11:57:24.1695657444041: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-25 11:57:24.1695657444042: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-25 11:57:24.1695657444042: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-25 11:57:24.1695657444044: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-25 11:57:25.1695657445044: Checking RX: LO: locked ...
+
+
+2023-09-25 11:57:25.1695657445051: Successfully read in image file!
+
+2023-09-25 12:02:43.1695657763165: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-25 12:02:43.1695657763166: 
+Creating the usrp device with: ...
+
+
+2023-09-25 12:02:45.1695657765413: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-25 12:02:45.1695657765414: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-25 12:02:45.1695657765785: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-25 12:02:45.1695657765785: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-25 12:02:45.1695657765928: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-25 12:02:45.1695657765928: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-25 12:02:45.1695657765929: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-25 12:02:45.1695657765929: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-25 12:02:45.1695657765930: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-25 12:02:46.1695657766931: Checking RX: LO: locked ...
+
+
+2023-09-25 12:02:46.1695657766936: Successfully read in image file!
+
+2023-09-25 12:39:35.1695659975903: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-25 12:39:35.1695659975903: 
+Creating the usrp device with: ...
+
+
+2023-09-25 12:39:38.1695659978109: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-25 12:39:38.1695659978109: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-25 12:39:38.1695659978504: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-25 12:39:38.1695659978504: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-25 12:39:38.1695659978645: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-25 12:39:38.1695659978646: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-25 12:39:38.1695659978647: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-25 12:39:38.1695659978647: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-25 12:39:38.1695659978649: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-25 12:39:39.1695659979649: Checking RX: LO: locked ...
+
+
+2023-09-25 12:39:39.1695659979654: Successfully read in image file!
+
+2023-09-25 13:21:20.1695662480667: 
+Config
+readerId: f480bf11-fe84-42d7-a0cc-cd02e53e14c5
+readPlate: WAN924
+domainIdStr: 24
+cameraName: 48_155_304_Camera-0304
+camera_site_id C0A97E86-17EA-43CB-8559-6D3B1B3CACD6
+hotListId: b32a88e7-1dfd-427f-9cb9-569df29f600f
+hotListListId: 55a5e859-9b15-48e8-a080-00c9bfa53aeb
+hotListRev: 1
+hotlistListTypeId: 4
+alrmStatus: 4
+alrmDomainId: 24
+alrmAlarmClassId2: 2
+alrmNotes: McLean Ave
+alrmResultText: [Wrong State]
+lat: 41.5579
+lon: -72.7212
+errorradius: 15.9357
+velEast: 0.0251653
+velNorth: -0.0373989
+secsToWait: 1
+lastAlarmSecsIgnore: 60
+device_type: Jammer
+jammerjpg: /home/tgiglia/projects/SpectralDetector/gpsjammer.jpg
+jammerDbg: /home/tgiglia/projects/SpectralDetector/build/Jammer.dbg
+notificationDbg: /home/tgiglia/projects/SpectralDetector/build/Notifications.txt
+spectralDbg: /home/tgiglia/projects/SpectralDetector/build/spectral.dbg
+eocHost: devops-us-01
+eocPort: 8099
+eocUser: devuser
+eocPass: Elsag-7
+
+
+
+2023-09-25 13:21:20.1695662480668: 
+Creating the usrp device with: ...
+
+
+2023-09-25 13:21:22.1695662482802: Using Device: Single USRP:
+  Device: B-Series Device
+  Mboard 0: B200mini
+  RX Channel: 0
+    RX DSP: 0
+    RX Dboard: A
+    RX Subdev: FE-RX1
+  TX Channel: 0
+    TX DSP: 0
+    TX Dboard: A
+    TX Subdev: FE-TX1
+
+
+
+2023-09-25 13:21:22.1695662482803: Setting RX Rate: 2.000000 Msps...
+
+
+2023-09-25 13:21:23.1695662483173: Actual RX Rate: 2.000000 Msps...
+
+
+
+2023-09-25 13:21:23.1695662483173: Setting RX Freq: 1575.420000 MHz...
+
+
+2023-09-25 13:21:23.1695662483316: Actual RX Freq: 1575.420000 MHz...
+
+
+
+2023-09-25 13:21:23.1695662483316: Setting RX Gain: 38.000000 dB...
+
+
+2023-09-25 13:21:23.1695662483317: Actual RX Gain: 38.000000 dB...
+
+
+
+2023-09-25 13:21:23.1695662483317: Setting RX Bandwidth: 2.000000 MHz...
+
+
+2023-09-25 13:21:23.1695662483319: Actual RX Bandwidth: 2.000000 MHz...
+
+
+
+2023-09-25 13:21:24.1695662484320: Checking RX: LO: locked ...
+
+
+2023-09-25 13:21:24.1695662484324: Successfully read in image file!
+

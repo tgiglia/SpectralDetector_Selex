@@ -62,6 +62,8 @@ struct alarmInfo
     std::string cameraName;
     std::string camera_site_id;
     std::string device_type;
+    std::string jammerjpg;
+    std::string overviewId;
     double lat;
     double lon;
     double errorradius;
@@ -97,7 +99,8 @@ class ReadAlarmXMLMaker
     public:
         string deriveXmlUS(CGInfo cgi,string plate,string timeStamp,string eocGuid);
         string deriveAlarmAndReadXMLUS(alarmInfo ai);
-        string deriveAlarmAndReadXMLUSHotListShort(alarmInfo ai);
+        string deriveAlarmAndReadXMLUSHotListShort(alarmInfo ai);        
+        string deriveAlarmAndReadXMLUSHotListShortWImage(alarmInfo ai, string image64);
         string trimXmlHeader(std::string& s,std::string& match);
         string generateGUID();
         void testHarness();
@@ -118,6 +121,6 @@ EOCPutTimes generatePutTimes(time_t tt);
 void xmlTest(std::string sInputFile,std::string sOutputFile);
 void storeXMLInMemory(pt::ptree tree);
 std::string readFileToString(const std::string& filePath);
-
+std::string base64_encode(const std::string &s);
 
 #endif

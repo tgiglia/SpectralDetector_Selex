@@ -30,6 +30,7 @@ bool ConfigData::loadConfig(string sXmlPath,string dbgFile)
         ai.velEast = tree.get<double>("configuration.alarminfo.velEast");
         ai.velNorth = tree.get<double>("configuration.alarminfo.velNorth");
         ai.device_type = tree.get<std::string>("configuration.alarminfo.device_type");
+        ai.jammerjpg = tree.get<std::string>("configuration.alarminfo.jammerjpg");
         ci.secsToWait = tree.get<int>("configuration.consumer.secsToWait");
         ci.lastAlarmSecsIgnore = tree.get<int>("configuration.consumer.lastAlarmSecsIgnore");
         li.jammerDbg = tree.get<std::string>("configuration.logging.jammerDbg");
@@ -148,6 +149,13 @@ string ConfigData::showConfig()
     ss<<"device_type: ";
     if(ai.device_type.size() > 0) {
         ss<<ai.device_type<<endl;
+    }
+    else {
+        ss<<"No Value"<<endl;
+    }
+    ss<<"jammerjpg: ";
+    if(ai.jammerjpg.size() > 2) {
+        ss<<ai.jammerjpg<<endl;
     }
     else {
         ss<<"No Value"<<endl;
